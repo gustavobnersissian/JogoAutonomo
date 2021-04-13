@@ -72,7 +72,6 @@
             // btnRolarDados
             // 
             this.btnRolarDados.BackColor = System.Drawing.Color.Green;
-            this.btnRolarDados.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnRolarDados.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRolarDados.ForeColor = System.Drawing.Color.White;
             this.btnRolarDados.Location = new System.Drawing.Point(209, 455);
