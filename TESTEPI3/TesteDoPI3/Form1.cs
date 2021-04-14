@@ -108,12 +108,13 @@ namespace TesteDoPI3
             }
             if(jogadorEntrou)
             {
+                int id = Convert.ToInt32(txtId.Text);
                 int idJogador = Convert.ToInt32(txtIdJog.Text);
                 string senhaJogador = txtSenhaJog.Text;
                 lblRetornoJogador.Text = Jogo.IniciarPartida(idJogador, senhaJogador);
                 MessageBox.Show("Você iniciou uma partida!");
 
-                Tabuleiro tabuleiro = new Tabuleiro(idJogador, senhaJogador);
+                Tabuleiro tabuleiro = new Tabuleiro(idJogador, senhaJogador, id);
                 tabuleiro.ShowDialog();
                 
             }

@@ -46,11 +46,31 @@
             this.txtValor3 = new System.Windows.Forms.TextBox();
             this.txtValor1 = new System.Windows.Forms.TextBox();
             this.txtValor2 = new System.Windows.Forms.TextBox();
+            this.picImg1 = new System.Windows.Forms.PictureBox();
+            this.picImg2 = new System.Windows.Forms.PictureBox();
+            this.picImg3 = new System.Windows.Forms.PictureBox();
+            this.picImg4 = new System.Windows.Forms.PictureBox();
+            this.picImg5 = new System.Windows.Forms.PictureBox();
+            this.picImg6 = new System.Windows.Forms.PictureBox();
+            this.btnMover = new System.Windows.Forms.Button();
+            this.btnParar = new System.Windows.Forms.Button();
+            this.txtOrdem = new System.Windows.Forms.TextBox();
+            this.txtTrilha = new System.Windows.Forms.TextBox();
+            this.lblOrdem = new System.Windows.Forms.Label();
+            this.lblTrilha = new System.Windows.Forms.Label();
+            this.btnExbTab = new System.Windows.Forms.Button();
+            this.lblExbTab = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg6)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -201,12 +221,172 @@
             this.txtValor2.Size = new System.Drawing.Size(21, 20);
             this.txtValor2.TabIndex = 30;
             // 
+            // picImg1
+            // 
+            this.picImg1.Image = global::TesteDoPI3.Properties.Resources.d1;
+            this.picImg1.Location = new System.Drawing.Point(224, 3);
+            this.picImg1.Name = "picImg1";
+            this.picImg1.Size = new System.Drawing.Size(45, 43);
+            this.picImg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picImg1.TabIndex = 34;
+            this.picImg1.TabStop = false;
+            this.picImg1.Visible = false;
+            // 
+            // picImg2
+            // 
+            this.picImg2.Image = global::TesteDoPI3.Properties.Resources.d2;
+            this.picImg2.Location = new System.Drawing.Point(275, 3);
+            this.picImg2.Name = "picImg2";
+            this.picImg2.Size = new System.Drawing.Size(45, 43);
+            this.picImg2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picImg2.TabIndex = 35;
+            this.picImg2.TabStop = false;
+            this.picImg2.Visible = false;
+            // 
+            // picImg3
+            // 
+            this.picImg3.Image = global::TesteDoPI3.Properties.Resources.d3;
+            this.picImg3.Location = new System.Drawing.Point(326, 3);
+            this.picImg3.Name = "picImg3";
+            this.picImg3.Size = new System.Drawing.Size(45, 43);
+            this.picImg3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picImg3.TabIndex = 36;
+            this.picImg3.TabStop = false;
+            this.picImg3.Visible = false;
+            // 
+            // picImg4
+            // 
+            this.picImg4.Image = global::TesteDoPI3.Properties.Resources.d4;
+            this.picImg4.Location = new System.Drawing.Point(377, 3);
+            this.picImg4.Name = "picImg4";
+            this.picImg4.Size = new System.Drawing.Size(45, 43);
+            this.picImg4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picImg4.TabIndex = 37;
+            this.picImg4.TabStop = false;
+            this.picImg4.Visible = false;
+            // 
+            // picImg5
+            // 
+            this.picImg5.Image = global::TesteDoPI3.Properties.Resources.d5;
+            this.picImg5.Location = new System.Drawing.Point(428, 3);
+            this.picImg5.Name = "picImg5";
+            this.picImg5.Size = new System.Drawing.Size(45, 43);
+            this.picImg5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picImg5.TabIndex = 38;
+            this.picImg5.TabStop = false;
+            this.picImg5.Visible = false;
+            // 
+            // picImg6
+            // 
+            this.picImg6.Image = global::TesteDoPI3.Properties.Resources.d6;
+            this.picImg6.Location = new System.Drawing.Point(479, 3);
+            this.picImg6.Name = "picImg6";
+            this.picImg6.Size = new System.Drawing.Size(45, 43);
+            this.picImg6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picImg6.TabIndex = 39;
+            this.picImg6.TabStop = false;
+            this.picImg6.Visible = false;
+            // 
+            // btnMover
+            // 
+            this.btnMover.BackColor = System.Drawing.Color.Green;
+            this.btnMover.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMover.ForeColor = System.Drawing.Color.White;
+            this.btnMover.Location = new System.Drawing.Point(12, 65);
+            this.btnMover.Name = "btnMover";
+            this.btnMover.Size = new System.Drawing.Size(89, 68);
+            this.btnMover.TabIndex = 41;
+            this.btnMover.Text = "Mover";
+            this.btnMover.UseVisualStyleBackColor = false;
+            this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
+            // 
+            // btnParar
+            // 
+            this.btnParar.BackColor = System.Drawing.Color.Green;
+            this.btnParar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParar.ForeColor = System.Drawing.Color.White;
+            this.btnParar.Location = new System.Drawing.Point(114, 65);
+            this.btnParar.Name = "btnParar";
+            this.btnParar.Size = new System.Drawing.Size(89, 68);
+            this.btnParar.TabIndex = 42;
+            this.btnParar.Text = "Parar";
+            this.btnParar.UseVisualStyleBackColor = false;
+            this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
+            // 
+            // txtOrdem
+            // 
+            this.txtOrdem.Location = new System.Drawing.Point(12, 161);
+            this.txtOrdem.Name = "txtOrdem";
+            this.txtOrdem.Size = new System.Drawing.Size(87, 20);
+            this.txtOrdem.TabIndex = 43;
+            // 
+            // txtTrilha
+            // 
+            this.txtTrilha.Location = new System.Drawing.Point(116, 161);
+            this.txtTrilha.Name = "txtTrilha";
+            this.txtTrilha.Size = new System.Drawing.Size(87, 20);
+            this.txtTrilha.TabIndex = 44;
+            // 
+            // lblOrdem
+            // 
+            this.lblOrdem.AutoSize = true;
+            this.lblOrdem.Location = new System.Drawing.Point(37, 145);
+            this.lblOrdem.Name = "lblOrdem";
+            this.lblOrdem.Size = new System.Drawing.Size(38, 13);
+            this.lblOrdem.TabIndex = 45;
+            this.lblOrdem.Text = "Ordem";
+            // 
+            // lblTrilha
+            // 
+            this.lblTrilha.AutoSize = true;
+            this.lblTrilha.Location = new System.Drawing.Point(138, 145);
+            this.lblTrilha.Name = "lblTrilha";
+            this.lblTrilha.Size = new System.Drawing.Size(33, 13);
+            this.lblTrilha.TabIndex = 46;
+            this.lblTrilha.Text = "Trilha";
+            // 
+            // btnExbTab
+            // 
+            this.btnExbTab.BackColor = System.Drawing.Color.Green;
+            this.btnExbTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExbTab.ForeColor = System.Drawing.Color.White;
+            this.btnExbTab.Location = new System.Drawing.Point(224, 65);
+            this.btnExbTab.Name = "btnExbTab";
+            this.btnExbTab.Size = new System.Drawing.Size(96, 68);
+            this.btnExbTab.TabIndex = 47;
+            this.btnExbTab.Text = "Exibir Tabuleiro";
+            this.btnExbTab.UseVisualStyleBackColor = false;
+            this.btnExbTab.Click += new System.EventHandler(this.btnExbTab_Click);
+            // 
+            // lblExbTab
+            // 
+            this.lblExbTab.AutoSize = true;
+            this.lblExbTab.Location = new System.Drawing.Point(16, 201);
+            this.lblExbTab.Name = "lblExbTab";
+            this.lblExbTab.Size = new System.Drawing.Size(35, 13);
+            this.lblExbTab.TabIndex = 48;
+            this.lblExbTab.Text = "label3";
+            // 
             // Tabuleiro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(919, 620);
+            this.Controls.Add(this.lblExbTab);
+            this.Controls.Add(this.btnExbTab);
+            this.Controls.Add(this.lblTrilha);
+            this.Controls.Add(this.lblOrdem);
+            this.Controls.Add(this.txtTrilha);
+            this.Controls.Add(this.txtOrdem);
+            this.Controls.Add(this.btnParar);
+            this.Controls.Add(this.btnMover);
+            this.Controls.Add(this.picImg6);
+            this.Controls.Add(this.picImg5);
+            this.Controls.Add(this.picImg4);
+            this.Controls.Add(this.picImg3);
+            this.Controls.Add(this.picImg2);
+            this.Controls.Add(this.picImg1);
             this.Controls.Add(this.txtValor4);
             this.Controls.Add(this.txtValor3);
             this.Controls.Add(this.txtValor1);
@@ -225,12 +405,18 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "Tabuleiro";
-            this.Text = "Tabuleiro";
+            this.Text = "Mover";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picImg6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,5 +441,19 @@
         private System.Windows.Forms.TextBox txtValor3;
         private System.Windows.Forms.TextBox txtValor1;
         private System.Windows.Forms.TextBox txtValor2;
+        private System.Windows.Forms.PictureBox picImg1;
+        private System.Windows.Forms.PictureBox picImg2;
+        private System.Windows.Forms.PictureBox picImg3;
+        private System.Windows.Forms.PictureBox picImg4;
+        private System.Windows.Forms.PictureBox picImg5;
+        private System.Windows.Forms.PictureBox picImg6;
+        private System.Windows.Forms.Button btnMover;
+        private System.Windows.Forms.Button btnParar;
+        private System.Windows.Forms.TextBox txtOrdem;
+        private System.Windows.Forms.TextBox txtTrilha;
+        private System.Windows.Forms.Label lblOrdem;
+        private System.Windows.Forms.Label lblTrilha;
+        private System.Windows.Forms.Button btnExbTab;
+        private System.Windows.Forms.Label lblExbTab;
     }
 }

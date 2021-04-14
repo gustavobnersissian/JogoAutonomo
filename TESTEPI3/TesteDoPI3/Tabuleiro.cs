@@ -15,22 +15,27 @@ namespace TesteDoPI3
     {
         public string Senha { get; set; }
         public int IdJogador { get; set; }
+        public int IdPartida { get; set; }
         Image[] img = new Image[6];
-        public Tabuleiro(int idJogador, string senhaJogador)
+        public Tabuleiro(int idJogador, string senhaJogador, int idPartida)
         {
             InitializeComponent();
-
+            this.IdPartida = idPartida;
             this.IdJogador = idJogador;
             this.Senha = senhaJogador;
-
-           // img[0] = (Image)Properties.Resources.ResourceManager.GetObject("d1.png");
+            img[0] = picImg1.Image;
+            img[1] = picImg2.Image;
+            img[2] = picImg3.Image;
+            img[3] = picImg4.Image;
+            img[4] = picImg5.Image;
+            img[5] = picImg6.Image;
         }
 
 
 
         private void btnRolarDados_Click(object sender, EventArgs e)
         {
-            int valorDado1, valorDado2, valorDado3, valorDado4;
+            //int valorDado1, valorDado2, valorDado3, valorDado4;
             int idDado1, idDado2, idDado3, idDado4;
             int v1, v2, v3, v4;
             int idJog = IdJogador;
@@ -68,45 +73,34 @@ namespace TesteDoPI3
                 txtValor2.Text = v2.ToString();
                 txtValor3.Text = v3.ToString();
                 txtValor4.Text = v4.ToString();
+
+                picD1.Image = img[v1 - 1];
+                picD2.Image = img[v2 - 1];
+                picD3.Image = img[v3 - 1];
+                picD4.Image = img[v4 - 1];
             }
-            
-            valorDado1 = Convert.ToInt32(txtValor1.Text);
-            valorDado2 = Convert.ToInt32(txtValor2.Text);
-            valorDado3 = Convert.ToInt32(txtValor3.Text);
-            valorDado4 = Convert.ToInt32(txtValor4.Text);
 
-            if (valorDado1.ToString() == "1")
-            {
-                picD1.Image = Properties.Resources.d1;
-            }
-            
+         }
 
-            
+        private void btnMover_Click(object sender, EventArgs e)
+        {
+            int idJog = IdJogador;
+            string senhaJog = Senha;
+            string ordem = txtOrdem.Text;
+            string trilha = txtTrilha.Text;
+            lblRetornoErro.Text = Jogo.Mover(idJog, senhaJog, ordem, trilha);
+        }
 
+        private void btnParar_Click(object sender, EventArgs e)
+        {
+            int idJog = IdJogador;
+            string senhaJog = Senha;
+            lblRetornoErro.Text = Jogo.Parar(idJog, senhaJog);
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            }
+        private void btnExbTab_Click(object sender, EventArgs e)
+        {
+            lblExbTab.Text = Jogo.ExibirTabuleiro(IdPartida);
+        }
     }
 }
