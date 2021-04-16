@@ -17,7 +17,9 @@ namespace TesteDoPI3
         public Form1()
         {
             InitializeComponent();
+            lblVersao.Text = "Versão" + Jogo.Versao;
         }
+
 
         private void btnCriar_Click(object sender, EventArgs e)
         {
@@ -119,6 +121,13 @@ namespace TesteDoPI3
                 
             }
             
+        }
+
+       
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

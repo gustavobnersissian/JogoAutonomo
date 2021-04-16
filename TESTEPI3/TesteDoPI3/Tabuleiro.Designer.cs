@@ -171,6 +171,7 @@
             this.txtId2.Name = "txtId2";
             this.txtId2.Size = new System.Drawing.Size(21, 20);
             this.txtId2.TabIndex = 26;
+            this.txtId2.Visible = false;
             // 
             // txtId1
             // 
@@ -178,6 +179,7 @@
             this.txtId1.Name = "txtId1";
             this.txtId1.Size = new System.Drawing.Size(21, 20);
             this.txtId1.TabIndex = 27;
+            this.txtId1.Visible = false;
             // 
             // txtId3
             // 
@@ -185,6 +187,7 @@
             this.txtId3.Name = "txtId3";
             this.txtId3.Size = new System.Drawing.Size(21, 20);
             this.txtId3.TabIndex = 28;
+            this.txtId3.Visible = false;
             // 
             // txtId4
             // 
@@ -192,6 +195,7 @@
             this.txtId4.Name = "txtId4";
             this.txtId4.Size = new System.Drawing.Size(21, 20);
             this.txtId4.TabIndex = 29;
+            this.txtId4.Visible = false;
             // 
             // txtValor4
             // 
@@ -199,6 +203,7 @@
             this.txtValor4.Name = "txtValor4";
             this.txtValor4.Size = new System.Drawing.Size(21, 20);
             this.txtValor4.TabIndex = 33;
+            this.txtValor4.Visible = false;
             // 
             // txtValor3
             // 
@@ -206,6 +211,7 @@
             this.txtValor3.Name = "txtValor3";
             this.txtValor3.Size = new System.Drawing.Size(21, 20);
             this.txtValor3.TabIndex = 32;
+            this.txtValor3.Visible = false;
             // 
             // txtValor1
             // 
@@ -213,6 +219,7 @@
             this.txtValor1.Name = "txtValor1";
             this.txtValor1.Size = new System.Drawing.Size(21, 20);
             this.txtValor1.TabIndex = 31;
+            this.txtValor1.Visible = false;
             // 
             // txtValor2
             // 
@@ -220,6 +227,7 @@
             this.txtValor2.Name = "txtValor2";
             this.txtValor2.Size = new System.Drawing.Size(21, 20);
             this.txtValor2.TabIndex = 30;
+            this.txtValor2.Visible = false;
             // 
             // picImg1
             // 
@@ -363,9 +371,8 @@
             this.lblExbTab.AutoSize = true;
             this.lblExbTab.Location = new System.Drawing.Point(16, 201);
             this.lblExbTab.Name = "lblExbTab";
-            this.lblExbTab.Size = new System.Drawing.Size(35, 13);
+            this.lblExbTab.Size = new System.Drawing.Size(0, 13);
             this.lblExbTab.TabIndex = 48;
-            this.lblExbTab.Text = "label3";
             // 
             // Tabuleiro
             // 

@@ -102,5 +102,7 @@ namespace TesteDoPI3
         {
             lblExbTab.Text = Jogo.ExibirTabuleiro(IdPartida);
         }
+
+      
     }
 }
