@@ -21,8 +21,15 @@ namespace TesteDoPI3
         {
             string nome = txtNome.Text;
             string senha = txtSenha.Text;
-            Jogo.CriarPartida(nome, senha);
-            MessageBox.Show("Partida criada");
+            string retorno = Jogo.CriarPartida(nome, senha);
+            if(retorno.Substring(0,1) != "E")
+            {
+                MessageBox.Show("Partida Criada");
+            }
+            else
+            {
+                MessageBox.Show(retorno);
+            }
         }
     }
 }
