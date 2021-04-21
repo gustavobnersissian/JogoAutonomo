@@ -116,11 +116,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Green;
             this.label1.Location = new System.Drawing.Point(5, -1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 38);
+            this.label1.Size = new System.Drawing.Size(134, 37);
             this.label1.TabIndex = 15;
             this.label1.Text = "Saguão";
             // 
@@ -307,11 +307,18 @@
             // lblVersao
             // 
             this.lblVersao.AutoSize = true;
+<<<<<<< HEAD
             this.lblVersao.Location = new System.Drawing.Point(22, 413);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(40, 13);
             this.lblVersao.TabIndex = 38;
             this.lblVersao.Text = "Versão";
+=======
+            this.lblVersao.Location = new System.Drawing.Point(737, 428);
+            this.lblVersao.Name = "lblVersao";
+            this.lblVersao.Size = new System.Drawing.Size(0, 13);
+            this.lblVersao.TabIndex = 38;
+>>>>>>> 27e311e4d8b086750c06ab42c5504c73e7255f62
             // 
             // Form1
             // 
@@ -343,6 +350,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPartidas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

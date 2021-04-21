@@ -527,5 +527,7 @@ namespace TesteDoPI3
         {
             lblVerVez.Text = Jogo.VerificarVez(IdPartida);
         }
+
+      
     }
 }
