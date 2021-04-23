@@ -251,6 +251,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(500, 494);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // picD1
             // 
@@ -496,7 +497,6 @@
             this.lblExbTab.AutoSize = true;
             this.lblExbTab.Location = new System.Drawing.Point(200, 232);
             this.lblExbTab.Name = "lblExbTab";
-<<<<<<< HEAD
             this.lblExbTab.Size = new System.Drawing.Size(51, 13);
             this.lblExbTab.TabIndex = 48;
             this.lblExbTab.Text = "Tabuleiro";
@@ -1184,10 +1184,6 @@
             this.lblVerVez.Size = new System.Drawing.Size(25, 13);
             this.lblVerVez.TabIndex = 172;
             this.lblVerVez.Text = "Vez";
-=======
-            this.lblExbTab.Size = new System.Drawing.Size(0, 13);
-            this.lblExbTab.TabIndex = 48;
->>>>>>> 27e311e4d8b086750c06ab42c5504c73e7255f62
             // 
             // Tabuleiro
             // 
@@ -1297,6 +1293,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Tabuleiro";
             this.Text = "Mover";
+            this.Load += new System.EventHandler(this.Tabuleiro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD2)).EndInit();

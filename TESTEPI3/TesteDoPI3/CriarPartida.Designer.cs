@@ -103,6 +103,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "CriarPartida";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.CriarPartida_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

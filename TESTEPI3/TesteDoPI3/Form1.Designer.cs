@@ -249,6 +249,7 @@
             this.txtCorJog.Name = "txtCorJog";
             this.txtCorJog.Size = new System.Drawing.Size(78, 20);
             this.txtCorJog.TabIndex = 31;
+            this.txtCorJog.TextChanged += new System.EventHandler(this.txtCorJog_TextChanged);
             // 
             // txtIdJog
             // 
@@ -307,18 +308,10 @@
             // lblVersao
             // 
             this.lblVersao.AutoSize = true;
-<<<<<<< HEAD
-            this.lblVersao.Location = new System.Drawing.Point(22, 413);
-            this.lblVersao.Name = "lblVersao";
-            this.lblVersao.Size = new System.Drawing.Size(40, 13);
-            this.lblVersao.TabIndex = 38;
-            this.lblVersao.Text = "Versão";
-=======
             this.lblVersao.Location = new System.Drawing.Point(737, 428);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(0, 13);
             this.lblVersao.TabIndex = 38;
->>>>>>> 27e311e4d8b086750c06ab42c5504c73e7255f62
             // 
             // Form1
             // 

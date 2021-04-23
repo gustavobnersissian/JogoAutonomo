@@ -17,11 +17,9 @@ namespace TesteDoPI3
         public Form1()
         {
             InitializeComponent();
-<<<<<<< HEAD
+
             lblVersao.Text = "Versão " + Jogo.Versao;   
-=======
-            lblVersao.Text = "Versão" + Jogo.Versao;
->>>>>>> 27e311e4d8b086750c06ab42c5504c73e7255f62
+
         }
 
 
@@ -130,6 +128,11 @@ namespace TesteDoPI3
        
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCorJog_TextChanged(object sender, EventArgs e)
         {
 
         }

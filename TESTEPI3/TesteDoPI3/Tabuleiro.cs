@@ -528,6 +528,14 @@ namespace TesteDoPI3
             lblVerVez.Text = Jogo.VerificarVez(IdPartida);
         }
 
-      
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tabuleiro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
