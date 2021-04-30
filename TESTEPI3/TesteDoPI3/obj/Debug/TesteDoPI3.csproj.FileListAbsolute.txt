@@ -13,3 +13,18 @@ C:\Users\henrique.assilva\Desktop\PI\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug
 C:\Users\henrique.assilva\Desktop\PI\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.exe
 C:\Users\henrique.assilva\Desktop\PI\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.pdb
 C:\Users\henrique.assilva\Desktop\PI\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.csprojAssemblyReference.cache
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\bin\Debug\TesteDoPI3.exe.config
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\bin\Debug\TesteDoPI3.exe
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\bin\Debug\TesteDoPI3.pdb
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\bin\Debug\CantStopServer.dll
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\bin\Debug\CantStopServer.xml
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.csprojAssemblyReference.cache
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.CriarPartida.resources
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.Form1.resources
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.Properties.Resources.resources
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.Tabuleiro.resources
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.csproj.GenerateResource.cache
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.csproj.CoreCompileInputs.cache
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.csproj.CopyComplete
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.exe
+C:\Repositorios\mais uma\PI3Atualizado\TESTEPI3\TesteDoPI3\obj\Debug\TesteDoPI3.pdb

@@ -251,7 +251,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(500, 494);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // picD1
             // 
@@ -1087,27 +1086,24 @@
             this.lblR1.AutoSize = true;
             this.lblR1.Location = new System.Drawing.Point(182, 560);
             this.lblR1.Name = "lblR1";
-            this.lblR1.Size = new System.Drawing.Size(21, 13);
+            this.lblR1.Size = new System.Drawing.Size(0, 13);
             this.lblR1.TabIndex = 162;
-            this.lblR1.Text = "R1";
             // 
             // lblR2
             // 
             this.lblR2.AutoSize = true;
             this.lblR2.Location = new System.Drawing.Point(248, 560);
             this.lblR2.Name = "lblR2";
-            this.lblR2.Size = new System.Drawing.Size(21, 13);
+            this.lblR2.Size = new System.Drawing.Size(0, 13);
             this.lblR2.TabIndex = 163;
-            this.lblR2.Text = "R2";
             // 
             // lblR3
             // 
             this.lblR3.AutoSize = true;
             this.lblR3.Location = new System.Drawing.Point(314, 560);
             this.lblR3.Name = "lblR3";
-            this.lblR3.Size = new System.Drawing.Size(21, 13);
+            this.lblR3.Size = new System.Drawing.Size(0, 13);
             this.lblR3.TabIndex = 164;
-            this.lblR3.Text = "R3";
             // 
             // lblR4
             // 
@@ -1117,6 +1113,7 @@
             this.lblR4.Size = new System.Drawing.Size(21, 13);
             this.lblR4.TabIndex = 165;
             this.lblR4.Text = "R4";
+            this.lblR4.Visible = false;
             // 
             // lblR5
             // 
@@ -1126,6 +1123,7 @@
             this.lblR5.Size = new System.Drawing.Size(21, 13);
             this.lblR5.TabIndex = 166;
             this.lblR5.Text = "R5";
+            this.lblR5.Visible = false;
             // 
             // lblR6
             // 
@@ -1135,6 +1133,7 @@
             this.lblR6.Size = new System.Drawing.Size(21, 13);
             this.lblR6.TabIndex = 167;
             this.lblR6.Text = "R6";
+            this.lblR6.Visible = false;
             // 
             // lblR7
             // 
@@ -1144,6 +1143,7 @@
             this.lblR7.Size = new System.Drawing.Size(21, 13);
             this.lblR7.TabIndex = 168;
             this.lblR7.Text = "R7";
+            this.lblR7.Visible = false;
             // 
             // lblR8
             // 
@@ -1153,6 +1153,7 @@
             this.lblR8.Size = new System.Drawing.Size(21, 13);
             this.lblR8.TabIndex = 169;
             this.lblR8.Text = "R8";
+            this.lblR8.Visible = false;
             // 
             // lblR9
             // 
@@ -1162,6 +1163,7 @@
             this.lblR9.Size = new System.Drawing.Size(21, 13);
             this.lblR9.TabIndex = 170;
             this.lblR9.Text = "R9";
+            this.lblR9.Visible = false;
             // 
             // btnVerVez
             // 
@@ -1181,9 +1183,8 @@
             this.lblVerVez.AutoSize = true;
             this.lblVerVez.Location = new System.Drawing.Point(596, 580);
             this.lblVerVez.Name = "lblVerVez";
-            this.lblVerVez.Size = new System.Drawing.Size(25, 13);
+            this.lblVerVez.Size = new System.Drawing.Size(0, 13);
             this.lblVerVez.TabIndex = 172;
-            this.lblVerVez.Text = "Vez";
             // 
             // Tabuleiro
             // 
@@ -1293,7 +1294,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Tabuleiro";
             this.Text = "Mover";
-            this.Load += new System.EventHandler(this.Tabuleiro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD2)).EndInit();
