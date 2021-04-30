@@ -1031,6 +1031,7 @@
             this.picAlp11.TabIndex = 155;
             this.picAlp11.TabStop = false;
             this.picAlp11.Visible = false;
+            this.picAlp11.Click += new System.EventHandler(this.picAlp11_Click);
             // 
             // picVm12
             // 
