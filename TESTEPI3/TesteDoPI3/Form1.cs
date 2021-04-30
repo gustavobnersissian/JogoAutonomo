@@ -125,14 +125,17 @@ namespace TesteDoPI3
             
         }
 
-       
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
         private void txtCorJog_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtListJog_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -135,6 +135,7 @@
             this.txtListJog.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.txtListJog.Size = new System.Drawing.Size(176, 128);
             this.txtListJog.TabIndex = 22;
+            this.txtListJog.TextChanged += new System.EventHandler(this.txtListJog_TextChanged);
             // 
             // dgvPartidas
             // 

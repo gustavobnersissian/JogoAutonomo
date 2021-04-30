@@ -26,6 +26,7 @@ namespace TesteDoPI3
         public Tabuleiro(int idJogador, string senhaJogador, int idPartida)
         {
             InitializeComponent();
+
             this.IdPartida = idPartida;
             this.IdJogador = idJogador;
             this.Senha = senhaJogador;
@@ -528,6 +529,9 @@ namespace TesteDoPI3
             lblVerVez.Text = Jogo.VerificarVez(IdPartida);
         }
 
-
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblVerVez.Text = Jogo.VerificarVez(IdPartida);
+        }
     }
 }
