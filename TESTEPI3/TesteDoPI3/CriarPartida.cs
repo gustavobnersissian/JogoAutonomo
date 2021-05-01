@@ -31,5 +31,10 @@ namespace TesteDoPI3
                 MessageBox.Show(retorno);
             }
         }
+
+        private void CriarPartida_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

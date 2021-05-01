@@ -135,6 +135,7 @@
             this.txtListJog.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.txtListJog.Size = new System.Drawing.Size(176, 128);
             this.txtListJog.TabIndex = 22;
+            this.txtListJog.TextChanged += new System.EventHandler(this.txtListJog_TextChanged);
             // 
             // dgvPartidas
             // 
@@ -249,6 +250,7 @@
             this.txtCorJog.Name = "txtCorJog";
             this.txtCorJog.Size = new System.Drawing.Size(78, 20);
             this.txtCorJog.TabIndex = 31;
+            this.txtCorJog.TextChanged += new System.EventHandler(this.txtCorJog_TextChanged);
             // 
             // txtIdJog
             // 
@@ -307,6 +309,7 @@
             // lblVersao
             // 
             this.lblVersao.AutoSize = true;
+<<<<<<< HEAD
 
             this.lblVersao.Location = new System.Drawing.Point(22, 413);
             this.lblVersao.Name = "lblVersao";
@@ -314,11 +317,16 @@
             this.lblVersao.TabIndex = 38;
             this.lblVersao.Text = "Versão";
 
+=======
+>>>>>>> 4d2f7ae2fcf2e96192dedcf7ff2051b104c54169
             this.lblVersao.Location = new System.Drawing.Point(737, 428);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(0, 13);
             this.lblVersao.TabIndex = 38;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d2f7ae2fcf2e96192dedcf7ff2051b104c54169
             // 
             // Form1
             // 
