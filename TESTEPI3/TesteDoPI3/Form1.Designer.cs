@@ -309,7 +309,7 @@
             // lblVersao
             // 
             this.lblVersao.AutoSize = true;
-<<<<<<< HEAD
+
 
             this.lblVersao.Location = new System.Drawing.Point(22, 413);
             this.lblVersao.Name = "lblVersao";
@@ -317,16 +317,10 @@
             this.lblVersao.TabIndex = 38;
             this.lblVersao.Text = "Versão";
 
-=======
->>>>>>> 4d2f7ae2fcf2e96192dedcf7ff2051b104c54169
             this.lblVersao.Location = new System.Drawing.Point(737, 428);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(0, 13);
             this.lblVersao.TabIndex = 38;
-<<<<<<< HEAD
-
-=======
->>>>>>> 4d2f7ae2fcf2e96192dedcf7ff2051b104c54169
             // 
             // Form1
             // 
