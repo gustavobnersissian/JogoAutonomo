@@ -38,14 +38,6 @@
             this.picD2 = new System.Windows.Forms.PictureBox();
             this.picD3 = new System.Windows.Forms.PictureBox();
             this.picD4 = new System.Windows.Forms.PictureBox();
-            this.txtId2 = new System.Windows.Forms.TextBox();
-            this.txtId1 = new System.Windows.Forms.TextBox();
-            this.txtId3 = new System.Windows.Forms.TextBox();
-            this.txtId4 = new System.Windows.Forms.TextBox();
-            this.txtValor4 = new System.Windows.Forms.TextBox();
-            this.txtValor3 = new System.Windows.Forms.TextBox();
-            this.txtValor1 = new System.Windows.Forms.TextBox();
-            this.txtValor2 = new System.Windows.Forms.TextBox();
             this.picImg1 = new System.Windows.Forms.PictureBox();
             this.picImg2 = new System.Windows.Forms.PictureBox();
             this.picImg3 = new System.Windows.Forms.PictureBox();
@@ -121,12 +113,6 @@
             this.lblR1 = new System.Windows.Forms.Label();
             this.lblR2 = new System.Windows.Forms.Label();
             this.lblR3 = new System.Windows.Forms.Label();
-            this.lblR4 = new System.Windows.Forms.Label();
-            this.lblR5 = new System.Windows.Forms.Label();
-            this.lblR6 = new System.Windows.Forms.Label();
-            this.lblR7 = new System.Windows.Forms.Label();
-            this.lblR8 = new System.Windows.Forms.Label();
-            this.lblR9 = new System.Windows.Forms.Label();
             this.btnVerVez = new System.Windows.Forms.Button();
             this.lblVerVez = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -290,70 +276,6 @@
             this.picD4.TabIndex = 22;
             this.picD4.TabStop = false;
             // 
-            // txtId2
-            // 
-            this.txtId2.Location = new System.Drawing.Point(91, 535);
-            this.txtId2.Name = "txtId2";
-            this.txtId2.Size = new System.Drawing.Size(21, 20);
-            this.txtId2.TabIndex = 26;
-            this.txtId2.Visible = false;
-            // 
-            // txtId1
-            // 
-            this.txtId1.Location = new System.Drawing.Point(12, 535);
-            this.txtId1.Name = "txtId1";
-            this.txtId1.Size = new System.Drawing.Size(21, 20);
-            this.txtId1.TabIndex = 27;
-            this.txtId1.Visible = false;
-            // 
-            // txtId3
-            // 
-            this.txtId3.Location = new System.Drawing.Point(12, 573);
-            this.txtId3.Name = "txtId3";
-            this.txtId3.Size = new System.Drawing.Size(21, 20);
-            this.txtId3.TabIndex = 28;
-            this.txtId3.Visible = false;
-            // 
-            // txtId4
-            // 
-            this.txtId4.Location = new System.Drawing.Point(91, 573);
-            this.txtId4.Name = "txtId4";
-            this.txtId4.Size = new System.Drawing.Size(21, 20);
-            this.txtId4.TabIndex = 29;
-            this.txtId4.Visible = false;
-            // 
-            // txtValor4
-            // 
-            this.txtValor4.Location = new System.Drawing.Point(118, 573);
-            this.txtValor4.Name = "txtValor4";
-            this.txtValor4.Size = new System.Drawing.Size(21, 20);
-            this.txtValor4.TabIndex = 33;
-            this.txtValor4.Visible = false;
-            // 
-            // txtValor3
-            // 
-            this.txtValor3.Location = new System.Drawing.Point(39, 573);
-            this.txtValor3.Name = "txtValor3";
-            this.txtValor3.Size = new System.Drawing.Size(21, 20);
-            this.txtValor3.TabIndex = 32;
-            this.txtValor3.Visible = false;
-            // 
-            // txtValor1
-            // 
-            this.txtValor1.Location = new System.Drawing.Point(40, 535);
-            this.txtValor1.Name = "txtValor1";
-            this.txtValor1.Size = new System.Drawing.Size(21, 20);
-            this.txtValor1.TabIndex = 31;
-            this.txtValor1.Visible = false;
-            // 
-            // txtValor2
-            // 
-            this.txtValor2.Location = new System.Drawing.Point(118, 535);
-            this.txtValor2.Name = "txtValor2";
-            this.txtValor2.Size = new System.Drawing.Size(21, 20);
-            this.txtValor2.TabIndex = 30;
-            this.txtValor2.Visible = false;
-            // 
             // picImg1
             // 
             this.picImg1.Image = global::TesteDoPI3.Properties.Resources.d1;
@@ -496,7 +418,6 @@
             this.lblExbTab.AutoSize = true;
             this.lblExbTab.Location = new System.Drawing.Point(200, 232);
             this.lblExbTab.Name = "lblExbTab";
-<<<<<<< HEAD
             this.lblExbTab.Size = new System.Drawing.Size(51, 13);
             this.lblExbTab.TabIndex = 48;
             this.lblExbTab.Text = "Tabuleiro";
@@ -1109,60 +1030,6 @@
             this.lblR3.TabIndex = 164;
             this.lblR3.Text = "R3";
             // 
-            // lblR4
-            // 
-            this.lblR4.AutoSize = true;
-            this.lblR4.Location = new System.Drawing.Point(168, 595);
-            this.lblR4.Name = "lblR4";
-            this.lblR4.Size = new System.Drawing.Size(21, 13);
-            this.lblR4.TabIndex = 165;
-            this.lblR4.Text = "R4";
-            // 
-            // lblR5
-            // 
-            this.lblR5.AutoSize = true;
-            this.lblR5.Location = new System.Drawing.Point(210, 595);
-            this.lblR5.Name = "lblR5";
-            this.lblR5.Size = new System.Drawing.Size(21, 13);
-            this.lblR5.TabIndex = 166;
-            this.lblR5.Text = "R5";
-            // 
-            // lblR6
-            // 
-            this.lblR6.AutoSize = true;
-            this.lblR6.Location = new System.Drawing.Point(248, 595);
-            this.lblR6.Name = "lblR6";
-            this.lblR6.Size = new System.Drawing.Size(21, 13);
-            this.lblR6.TabIndex = 167;
-            this.lblR6.Text = "R6";
-            // 
-            // lblR7
-            // 
-            this.lblR7.AutoSize = true;
-            this.lblR7.Location = new System.Drawing.Point(290, 595);
-            this.lblR7.Name = "lblR7";
-            this.lblR7.Size = new System.Drawing.Size(21, 13);
-            this.lblR7.TabIndex = 168;
-            this.lblR7.Text = "R7";
-            // 
-            // lblR8
-            // 
-            this.lblR8.AutoSize = true;
-            this.lblR8.Location = new System.Drawing.Point(334, 595);
-            this.lblR8.Name = "lblR8";
-            this.lblR8.Size = new System.Drawing.Size(21, 13);
-            this.lblR8.TabIndex = 169;
-            this.lblR8.Text = "R8";
-            // 
-            // lblR9
-            // 
-            this.lblR9.AutoSize = true;
-            this.lblR9.Location = new System.Drawing.Point(374, 595);
-            this.lblR9.Name = "lblR9";
-            this.lblR9.Size = new System.Drawing.Size(21, 13);
-            this.lblR9.TabIndex = 170;
-            this.lblR9.Text = "R9";
-            // 
             // btnVerVez
             // 
             this.btnVerVez.BackColor = System.Drawing.Color.Green;
@@ -1184,10 +1051,6 @@
             this.lblVerVez.Size = new System.Drawing.Size(25, 13);
             this.lblVerVez.TabIndex = 172;
             this.lblVerVez.Text = "Vez";
-=======
-            this.lblExbTab.Size = new System.Drawing.Size(0, 13);
-            this.lblExbTab.TabIndex = 48;
->>>>>>> 27e311e4d8b086750c06ab42c5504c73e7255f62
             // 
             // Tabuleiro
             // 
@@ -1197,12 +1060,6 @@
             this.ClientSize = new System.Drawing.Size(919, 620);
             this.Controls.Add(this.lblVerVez);
             this.Controls.Add(this.btnVerVez);
-            this.Controls.Add(this.lblR9);
-            this.Controls.Add(this.lblR8);
-            this.Controls.Add(this.lblR7);
-            this.Controls.Add(this.lblR6);
-            this.Controls.Add(this.lblR5);
-            this.Controls.Add(this.lblR4);
             this.Controls.Add(this.lblR3);
             this.Controls.Add(this.lblR2);
             this.Controls.Add(this.lblR1);
@@ -1278,14 +1135,6 @@
             this.Controls.Add(this.picImg3);
             this.Controls.Add(this.picImg2);
             this.Controls.Add(this.picImg1);
-            this.Controls.Add(this.txtValor4);
-            this.Controls.Add(this.txtValor3);
-            this.Controls.Add(this.txtValor1);
-            this.Controls.Add(this.txtValor2);
-            this.Controls.Add(this.txtId4);
-            this.Controls.Add(this.txtId3);
-            this.Controls.Add(this.txtId1);
-            this.Controls.Add(this.txtId2);
             this.Controls.Add(this.picD4);
             this.Controls.Add(this.picD3);
             this.Controls.Add(this.picD2);
@@ -1380,14 +1229,6 @@
         private System.Windows.Forms.PictureBox picD2;
         private System.Windows.Forms.PictureBox picD3;
         private System.Windows.Forms.PictureBox picD4;
-        private System.Windows.Forms.TextBox txtId2;
-        private System.Windows.Forms.TextBox txtId1;
-        private System.Windows.Forms.TextBox txtId3;
-        private System.Windows.Forms.TextBox txtId4;
-        private System.Windows.Forms.TextBox txtValor4;
-        private System.Windows.Forms.TextBox txtValor3;
-        private System.Windows.Forms.TextBox txtValor1;
-        private System.Windows.Forms.TextBox txtValor2;
         private System.Windows.Forms.PictureBox picImg1;
         private System.Windows.Forms.PictureBox picImg2;
         private System.Windows.Forms.PictureBox picImg3;
@@ -1463,12 +1304,6 @@
         private System.Windows.Forms.Label lblR1;
         private System.Windows.Forms.Label lblR2;
         private System.Windows.Forms.Label lblR3;
-        private System.Windows.Forms.Label lblR4;
-        private System.Windows.Forms.Label lblR5;
-        private System.Windows.Forms.Label lblR6;
-        private System.Windows.Forms.Label lblR7;
-        private System.Windows.Forms.Label lblR8;
-        private System.Windows.Forms.Label lblR9;
         private System.Windows.Forms.Button btnVerVez;
         private System.Windows.Forms.Label lblVerVez;
     }
