@@ -23,7 +23,60 @@ namespace TesteDoPI3
         public bool alp;
         public int R1;
         public int R2;
-
+        public int R3;
+        public int R4;
+        public int R5;
+        public int R6;
+        public int rodada;
+        public int MaxVm = 0;
+        public int MaxAz = 0;
+        public int MaxVd = 0;
+        public int MaxAm = 0;
+        public bool cVm2 = false;
+        public bool cVm3 = false;
+        public bool cVm4 = false;
+        public bool cVm5 = false;
+        public bool cVm6 = false;
+        public bool cVm7 = false;
+        public bool cVm8 = false;
+        public bool cVm9 = false;
+        public bool cVm10 = false;
+        public bool cVm11 = false;
+        public bool cVm12 = false;
+        public bool cAz2 = false;
+        public bool cAz3 = false;
+        public bool cAz4 = false;
+        public bool cAz5 = false;
+        public bool cAz6 = false;
+        public bool cAz7 = false;
+        public bool cAz8 = false;
+        public bool cAz9 = false;
+        public bool cAz10 = false;
+        public bool cAz11 = false;
+        public bool cAz12 = false;
+        public bool cVd2 = false;
+        public bool cVd3 = false;
+        public bool cVd4 = false;
+        public bool cVd5 = false;
+        public bool cVd6 = false;
+        public bool cVd7 = false;
+        public bool cVd8 = false;
+        public bool cVd9 = false;
+        public bool cVd10 = false;
+        public bool cVd11 = false;
+        public bool cVd12 = false;
+        public bool cAm2 = false;
+        public bool cAm3 = false;
+        public bool cAm4 = false;
+        public bool cAm5 = false;
+        public bool cAm6 = false;
+        public bool cAm7 = false;
+        public bool cAm8 = false;
+        public bool cAm9 = false;
+        public bool cAm10 = false;
+        public bool cAm11 = false;
+        public bool cAm12 = false;
+        public bool vitoria = false;
         public int Conta(int n1, int n2)
         {
             int res = n1 + n2;
@@ -2180,105 +2233,172 @@ namespace TesteDoPI3
 
         private void timerVez_Tick(object sender, EventArgs e)
         {
-            string vez = Jogo.VerificarVez(IdPartida);
-            vez = vez.Replace("\r", "");
-            vez = vez.Replace("\n", "");
-            string[] x1 = vez.Split(',');
-
-            if (x1[1] == Cor[0])
+            if(MaxVm < 3 && MaxAz < 3 && MaxVd < 3 && MaxAm < 3)
             {
-                picVez.BackColor = picVm2.BackColor;
-            }
-            else if (x1[1] == Cor[1])
-            {
-                picVez.BackColor = picAz2.BackColor;
-            }
-            else if (x1[1] == Cor[2])
-            {
-                picVez.BackColor = picVd2.BackColor;
-            }
-            else if (x1[1] == Cor[3])
-            {
-                picVez.BackColor = picAm2.BackColor;
-            }
+                string vez = Jogo.VerificarVez(IdPartida);
+                vez = vez.Replace("\r", "");
+                vez = vez.Replace("\n", "");
+                string[] x1 = vez.Split(',');
 
-            if (x1[1] == IdJogador.ToString())
-            {
-                //MessageBox.Show("Minha vez");
-                int v1, v2, v3, v4;
-                int idJog = IdJogador;
-                string senhaJog = Senha;
-
-                string retorno = Jogo.RolarDados(idJog, senhaJog);
-
-
-                retorno = retorno.Replace("\r", "");
-
-                if (retorno.Substring(0, 4) == "ERRO")
+                if (x1[1] == Cor[0])
                 {
-                    lblRetornoErro.Text = retorno; 
+                    picVez.BackColor = picVm2.BackColor;
+                }
+                else if (x1[1] == Cor[1])
+                {
+                    picVez.BackColor = picAz2.BackColor;
+                }
+                else if (x1[1] == Cor[2])
+                {
+                    picVez.BackColor = picVd2.BackColor;
+                }
+                else if (x1[1] == Cor[3])
+                {
+                    picVez.BackColor = picAm2.BackColor;
+                }
+
+                if (x1[1] == IdJogador.ToString())
+                {
+                    //MessageBox.Show("Minha vez");
+                    int v1, v2, v3, v4;
+                    int idJog = IdJogador;
+                    string senhaJog = Senha;
+
+                    string retorno = Jogo.RolarDados(idJog, senhaJog);
+
+
+                    retorno = retorno.Replace("\r", "");
+
+                    if (retorno.Substring(0, 4) == "ERRO")
+                    {
+                        lblRetornoErro.Text = retorno;
+                    }
+
+                    else if (retorno.Substring(0, 4) != "ERRO")
+                    {
+                        string[] linha2 = retorno.Split('\n');
+                        v1 = Convert.ToInt32(linha2[0].Substring(1, 1));
+                        v2 = Convert.ToInt32(linha2[1].Substring(1, 1));
+                        v3 = Convert.ToInt32(linha2[2].Substring(1, 1));
+                        v4 = Convert.ToInt32(linha2[3].Substring(1, 1));
+                        /* idDado1 = Convert.ToInt32(linha[0].Substring(0, 1));
+                           idDado2 = Convert.ToInt32(linha[1].Substring(0, 1));
+                           idDado3 = Convert.ToInt32(linha[2].Substring(0, 1));
+                           idDado4 = Convert.ToInt32(linha[3].Substring(0, 1));
+                        */
+                        picD1.Image = img[v1 - 1];
+                        picD2.Image = img[v2 - 1];
+                        picD3.Image = img[v3 - 1];
+                        picD4.Image = img[v4 - 1];
+
+                        lblR1.Text = Conta(v1, v2).ToString() + " e " + Conta(v3, v4).ToString();
+                        lblR2.Text = Conta(v1, v3).ToString() + " e " + Conta(v2, v4).ToString();
+                        lblR3.Text = Conta(v1, v4).ToString() + " e " + Conta(v2, v3).ToString();
+
+                        this.R1 = Conta(v1, v2);
+                        this.R2 = Conta(v3, v4);
+                        this.R3 = Conta(v1, v3);
+                        this.R4 = Conta(v2, v4);
+                        this.R5 = Conta(v1, v4);
+                        this.R6 = Conta(v2, v3);
+                        string val1 = R1.ToString();
+                        string val2 = R2.ToString();
+                        string val3 = R3.ToString();
+                        string val4 = R4.ToString();
+                        if (R1 == 10)
+                        {
+                            val1 = "A";
+                        }
+                        else if (R1 == 11)
+                        {
+                            val1 = "B";
+                        }
+                        else if (R1 == 12)
+                        {
+                            val1 = "C";
+                        }
+                        if (R2 == 10)
+                        {
+                            val2 = "A";
+                        }
+                        else if (R2 == 11)
+                        {
+                            val2 = "B";
+                        }
+                        else if (R2 == 12)
+                        {
+                            val2 = "C";
+                        }
+
+                        string ordem = "1234";
+                        string trilha = val1 + val2;
+                        lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                        rodada++;
+                        if (lblRetornoErro.Text != "")
+                        {
+                            trilha = val1 + "0";
+                            lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                            if (lblRetornoErro.Text != "")
+                            {
+                                ordem = "1324";
+                                trilha = val3 + val4;
+                                lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                if (lblRetornoErro.Text != "")
+                                {
+                                    ordem = "1423";
+                                    trilha = val3 + val4;
+                                    lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                }
+                            }
+                        }
+
+                        if (rodada == 2)
+                        {
+                            lblRetornoErro.Text = Jogo.Parar(IdJogador, Senha);
+                            rodada = 0;
+                        }
+
+                    }
+
+
                 }
                 
-                else if (retorno.Substring(0, 4) != "ERRO")
-                {
-                    string[] linha2 = retorno.Split('\n');
-                    v1 = Convert.ToInt32(linha2[0].Substring(1, 1));
-                    v2 = Convert.ToInt32(linha2[1].Substring(1, 1));
-                    v3 = Convert.ToInt32(linha2[2].Substring(1, 1));
-                    v4 = Convert.ToInt32(linha2[3].Substring(1, 1));
-                    /* idDado1 = Convert.ToInt32(linha[0].Substring(0, 1));
-                       idDado2 = Convert.ToInt32(linha[1].Substring(0, 1));
-                       idDado3 = Convert.ToInt32(linha[2].Substring(0, 1));
-                       idDado4 = Convert.ToInt32(linha[3].Substring(0, 1));
-                    */
-                    picD1.Image = img[v1 - 1];
-                    picD2.Image = img[v2 - 1];
-                    picD3.Image = img[v3 - 1];
-                    picD4.Image = img[v4 - 1];
-
-                    lblR1.Text = Conta(v1, v2).ToString() + " e " + Conta(v3, v4).ToString();
-                    lblR2.Text = Conta(v1, v3).ToString() + " e " + Conta(v2, v4).ToString();
-                    lblR3.Text = Conta(v1, v4).ToString() + " e " + Conta(v2, v3).ToString();
-
-                    this.R1 = Conta(v1, v2);
-                    this.R2 = Conta(v3, v4);
-                    string val1 = R1.ToString();
-                    string val2 = R2.ToString();
-                    if(R1 == 10)
-                    {
-                        val1 = "A";
-                    }
-                    else if(R1 == 11)
-                    {
-                        val1 = "B";
-                    }
-                    else if (R1 == 12)
-                    {
-                        val1 = "C";
-                    }
-                    if (R2 == 10)
-                    {
-                        val2 = "A";
-                    }
-                    else if (R2 == 11)
-                    {
-                        val2 = "B";
-                    }
-                    else if (R2 == 12)
-                    {
-                        val2 = "C";
-                    }
-
-                    string ordem = "1234";
-                    string trilha = val1 + val2;
-                    lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
-
-                    lblRetornoErro.Text = Jogo.Parar(IdJogador, Senha);
-                   
-                }
-                
             }
-
+            if (vitoria == false)
+            {
+                if (MaxVm >= 3)
+                {
+                    vitoria = true;
+                    MessageBox.Show("Vitória do Vermelho");
+                    timerVez.Enabled = false;
+                    timerNarrar.Enabled = false;
+                    timerTab.Enabled = false;
+                }
+                else if (MaxAz >= 3)
+                {
+                    vitoria = true;
+                    MessageBox.Show("Vitória do Azul");
+                    timerVez.Enabled = false;
+                    timerNarrar.Enabled = false;
+                    timerTab.Enabled = false;
+                }
+                else if (MaxVd >= 3)
+                {
+                    vitoria = true;
+                    MessageBox.Show("Vitória do Verde");
+                    timerVez.Enabled = false;
+                    timerNarrar.Enabled = false;
+                    timerTab.Enabled = false;
+                }
+                else if (MaxAm >= 3)
+                {
+                    vitoria = true;
+                    MessageBox.Show("Vitória do Amarelo");
+                    timerVez.Enabled = false;
+                    timerNarrar.Enabled = false;
+                    timerTab.Enabled = false;
+                }
+            }
             
         }
 
@@ -2795,6 +2915,11 @@ namespace TesteDoPI3
                                                 picf22.Visible = true;
                                                 picf23.Visible = true;
                                                 picVm2.Visible = false;
+                                                if (cVm2 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm2 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -2828,6 +2953,11 @@ namespace TesteDoPI3
                                                 picf34.Visible = true;
                                                 picf35.Visible = true;
                                                 picVm3.Visible = false;
+                                                if (cVm3 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm3 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -2873,6 +3003,11 @@ namespace TesteDoPI3
                                                 picf46.Visible = true;
                                                 picf47.Visible = true;
                                                 picVm4.Visible = false;
+                                                if (cVm4 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm4 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -2931,6 +3066,11 @@ namespace TesteDoPI3
                                                 picf58.Visible = true;
                                                 picf59.Visible = true;
                                                 picVm5.Visible = false;
+                                                if (cVm5 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm5 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3000,6 +3140,11 @@ namespace TesteDoPI3
                                                 picf610.Visible = true;
                                                 picf611.Visible = true;
                                                 picVm6.Visible = false;
+                                                if (cVm6 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm6 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3081,6 +3226,11 @@ namespace TesteDoPI3
                                                 picf712.Visible = true;
                                                 picf713.Visible = true;
                                                 picVm7.Visible = false;
+                                                if (cVm7 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm7 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3150,6 +3300,11 @@ namespace TesteDoPI3
                                                 picf810.Visible = true;
                                                 picf811.Visible = true;
                                                 picVm8.Visible = false;
+                                                if (cVm8 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm8 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3207,6 +3362,11 @@ namespace TesteDoPI3
                                                 picf98.Visible = true;
                                                 picf99.Visible = true;
                                                 picVm9.Visible = false;
+                                                if (cVm9 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm9 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3252,6 +3412,11 @@ namespace TesteDoPI3
                                                 picf106.Visible = true;
                                                 picf107.Visible = true;
                                                 picVm10.Visible = false;
+                                                if (cVm10 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm10 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3285,6 +3450,11 @@ namespace TesteDoPI3
                                                 picf114.Visible = true;
                                                 picf115.Visible = true;
                                                 picVm11.Visible = false;
+                                                if (cVm11 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm11 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3306,6 +3476,11 @@ namespace TesteDoPI3
                                                 picf122.Visible = true;
                                                 picf123.Visible = true;
                                                 picVm12.Visible = false;
+                                                if (cVm12 == false)
+                                                {
+                                                    MaxVm++;
+                                                    cVm12 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3337,6 +3512,11 @@ namespace TesteDoPI3
                                                 picf22.Visible = true;
                                                 picf23.Visible = true;
                                                 picAz2.Visible = false;
+                                                if (cAz2 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz2 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3370,6 +3550,11 @@ namespace TesteDoPI3
                                                 picf34.Visible = true;
                                                 picf35.Visible = true;
                                                 picAz3.Visible = false;
+                                                if (cAz3 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz3 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3415,6 +3600,11 @@ namespace TesteDoPI3
                                                 picf46.Visible = true;
                                                 picf47.Visible = true;
                                                 picAz4.Visible = false;
+                                                if (cAz4 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz4 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3473,6 +3663,11 @@ namespace TesteDoPI3
                                                 picf58.Visible = true;
                                                 picf59.Visible = true;
                                                 picAz5.Visible = false;
+                                                if (cAz5 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz5 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3542,6 +3737,11 @@ namespace TesteDoPI3
                                                 picf610.Visible = true;
                                                 picf611.Visible = true;
                                                 picAz6.Visible = false;
+                                                if (cAz6 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz6 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3623,6 +3823,11 @@ namespace TesteDoPI3
                                                 picf712.Visible = true;
                                                 picf713.Visible = true;
                                                 picAz7.Visible = false;
+                                                if (cAz7 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz7 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3692,6 +3897,11 @@ namespace TesteDoPI3
                                                 picf810.Visible = true;
                                                 picf811.Visible = true;
                                                 picAz8.Visible = false;
+                                                if (cAz8 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz8 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3749,6 +3959,11 @@ namespace TesteDoPI3
                                                 picf98.Visible = true;
                                                 picf99.Visible = true;
                                                 picAz9.Visible = false;
+                                                if (cAz9 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz9 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3794,6 +4009,11 @@ namespace TesteDoPI3
                                                 picf106.Visible = true;
                                                 picf107.Visible = true;
                                                 picAz10.Visible = false;
+                                                if (cAz10 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz10 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3827,6 +4047,11 @@ namespace TesteDoPI3
                                                 picf114.Visible = true;
                                                 picf115.Visible = true;
                                                 picAz11.Visible = false;
+                                                if (cAz11 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz11 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3848,6 +4073,11 @@ namespace TesteDoPI3
                                                 picf122.Visible = true;
                                                 picf123.Visible = true;
                                                 picAz12.Visible = false;
+                                                if (cAz12 == false)
+                                                {
+                                                    MaxAz++;
+                                                    cAz12 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3879,6 +4109,11 @@ namespace TesteDoPI3
                                                 picf22.Visible = true;
                                                 picf23.Visible = true;
                                                 picVd2.Visible = false;
+                                                if (cVd2 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd2 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3912,6 +4147,11 @@ namespace TesteDoPI3
                                                 picf34.Visible = true;
                                                 picf35.Visible = true;
                                                 picVd3.Visible = false;
+                                                if (cVd3 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd3 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -3957,6 +4197,11 @@ namespace TesteDoPI3
                                                 picf46.Visible = true;
                                                 picf47.Visible = true;
                                                 picVd4.Visible = false;
+                                                if (cVd4 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd4 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4014,6 +4259,11 @@ namespace TesteDoPI3
                                                 picf58.Visible = true;
                                                 picf59.Visible = true;
                                                 picVd5.Visible = false;
+                                                if (cVd5 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd5 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4083,6 +4333,11 @@ namespace TesteDoPI3
                                                 picf610.Visible = true;
                                                 picf611.Visible = true;
                                                 picVd6.Visible = false;
+                                                if (cVd6 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd6 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4164,6 +4419,11 @@ namespace TesteDoPI3
                                                 picf712.Visible = true;
                                                 picf713.Visible = true;
                                                 picVd7.Visible = false;
+                                                if (cVd7 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd7 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4233,6 +4493,11 @@ namespace TesteDoPI3
                                                 picf810.Visible = true;
                                                 picf811.Visible = true;
                                                 picVd8.Visible = false;
+                                                if (cVd8 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd8 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4290,6 +4555,11 @@ namespace TesteDoPI3
                                                 picf98.Visible = true;
                                                 picf99.Visible = true;
                                                 picVd9.Visible = false;
+                                                if (cVd9 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd9 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4335,6 +4605,11 @@ namespace TesteDoPI3
                                                 picf106.Visible = true;
                                                 picf107.Visible = true;
                                                 picVd10.Visible = false;
+                                                if (cVd10 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd10 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4368,6 +4643,11 @@ namespace TesteDoPI3
                                                 picf114.Visible = true;
                                                 picf115.Visible = true;
                                                 picVd11.Visible = false;
+                                                if (cVd11 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd11 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4389,6 +4669,11 @@ namespace TesteDoPI3
                                                 picf122.Visible = true;
                                                 picf123.Visible = true;
                                                 picVd12.Visible = false;
+                                                if (cVd12 == false)
+                                                {
+                                                    MaxVd++;
+                                                    cVd12 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4419,6 +4704,11 @@ namespace TesteDoPI3
                                                 picf22.Visible = true;
                                                 picf23.Visible = true;
                                                 picAm2.Visible = false;
+                                                if (cAm2 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm2 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4452,6 +4742,11 @@ namespace TesteDoPI3
                                                 picf34.Visible = true;
                                                 picf35.Visible = true;
                                                 picAm3.Visible = false;
+                                                if (cAm3 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm3 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4497,6 +4792,11 @@ namespace TesteDoPI3
                                                 picf46.Visible = true;
                                                 picf47.Visible = true;
                                                 picAm4.Visible = false;
+                                                if (cAm4 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm4 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4554,6 +4854,11 @@ namespace TesteDoPI3
                                                 picf58.Visible = true;
                                                 picf59.Visible = true;
                                                 picAm5.Visible = false;
+                                                if (cAm5 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm5 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4623,6 +4928,11 @@ namespace TesteDoPI3
                                                 picf610.Visible = true;
                                                 picf611.Visible = true;
                                                 picAm6.Visible = false;
+                                                if (cAm6 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm6 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4704,6 +5014,11 @@ namespace TesteDoPI3
                                                 picf712.Visible = true;
                                                 picf713.Visible = true;
                                                 picAm7.Visible = false;
+                                                if (cAm7 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm7 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4773,6 +5088,11 @@ namespace TesteDoPI3
                                                 picf810.Visible = true;
                                                 picf811.Visible = true;
                                                 picAm8.Visible = false;
+                                                if (cAm8 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm8 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4830,6 +5150,11 @@ namespace TesteDoPI3
                                                 picf98.Visible = true;
                                                 picf99.Visible = true;
                                                 picAm9.Visible = false;
+                                                if (cAm9 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm9 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4875,6 +5200,11 @@ namespace TesteDoPI3
                                                 picf106.Visible = true;
                                                 picf107.Visible = true;
                                                 picAm10.Visible = false;
+                                                if (cAm10 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm10 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4908,6 +5238,11 @@ namespace TesteDoPI3
                                                 picf114.Visible = true;
                                                 picf115.Visible = true;
                                                 picAm11.Visible = false;
+                                                if (cAm11 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm11 = true;
+                                                }
                                                 break;
                                         }
                                         break;
@@ -4929,6 +5264,11 @@ namespace TesteDoPI3
                                                 picf122.Visible = true;
                                                 picf123.Visible = true;
                                                 picAm12.Visible = false;
+                                                if (cAm12 == false)
+                                                {
+                                                    MaxAm++;
+                                                    cAm12 = true;
+                                                }
                                                 break;
                                         }
                                         break;

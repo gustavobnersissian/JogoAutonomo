@@ -1217,7 +1217,7 @@
             // 
             // timerVez
             // 
-            this.timerVez.Interval = 2000;
+            this.timerVez.Interval = 3000;
             this.timerVez.Tick += new System.EventHandler(this.timerVez_Tick);
             // 
             // label3
