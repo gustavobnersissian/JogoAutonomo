@@ -125,19 +125,13 @@ namespace TesteDoPI3
             
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnTab_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void txtCorJog_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtListJog_TextChanged(object sender, EventArgs e)
-        {
-
+            int id = Convert.ToInt32(txtId.Text);
+            int idJogador = Convert.ToInt32(txtIdJog.Text);
+            string senhaJogador = txtSenhaJog.Text;
+            Tabuleiro tabuleiro = new Tabuleiro(idJogador, senhaJogador, id);
+            tabuleiro.ShowDialog();
         }
     }
 }

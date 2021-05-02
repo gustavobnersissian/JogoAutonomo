@@ -54,6 +54,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lblRetornoJogador = new System.Windows.Forms.Label();
             this.lblVersao = new System.Windows.Forms.Label();
+            this.btnTab = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPartidas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,7 +136,6 @@
             this.txtListJog.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.txtListJog.Size = new System.Drawing.Size(176, 128);
             this.txtListJog.TabIndex = 22;
-            this.txtListJog.TextChanged += new System.EventHandler(this.txtListJog_TextChanged);
             // 
             // dgvPartidas
             // 
@@ -250,7 +250,6 @@
             this.txtCorJog.Name = "txtCorJog";
             this.txtCorJog.Size = new System.Drawing.Size(78, 20);
             this.txtCorJog.TabIndex = 31;
-            this.txtCorJog.TextChanged += new System.EventHandler(this.txtCorJog_TextChanged);
             // 
             // txtIdJog
             // 
@@ -309,18 +308,25 @@
             // lblVersao
             // 
             this.lblVersao.AutoSize = true;
-
-
-            this.lblVersao.Location = new System.Drawing.Point(22, 413);
+            this.lblVersao.Location = new System.Drawing.Point(737, 428);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(40, 13);
             this.lblVersao.TabIndex = 38;
             this.lblVersao.Text = "Versão";
-
-            this.lblVersao.Location = new System.Drawing.Point(737, 428);
-            this.lblVersao.Name = "lblVersao";
-            this.lblVersao.Size = new System.Drawing.Size(0, 13);
-            this.lblVersao.TabIndex = 38;
+            // 
+            // btnTab
+            // 
+            this.btnTab.BackColor = System.Drawing.Color.Green;
+            this.btnTab.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTab.ForeColor = System.Drawing.Color.White;
+            this.btnTab.Location = new System.Drawing.Point(12, 349);
+            this.btnTab.Name = "btnTab";
+            this.btnTab.Size = new System.Drawing.Size(127, 61);
+            this.btnTab.TabIndex = 40;
+            this.btnTab.Text = "Tabuleiro";
+            this.btnTab.UseVisualStyleBackColor = false;
+            this.btnTab.Click += new System.EventHandler(this.btnTab_Click);
             // 
             // Form1
             // 
@@ -328,6 +334,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTab);
             this.Controls.Add(this.lblVersao);
             this.Controls.Add(this.lblRetornoJogador);
             this.Controls.Add(this.label5);
@@ -352,7 +359,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPartidas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -382,6 +388,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblRetornoJogador;
         private System.Windows.Forms.Label lblVersao;
+        private System.Windows.Forms.Button btnTab;
     }
 }
 

@@ -115,8 +115,96 @@
             this.lblR2 = new System.Windows.Forms.Label();
             this.lblR3 = new System.Windows.Forms.Label();
             this.btnVerVez = new System.Windows.Forms.Button();
+            this.timerVez = new System.Windows.Forms.Timer(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             this.lblVerVez = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.picMinhaCor = new System.Windows.Forms.PictureBox();
+            this.picVez = new System.Windows.Forms.PictureBox();
+            this.timerTab = new System.Windows.Forms.Timer(this.components);
+            this.timerNarrar = new System.Windows.Forms.Timer(this.components);
+            this.picf21 = new System.Windows.Forms.PictureBox();
+            this.picf22 = new System.Windows.Forms.PictureBox();
+            this.picf23 = new System.Windows.Forms.PictureBox();
+            this.picf31 = new System.Windows.Forms.PictureBox();
+            this.picf32 = new System.Windows.Forms.PictureBox();
+            this.picf33 = new System.Windows.Forms.PictureBox();
+            this.picf34 = new System.Windows.Forms.PictureBox();
+            this.picf35 = new System.Windows.Forms.PictureBox();
+            this.picf42 = new System.Windows.Forms.PictureBox();
+            this.picf41 = new System.Windows.Forms.PictureBox();
+            this.picf43 = new System.Windows.Forms.PictureBox();
+            this.picf44 = new System.Windows.Forms.PictureBox();
+            this.picf45 = new System.Windows.Forms.PictureBox();
+            this.picf46 = new System.Windows.Forms.PictureBox();
+            this.picf713 = new System.Windows.Forms.PictureBox();
+            this.picf712 = new System.Windows.Forms.PictureBox();
+            this.picf711 = new System.Windows.Forms.PictureBox();
+            this.picf710 = new System.Windows.Forms.PictureBox();
+            this.picf47 = new System.Windows.Forms.PictureBox();
+            this.picf79 = new System.Windows.Forms.PictureBox();
+            this.picf78 = new System.Windows.Forms.PictureBox();
+            this.picf77 = new System.Windows.Forms.PictureBox();
+            this.picf76 = new System.Windows.Forms.PictureBox();
+            this.picf75 = new System.Windows.Forms.PictureBox();
+            this.picf74 = new System.Windows.Forms.PictureBox();
+            this.picf73 = new System.Windows.Forms.PictureBox();
+            this.picf72 = new System.Windows.Forms.PictureBox();
+            this.picf71 = new System.Windows.Forms.PictureBox();
+            this.picf51 = new System.Windows.Forms.PictureBox();
+            this.picf52 = new System.Windows.Forms.PictureBox();
+            this.picf53 = new System.Windows.Forms.PictureBox();
+            this.picf54 = new System.Windows.Forms.PictureBox();
+            this.picf55 = new System.Windows.Forms.PictureBox();
+            this.picf56 = new System.Windows.Forms.PictureBox();
+            this.picf57 = new System.Windows.Forms.PictureBox();
+            this.picf58 = new System.Windows.Forms.PictureBox();
+            this.picf59 = new System.Windows.Forms.PictureBox();
+            this.picf61 = new System.Windows.Forms.PictureBox();
+            this.picf62 = new System.Windows.Forms.PictureBox();
+            this.picf63 = new System.Windows.Forms.PictureBox();
+            this.picf64 = new System.Windows.Forms.PictureBox();
+            this.picf65 = new System.Windows.Forms.PictureBox();
+            this.picf66 = new System.Windows.Forms.PictureBox();
+            this.picf67 = new System.Windows.Forms.PictureBox();
+            this.picf68 = new System.Windows.Forms.PictureBox();
+            this.picf69 = new System.Windows.Forms.PictureBox();
+            this.picf610 = new System.Windows.Forms.PictureBox();
+            this.picf611 = new System.Windows.Forms.PictureBox();
+            this.picf81 = new System.Windows.Forms.PictureBox();
+            this.picf82 = new System.Windows.Forms.PictureBox();
+            this.picf83 = new System.Windows.Forms.PictureBox();
+            this.picf84 = new System.Windows.Forms.PictureBox();
+            this.picf85 = new System.Windows.Forms.PictureBox();
+            this.picf86 = new System.Windows.Forms.PictureBox();
+            this.picf87 = new System.Windows.Forms.PictureBox();
+            this.picf88 = new System.Windows.Forms.PictureBox();
+            this.picf89 = new System.Windows.Forms.PictureBox();
+            this.picf810 = new System.Windows.Forms.PictureBox();
+            this.picf811 = new System.Windows.Forms.PictureBox();
+            this.picf91 = new System.Windows.Forms.PictureBox();
+            this.picf92 = new System.Windows.Forms.PictureBox();
+            this.picf93 = new System.Windows.Forms.PictureBox();
+            this.picf94 = new System.Windows.Forms.PictureBox();
+            this.picf95 = new System.Windows.Forms.PictureBox();
+            this.picf96 = new System.Windows.Forms.PictureBox();
+            this.picf97 = new System.Windows.Forms.PictureBox();
+            this.picf98 = new System.Windows.Forms.PictureBox();
+            this.picf99 = new System.Windows.Forms.PictureBox();
+            this.picf101 = new System.Windows.Forms.PictureBox();
+            this.picf102 = new System.Windows.Forms.PictureBox();
+            this.picf103 = new System.Windows.Forms.PictureBox();
+            this.picf104 = new System.Windows.Forms.PictureBox();
+            this.picf105 = new System.Windows.Forms.PictureBox();
+            this.picf106 = new System.Windows.Forms.PictureBox();
+            this.picf107 = new System.Windows.Forms.PictureBox();
+            this.picf111 = new System.Windows.Forms.PictureBox();
+            this.picf112 = new System.Windows.Forms.PictureBox();
+            this.picf113 = new System.Windows.Forms.PictureBox();
+            this.picf114 = new System.Windows.Forms.PictureBox();
+            this.picf115 = new System.Windows.Forms.PictureBox();
+            this.picf121 = new System.Windows.Forms.PictureBox();
+            this.picf122 = new System.Windows.Forms.PictureBox();
+            this.picf123 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD2)).BeginInit();
@@ -184,6 +272,91 @@
             ((System.ComponentModel.ISupportInitialize)(this.picVd12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAm12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAlp12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMinhaCor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVez)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf44)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf46)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf713)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf712)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf711)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf710)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf79)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf78)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf77)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf76)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf75)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf74)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf73)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf71)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf53)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf55)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf57)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf58)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf59)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf61)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf62)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf63)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf64)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf65)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf66)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf67)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf68)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf69)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf610)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf611)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf81)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf82)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf83)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf84)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf85)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf86)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf87)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf88)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf89)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf810)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf811)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf91)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf92)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf93)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf94)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf95)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf96)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf97)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf98)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf99)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf101)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf102)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf103)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf104)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf105)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf106)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf107)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf111)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf112)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf113)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf114)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf115)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf121)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf122)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf123)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -798,7 +971,7 @@
             // picAlp8
             // 
             this.picAlp8.BackColor = System.Drawing.Color.White;
-            this.picAlp8.Location = new System.Drawing.Point(630, 468);
+            this.picAlp8.Location = new System.Drawing.Point(630, 469);
             this.picAlp8.Name = "picAlp8";
             this.picAlp8.Size = new System.Drawing.Size(16, 25);
             this.picAlp8.TabIndex = 140;
@@ -1029,13 +1202,12 @@
             this.lblR3.Size = new System.Drawing.Size(0, 13);
             this.lblR3.TabIndex = 164;
             // 
-
             // btnVerVez
             // 
             this.btnVerVez.BackColor = System.Drawing.Color.Green;
             this.btnVerVez.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerVez.ForeColor = System.Drawing.Color.White;
-            this.btnVerVez.Location = new System.Drawing.Point(448, 560);
+            this.btnVerVez.Location = new System.Drawing.Point(12, 556);
             this.btnVerVez.Name = "btnVerVez";
             this.btnVerVez.Size = new System.Drawing.Size(118, 52);
             this.btnVerVez.TabIndex = 171;
@@ -1043,23 +1215,886 @@
             this.btnVerVez.UseVisualStyleBackColor = false;
             this.btnVerVez.Click += new System.EventHandler(this.btnVerVez_Click);
             // 
+            // timerVez
+            // 
+            this.timerVez.Interval = 2000;
+            this.timerVez.Tick += new System.EventHandler(this.timerVez_Tick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(365, 580);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.TabIndex = 177;
+            this.label3.Text = "Minha Cor:";
+            // 
             // lblVerVez
             // 
             this.lblVerVez.AutoSize = true;
-            this.lblVerVez.Location = new System.Drawing.Point(596, 580);
+            this.lblVerVez.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVerVez.Location = new System.Drawing.Point(583, 580);
             this.lblVerVez.Name = "lblVerVez";
-            this.lblVerVez.Size = new System.Drawing.Size(0, 13);
-            this.lblVerVez.TabIndex = 172;
-
-            this.lblVerVez.Text = "Vez";
-
+            this.lblVerVez.Size = new System.Drawing.Size(63, 20);
+            this.lblVerVez.TabIndex = 178;
+            this.lblVerVez.Text = "Vez de:";
             // 
-            // timer1
+            // picMinhaCor
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 5000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-
+            this.picMinhaCor.Location = new System.Drawing.Point(448, 568);
+            this.picMinhaCor.Name = "picMinhaCor";
+            this.picMinhaCor.Size = new System.Drawing.Size(40, 40);
+            this.picMinhaCor.TabIndex = 179;
+            this.picMinhaCor.TabStop = false;
+            // 
+            // picVez
+            // 
+            this.picVez.Location = new System.Drawing.Point(645, 568);
+            this.picVez.Name = "picVez";
+            this.picVez.Size = new System.Drawing.Size(40, 40);
+            this.picVez.TabIndex = 180;
+            this.picVez.TabStop = false;
+            // 
+            // timerTab
+            // 
+            this.timerTab.Interval = 2000;
+            this.timerTab.Tick += new System.EventHandler(this.timerTab_Tick);
+            // 
+            // timerNarrar
+            // 
+            this.timerNarrar.Interval = 2000;
+            this.timerNarrar.Tick += new System.EventHandler(this.timerNarrar_Tick);
+            // 
+            // picf21
+            // 
+            this.picf21.BackColor = System.Drawing.Color.White;
+            this.picf21.Location = new System.Drawing.Point(394, 329);
+            this.picf21.Name = "picf21";
+            this.picf21.Size = new System.Drawing.Size(16, 25);
+            this.picf21.TabIndex = 181;
+            this.picf21.TabStop = false;
+            this.picf21.Visible = false;
+            // 
+            // picf22
+            // 
+            this.picf22.BackColor = System.Drawing.Color.White;
+            this.picf22.Location = new System.Drawing.Point(394, 294);
+            this.picf22.Name = "picf22";
+            this.picf22.Size = new System.Drawing.Size(16, 25);
+            this.picf22.TabIndex = 182;
+            this.picf22.TabStop = false;
+            this.picf22.Visible = false;
+            // 
+            // picf23
+            // 
+            this.picf23.BackColor = System.Drawing.Color.White;
+            this.picf23.Location = new System.Drawing.Point(394, 259);
+            this.picf23.Name = "picf23";
+            this.picf23.Size = new System.Drawing.Size(16, 25);
+            this.picf23.TabIndex = 183;
+            this.picf23.TabStop = false;
+            this.picf23.Visible = false;
+            // 
+            // picf31
+            // 
+            this.picf31.BackColor = System.Drawing.Color.White;
+            this.picf31.Location = new System.Drawing.Point(434, 362);
+            this.picf31.Name = "picf31";
+            this.picf31.Size = new System.Drawing.Size(16, 25);
+            this.picf31.TabIndex = 184;
+            this.picf31.TabStop = false;
+            this.picf31.Visible = false;
+            // 
+            // picf32
+            // 
+            this.picf32.BackColor = System.Drawing.Color.White;
+            this.picf32.Location = new System.Drawing.Point(434, 329);
+            this.picf32.Name = "picf32";
+            this.picf32.Size = new System.Drawing.Size(16, 25);
+            this.picf32.TabIndex = 185;
+            this.picf32.TabStop = false;
+            this.picf32.Visible = false;
+            // 
+            // picf33
+            // 
+            this.picf33.BackColor = System.Drawing.Color.White;
+            this.picf33.Location = new System.Drawing.Point(434, 294);
+            this.picf33.Name = "picf33";
+            this.picf33.Size = new System.Drawing.Size(16, 25);
+            this.picf33.TabIndex = 186;
+            this.picf33.TabStop = false;
+            this.picf33.Visible = false;
+            // 
+            // picf34
+            // 
+            this.picf34.BackColor = System.Drawing.Color.White;
+            this.picf34.Location = new System.Drawing.Point(434, 259);
+            this.picf34.Name = "picf34";
+            this.picf34.Size = new System.Drawing.Size(16, 25);
+            this.picf34.TabIndex = 187;
+            this.picf34.TabStop = false;
+            this.picf34.Visible = false;
+            // 
+            // picf35
+            // 
+            this.picf35.BackColor = System.Drawing.Color.White;
+            this.picf35.Location = new System.Drawing.Point(434, 224);
+            this.picf35.Name = "picf35";
+            this.picf35.Size = new System.Drawing.Size(16, 25);
+            this.picf35.TabIndex = 188;
+            this.picf35.TabStop = false;
+            this.picf35.Visible = false;
+            // 
+            // picf42
+            // 
+            this.picf42.BackColor = System.Drawing.Color.White;
+            this.picf42.Location = new System.Drawing.Point(473, 362);
+            this.picf42.Name = "picf42";
+            this.picf42.Size = new System.Drawing.Size(16, 25);
+            this.picf42.TabIndex = 189;
+            this.picf42.TabStop = false;
+            this.picf42.Visible = false;
+            // 
+            // picf41
+            // 
+            this.picf41.BackColor = System.Drawing.Color.White;
+            this.picf41.Location = new System.Drawing.Point(473, 397);
+            this.picf41.Name = "picf41";
+            this.picf41.Size = new System.Drawing.Size(16, 25);
+            this.picf41.TabIndex = 190;
+            this.picf41.TabStop = false;
+            this.picf41.Visible = false;
+            // 
+            // picf43
+            // 
+            this.picf43.BackColor = System.Drawing.Color.White;
+            this.picf43.Location = new System.Drawing.Point(473, 329);
+            this.picf43.Name = "picf43";
+            this.picf43.Size = new System.Drawing.Size(16, 25);
+            this.picf43.TabIndex = 191;
+            this.picf43.TabStop = false;
+            this.picf43.Visible = false;
+            // 
+            // picf44
+            // 
+            this.picf44.BackColor = System.Drawing.Color.White;
+            this.picf44.Location = new System.Drawing.Point(473, 294);
+            this.picf44.Name = "picf44";
+            this.picf44.Size = new System.Drawing.Size(16, 25);
+            this.picf44.TabIndex = 192;
+            this.picf44.TabStop = false;
+            this.picf44.Visible = false;
+            // 
+            // picf45
+            // 
+            this.picf45.BackColor = System.Drawing.Color.White;
+            this.picf45.Location = new System.Drawing.Point(473, 259);
+            this.picf45.Name = "picf45";
+            this.picf45.Size = new System.Drawing.Size(16, 25);
+            this.picf45.TabIndex = 193;
+            this.picf45.TabStop = false;
+            this.picf45.Visible = false;
+            // 
+            // picf46
+            // 
+            this.picf46.BackColor = System.Drawing.Color.White;
+            this.picf46.Location = new System.Drawing.Point(473, 224);
+            this.picf46.Name = "picf46";
+            this.picf46.Size = new System.Drawing.Size(16, 25);
+            this.picf46.TabIndex = 194;
+            this.picf46.TabStop = false;
+            this.picf46.Visible = false;
+            // 
+            // picf713
+            // 
+            this.picf713.BackColor = System.Drawing.Color.White;
+            this.picf713.Location = new System.Drawing.Point(590, 82);
+            this.picf713.Name = "picf713";
+            this.picf713.Size = new System.Drawing.Size(16, 25);
+            this.picf713.TabIndex = 195;
+            this.picf713.TabStop = false;
+            this.picf713.Visible = false;
+            // 
+            // picf712
+            // 
+            this.picf712.BackColor = System.Drawing.Color.White;
+            this.picf712.Location = new System.Drawing.Point(590, 117);
+            this.picf712.Name = "picf712";
+            this.picf712.Size = new System.Drawing.Size(16, 25);
+            this.picf712.TabIndex = 196;
+            this.picf712.TabStop = false;
+            this.picf712.Visible = false;
+            // 
+            // picf711
+            // 
+            this.picf711.BackColor = System.Drawing.Color.White;
+            this.picf711.Location = new System.Drawing.Point(590, 152);
+            this.picf711.Name = "picf711";
+            this.picf711.Size = new System.Drawing.Size(16, 25);
+            this.picf711.TabIndex = 197;
+            this.picf711.TabStop = false;
+            this.picf711.Visible = false;
+            // 
+            // picf710
+            // 
+            this.picf710.BackColor = System.Drawing.Color.White;
+            this.picf710.Location = new System.Drawing.Point(590, 187);
+            this.picf710.Name = "picf710";
+            this.picf710.Size = new System.Drawing.Size(16, 25);
+            this.picf710.TabIndex = 198;
+            this.picf710.TabStop = false;
+            this.picf710.Visible = false;
+            // 
+            // picf47
+            // 
+            this.picf47.BackColor = System.Drawing.Color.White;
+            this.picf47.Location = new System.Drawing.Point(473, 187);
+            this.picf47.Name = "picf47";
+            this.picf47.Size = new System.Drawing.Size(16, 25);
+            this.picf47.TabIndex = 199;
+            this.picf47.TabStop = false;
+            this.picf47.Visible = false;
+            // 
+            // picf79
+            // 
+            this.picf79.BackColor = System.Drawing.Color.White;
+            this.picf79.Location = new System.Drawing.Point(590, 224);
+            this.picf79.Name = "picf79";
+            this.picf79.Size = new System.Drawing.Size(16, 25);
+            this.picf79.TabIndex = 200;
+            this.picf79.TabStop = false;
+            this.picf79.Visible = false;
+            // 
+            // picf78
+            // 
+            this.picf78.BackColor = System.Drawing.Color.White;
+            this.picf78.Location = new System.Drawing.Point(590, 259);
+            this.picf78.Name = "picf78";
+            this.picf78.Size = new System.Drawing.Size(16, 25);
+            this.picf78.TabIndex = 201;
+            this.picf78.TabStop = false;
+            this.picf78.Visible = false;
+            // 
+            // picf77
+            // 
+            this.picf77.BackColor = System.Drawing.Color.White;
+            this.picf77.Location = new System.Drawing.Point(590, 294);
+            this.picf77.Name = "picf77";
+            this.picf77.Size = new System.Drawing.Size(16, 25);
+            this.picf77.TabIndex = 202;
+            this.picf77.TabStop = false;
+            this.picf77.Visible = false;
+            // 
+            // picf76
+            // 
+            this.picf76.BackColor = System.Drawing.Color.White;
+            this.picf76.Location = new System.Drawing.Point(590, 329);
+            this.picf76.Name = "picf76";
+            this.picf76.Size = new System.Drawing.Size(16, 25);
+            this.picf76.TabIndex = 203;
+            this.picf76.TabStop = false;
+            this.picf76.Visible = false;
+            // 
+            // picf75
+            // 
+            this.picf75.BackColor = System.Drawing.Color.White;
+            this.picf75.Location = new System.Drawing.Point(590, 362);
+            this.picf75.Name = "picf75";
+            this.picf75.Size = new System.Drawing.Size(16, 25);
+            this.picf75.TabIndex = 204;
+            this.picf75.TabStop = false;
+            this.picf75.Visible = false;
+            // 
+            // picf74
+            // 
+            this.picf74.BackColor = System.Drawing.Color.White;
+            this.picf74.Location = new System.Drawing.Point(590, 397);
+            this.picf74.Name = "picf74";
+            this.picf74.Size = new System.Drawing.Size(16, 25);
+            this.picf74.TabIndex = 205;
+            this.picf74.TabStop = false;
+            this.picf74.Visible = false;
+            // 
+            // picf73
+            // 
+            this.picf73.BackColor = System.Drawing.Color.White;
+            this.picf73.Location = new System.Drawing.Point(590, 432);
+            this.picf73.Name = "picf73";
+            this.picf73.Size = new System.Drawing.Size(16, 25);
+            this.picf73.TabIndex = 206;
+            this.picf73.TabStop = false;
+            this.picf73.Visible = false;
+            // 
+            // picf72
+            // 
+            this.picf72.BackColor = System.Drawing.Color.White;
+            this.picf72.Location = new System.Drawing.Point(590, 469);
+            this.picf72.Name = "picf72";
+            this.picf72.Size = new System.Drawing.Size(16, 25);
+            this.picf72.TabIndex = 207;
+            this.picf72.TabStop = false;
+            this.picf72.Visible = false;
+            // 
+            // picf71
+            // 
+            this.picf71.BackColor = System.Drawing.Color.White;
+            this.picf71.Location = new System.Drawing.Point(590, 503);
+            this.picf71.Name = "picf71";
+            this.picf71.Size = new System.Drawing.Size(16, 25);
+            this.picf71.TabIndex = 208;
+            this.picf71.TabStop = false;
+            this.picf71.Visible = false;
+            // 
+            // picf51
+            // 
+            this.picf51.BackColor = System.Drawing.Color.White;
+            this.picf51.Location = new System.Drawing.Point(512, 432);
+            this.picf51.Name = "picf51";
+            this.picf51.Size = new System.Drawing.Size(16, 25);
+            this.picf51.TabIndex = 209;
+            this.picf51.TabStop = false;
+            this.picf51.Visible = false;
+            // 
+            // picf52
+            // 
+            this.picf52.BackColor = System.Drawing.Color.White;
+            this.picf52.Location = new System.Drawing.Point(512, 397);
+            this.picf52.Name = "picf52";
+            this.picf52.Size = new System.Drawing.Size(16, 25);
+            this.picf52.TabIndex = 210;
+            this.picf52.TabStop = false;
+            this.picf52.Visible = false;
+            // 
+            // picf53
+            // 
+            this.picf53.BackColor = System.Drawing.Color.White;
+            this.picf53.Location = new System.Drawing.Point(512, 362);
+            this.picf53.Name = "picf53";
+            this.picf53.Size = new System.Drawing.Size(16, 25);
+            this.picf53.TabIndex = 211;
+            this.picf53.TabStop = false;
+            this.picf53.Visible = false;
+            // 
+            // picf54
+            // 
+            this.picf54.BackColor = System.Drawing.Color.White;
+            this.picf54.Location = new System.Drawing.Point(512, 329);
+            this.picf54.Name = "picf54";
+            this.picf54.Size = new System.Drawing.Size(16, 25);
+            this.picf54.TabIndex = 212;
+            this.picf54.TabStop = false;
+            this.picf54.Visible = false;
+            // 
+            // picf55
+            // 
+            this.picf55.BackColor = System.Drawing.Color.White;
+            this.picf55.Location = new System.Drawing.Point(512, 294);
+            this.picf55.Name = "picf55";
+            this.picf55.Size = new System.Drawing.Size(16, 25);
+            this.picf55.TabIndex = 213;
+            this.picf55.TabStop = false;
+            this.picf55.Visible = false;
+            // 
+            // picf56
+            // 
+            this.picf56.BackColor = System.Drawing.Color.White;
+            this.picf56.Location = new System.Drawing.Point(512, 259);
+            this.picf56.Name = "picf56";
+            this.picf56.Size = new System.Drawing.Size(16, 25);
+            this.picf56.TabIndex = 214;
+            this.picf56.TabStop = false;
+            this.picf56.Visible = false;
+            // 
+            // picf57
+            // 
+            this.picf57.BackColor = System.Drawing.Color.White;
+            this.picf57.Location = new System.Drawing.Point(512, 224);
+            this.picf57.Name = "picf57";
+            this.picf57.Size = new System.Drawing.Size(16, 25);
+            this.picf57.TabIndex = 215;
+            this.picf57.TabStop = false;
+            this.picf57.Visible = false;
+            // 
+            // picf58
+            // 
+            this.picf58.BackColor = System.Drawing.Color.White;
+            this.picf58.Location = new System.Drawing.Point(512, 187);
+            this.picf58.Name = "picf58";
+            this.picf58.Size = new System.Drawing.Size(16, 25);
+            this.picf58.TabIndex = 216;
+            this.picf58.TabStop = false;
+            this.picf58.Visible = false;
+            // 
+            // picf59
+            // 
+            this.picf59.BackColor = System.Drawing.Color.White;
+            this.picf59.Location = new System.Drawing.Point(512, 152);
+            this.picf59.Name = "picf59";
+            this.picf59.Size = new System.Drawing.Size(16, 25);
+            this.picf59.TabIndex = 217;
+            this.picf59.TabStop = false;
+            this.picf59.Visible = false;
+            // 
+            // picf61
+            // 
+            this.picf61.BackColor = System.Drawing.Color.White;
+            this.picf61.Location = new System.Drawing.Point(551, 469);
+            this.picf61.Name = "picf61";
+            this.picf61.Size = new System.Drawing.Size(16, 25);
+            this.picf61.TabIndex = 218;
+            this.picf61.TabStop = false;
+            this.picf61.Visible = false;
+            // 
+            // picf62
+            // 
+            this.picf62.BackColor = System.Drawing.Color.White;
+            this.picf62.Location = new System.Drawing.Point(551, 432);
+            this.picf62.Name = "picf62";
+            this.picf62.Size = new System.Drawing.Size(16, 25);
+            this.picf62.TabIndex = 219;
+            this.picf62.TabStop = false;
+            this.picf62.Visible = false;
+            // 
+            // picf63
+            // 
+            this.picf63.BackColor = System.Drawing.Color.White;
+            this.picf63.Location = new System.Drawing.Point(551, 397);
+            this.picf63.Name = "picf63";
+            this.picf63.Size = new System.Drawing.Size(16, 25);
+            this.picf63.TabIndex = 220;
+            this.picf63.TabStop = false;
+            this.picf63.Visible = false;
+            // 
+            // picf64
+            // 
+            this.picf64.BackColor = System.Drawing.Color.White;
+            this.picf64.Location = new System.Drawing.Point(551, 362);
+            this.picf64.Name = "picf64";
+            this.picf64.Size = new System.Drawing.Size(16, 25);
+            this.picf64.TabIndex = 221;
+            this.picf64.TabStop = false;
+            this.picf64.Visible = false;
+            // 
+            // picf65
+            // 
+            this.picf65.BackColor = System.Drawing.Color.White;
+            this.picf65.Location = new System.Drawing.Point(551, 329);
+            this.picf65.Name = "picf65";
+            this.picf65.Size = new System.Drawing.Size(16, 25);
+            this.picf65.TabIndex = 222;
+            this.picf65.TabStop = false;
+            this.picf65.Visible = false;
+            // 
+            // picf66
+            // 
+            this.picf66.BackColor = System.Drawing.Color.White;
+            this.picf66.Location = new System.Drawing.Point(551, 294);
+            this.picf66.Name = "picf66";
+            this.picf66.Size = new System.Drawing.Size(16, 25);
+            this.picf66.TabIndex = 223;
+            this.picf66.TabStop = false;
+            this.picf66.Visible = false;
+            // 
+            // picf67
+            // 
+            this.picf67.BackColor = System.Drawing.Color.White;
+            this.picf67.Location = new System.Drawing.Point(551, 259);
+            this.picf67.Name = "picf67";
+            this.picf67.Size = new System.Drawing.Size(16, 25);
+            this.picf67.TabIndex = 224;
+            this.picf67.TabStop = false;
+            this.picf67.Visible = false;
+            // 
+            // picf68
+            // 
+            this.picf68.BackColor = System.Drawing.Color.White;
+            this.picf68.Location = new System.Drawing.Point(551, 224);
+            this.picf68.Name = "picf68";
+            this.picf68.Size = new System.Drawing.Size(16, 25);
+            this.picf68.TabIndex = 225;
+            this.picf68.TabStop = false;
+            this.picf68.Visible = false;
+            // 
+            // picf69
+            // 
+            this.picf69.BackColor = System.Drawing.Color.White;
+            this.picf69.Location = new System.Drawing.Point(551, 187);
+            this.picf69.Name = "picf69";
+            this.picf69.Size = new System.Drawing.Size(16, 25);
+            this.picf69.TabIndex = 226;
+            this.picf69.TabStop = false;
+            this.picf69.Visible = false;
+            // 
+            // picf610
+            // 
+            this.picf610.BackColor = System.Drawing.Color.White;
+            this.picf610.Location = new System.Drawing.Point(551, 152);
+            this.picf610.Name = "picf610";
+            this.picf610.Size = new System.Drawing.Size(16, 25);
+            this.picf610.TabIndex = 227;
+            this.picf610.TabStop = false;
+            this.picf610.Visible = false;
+            // 
+            // picf611
+            // 
+            this.picf611.BackColor = System.Drawing.Color.White;
+            this.picf611.Location = new System.Drawing.Point(551, 117);
+            this.picf611.Name = "picf611";
+            this.picf611.Size = new System.Drawing.Size(16, 25);
+            this.picf611.TabIndex = 228;
+            this.picf611.TabStop = false;
+            this.picf611.Visible = false;
+            // 
+            // picf81
+            // 
+            this.picf81.BackColor = System.Drawing.Color.White;
+            this.picf81.Location = new System.Drawing.Point(630, 469);
+            this.picf81.Name = "picf81";
+            this.picf81.Size = new System.Drawing.Size(16, 25);
+            this.picf81.TabIndex = 229;
+            this.picf81.TabStop = false;
+            this.picf81.Visible = false;
+            // 
+            // picf82
+            // 
+            this.picf82.BackColor = System.Drawing.Color.White;
+            this.picf82.Location = new System.Drawing.Point(630, 432);
+            this.picf82.Name = "picf82";
+            this.picf82.Size = new System.Drawing.Size(16, 25);
+            this.picf82.TabIndex = 230;
+            this.picf82.TabStop = false;
+            this.picf82.Visible = false;
+            // 
+            // picf83
+            // 
+            this.picf83.BackColor = System.Drawing.Color.White;
+            this.picf83.Location = new System.Drawing.Point(630, 397);
+            this.picf83.Name = "picf83";
+            this.picf83.Size = new System.Drawing.Size(16, 25);
+            this.picf83.TabIndex = 231;
+            this.picf83.TabStop = false;
+            this.picf83.Visible = false;
+            // 
+            // picf84
+            // 
+            this.picf84.BackColor = System.Drawing.Color.White;
+            this.picf84.Location = new System.Drawing.Point(630, 362);
+            this.picf84.Name = "picf84";
+            this.picf84.Size = new System.Drawing.Size(16, 25);
+            this.picf84.TabIndex = 232;
+            this.picf84.TabStop = false;
+            this.picf84.Visible = false;
+            // 
+            // picf85
+            // 
+            this.picf85.BackColor = System.Drawing.Color.White;
+            this.picf85.Location = new System.Drawing.Point(630, 329);
+            this.picf85.Name = "picf85";
+            this.picf85.Size = new System.Drawing.Size(16, 25);
+            this.picf85.TabIndex = 233;
+            this.picf85.TabStop = false;
+            this.picf85.Visible = false;
+            // 
+            // picf86
+            // 
+            this.picf86.BackColor = System.Drawing.Color.White;
+            this.picf86.Location = new System.Drawing.Point(630, 294);
+            this.picf86.Name = "picf86";
+            this.picf86.Size = new System.Drawing.Size(16, 25);
+            this.picf86.TabIndex = 234;
+            this.picf86.TabStop = false;
+            this.picf86.Visible = false;
+            // 
+            // picf87
+            // 
+            this.picf87.BackColor = System.Drawing.Color.White;
+            this.picf87.Location = new System.Drawing.Point(630, 259);
+            this.picf87.Name = "picf87";
+            this.picf87.Size = new System.Drawing.Size(16, 25);
+            this.picf87.TabIndex = 235;
+            this.picf87.TabStop = false;
+            this.picf87.Visible = false;
+            // 
+            // picf88
+            // 
+            this.picf88.BackColor = System.Drawing.Color.White;
+            this.picf88.Location = new System.Drawing.Point(630, 224);
+            this.picf88.Name = "picf88";
+            this.picf88.Size = new System.Drawing.Size(16, 25);
+            this.picf88.TabIndex = 236;
+            this.picf88.TabStop = false;
+            this.picf88.Visible = false;
+            // 
+            // picf89
+            // 
+            this.picf89.BackColor = System.Drawing.Color.White;
+            this.picf89.Location = new System.Drawing.Point(630, 187);
+            this.picf89.Name = "picf89";
+            this.picf89.Size = new System.Drawing.Size(16, 25);
+            this.picf89.TabIndex = 237;
+            this.picf89.TabStop = false;
+            this.picf89.Visible = false;
+            // 
+            // picf810
+            // 
+            this.picf810.BackColor = System.Drawing.Color.White;
+            this.picf810.Location = new System.Drawing.Point(630, 152);
+            this.picf810.Name = "picf810";
+            this.picf810.Size = new System.Drawing.Size(16, 25);
+            this.picf810.TabIndex = 238;
+            this.picf810.TabStop = false;
+            this.picf810.Visible = false;
+            // 
+            // picf811
+            // 
+            this.picf811.BackColor = System.Drawing.Color.White;
+            this.picf811.Location = new System.Drawing.Point(630, 117);
+            this.picf811.Name = "picf811";
+            this.picf811.Size = new System.Drawing.Size(16, 25);
+            this.picf811.TabIndex = 239;
+            this.picf811.TabStop = false;
+            this.picf811.Visible = false;
+            // 
+            // picf91
+            // 
+            this.picf91.BackColor = System.Drawing.Color.White;
+            this.picf91.Location = new System.Drawing.Point(669, 433);
+            this.picf91.Name = "picf91";
+            this.picf91.Size = new System.Drawing.Size(16, 25);
+            this.picf91.TabIndex = 240;
+            this.picf91.TabStop = false;
+            this.picf91.Visible = false;
+            // 
+            // picf92
+            // 
+            this.picf92.BackColor = System.Drawing.Color.White;
+            this.picf92.Location = new System.Drawing.Point(669, 397);
+            this.picf92.Name = "picf92";
+            this.picf92.Size = new System.Drawing.Size(16, 25);
+            this.picf92.TabIndex = 241;
+            this.picf92.TabStop = false;
+            this.picf92.Visible = false;
+            // 
+            // picf93
+            // 
+            this.picf93.BackColor = System.Drawing.Color.White;
+            this.picf93.Location = new System.Drawing.Point(669, 362);
+            this.picf93.Name = "picf93";
+            this.picf93.Size = new System.Drawing.Size(16, 25);
+            this.picf93.TabIndex = 242;
+            this.picf93.TabStop = false;
+            this.picf93.Visible = false;
+            // 
+            // picf94
+            // 
+            this.picf94.BackColor = System.Drawing.Color.White;
+            this.picf94.Location = new System.Drawing.Point(669, 329);
+            this.picf94.Name = "picf94";
+            this.picf94.Size = new System.Drawing.Size(16, 25);
+            this.picf94.TabIndex = 243;
+            this.picf94.TabStop = false;
+            this.picf94.Visible = false;
+            // 
+            // picf95
+            // 
+            this.picf95.BackColor = System.Drawing.Color.White;
+            this.picf95.Location = new System.Drawing.Point(669, 294);
+            this.picf95.Name = "picf95";
+            this.picf95.Size = new System.Drawing.Size(16, 25);
+            this.picf95.TabIndex = 244;
+            this.picf95.TabStop = false;
+            this.picf95.Visible = false;
+            // 
+            // picf96
+            // 
+            this.picf96.BackColor = System.Drawing.Color.White;
+            this.picf96.Location = new System.Drawing.Point(669, 259);
+            this.picf96.Name = "picf96";
+            this.picf96.Size = new System.Drawing.Size(16, 25);
+            this.picf96.TabIndex = 245;
+            this.picf96.TabStop = false;
+            this.picf96.Visible = false;
+            // 
+            // picf97
+            // 
+            this.picf97.BackColor = System.Drawing.Color.White;
+            this.picf97.Location = new System.Drawing.Point(669, 224);
+            this.picf97.Name = "picf97";
+            this.picf97.Size = new System.Drawing.Size(16, 25);
+            this.picf97.TabIndex = 246;
+            this.picf97.TabStop = false;
+            this.picf97.Visible = false;
+            // 
+            // picf98
+            // 
+            this.picf98.BackColor = System.Drawing.Color.White;
+            this.picf98.Location = new System.Drawing.Point(669, 187);
+            this.picf98.Name = "picf98";
+            this.picf98.Size = new System.Drawing.Size(16, 25);
+            this.picf98.TabIndex = 247;
+            this.picf98.TabStop = false;
+            this.picf98.Visible = false;
+            // 
+            // picf99
+            // 
+            this.picf99.BackColor = System.Drawing.Color.White;
+            this.picf99.Location = new System.Drawing.Point(669, 152);
+            this.picf99.Name = "picf99";
+            this.picf99.Size = new System.Drawing.Size(16, 25);
+            this.picf99.TabIndex = 248;
+            this.picf99.TabStop = false;
+            this.picf99.Visible = false;
+            // 
+            // picf101
+            // 
+            this.picf101.BackColor = System.Drawing.Color.White;
+            this.picf101.Location = new System.Drawing.Point(709, 397);
+            this.picf101.Name = "picf101";
+            this.picf101.Size = new System.Drawing.Size(16, 25);
+            this.picf101.TabIndex = 249;
+            this.picf101.TabStop = false;
+            this.picf101.Visible = false;
+            // 
+            // picf102
+            // 
+            this.picf102.BackColor = System.Drawing.Color.White;
+            this.picf102.Location = new System.Drawing.Point(709, 362);
+            this.picf102.Name = "picf102";
+            this.picf102.Size = new System.Drawing.Size(16, 25);
+            this.picf102.TabIndex = 250;
+            this.picf102.TabStop = false;
+            this.picf102.Visible = false;
+            // 
+            // picf103
+            // 
+            this.picf103.BackColor = System.Drawing.Color.White;
+            this.picf103.Location = new System.Drawing.Point(709, 329);
+            this.picf103.Name = "picf103";
+            this.picf103.Size = new System.Drawing.Size(16, 25);
+            this.picf103.TabIndex = 251;
+            this.picf103.TabStop = false;
+            this.picf103.Visible = false;
+            // 
+            // picf104
+            // 
+            this.picf104.BackColor = System.Drawing.Color.White;
+            this.picf104.Location = new System.Drawing.Point(709, 294);
+            this.picf104.Name = "picf104";
+            this.picf104.Size = new System.Drawing.Size(16, 25);
+            this.picf104.TabIndex = 252;
+            this.picf104.TabStop = false;
+            this.picf104.Visible = false;
+            // 
+            // picf105
+            // 
+            this.picf105.BackColor = System.Drawing.Color.White;
+            this.picf105.Location = new System.Drawing.Point(709, 259);
+            this.picf105.Name = "picf105";
+            this.picf105.Size = new System.Drawing.Size(16, 25);
+            this.picf105.TabIndex = 253;
+            this.picf105.TabStop = false;
+            this.picf105.Visible = false;
+            // 
+            // picf106
+            // 
+            this.picf106.BackColor = System.Drawing.Color.White;
+            this.picf106.Location = new System.Drawing.Point(709, 224);
+            this.picf106.Name = "picf106";
+            this.picf106.Size = new System.Drawing.Size(16, 25);
+            this.picf106.TabIndex = 254;
+            this.picf106.TabStop = false;
+            this.picf106.Visible = false;
+            // 
+            // picf107
+            // 
+            this.picf107.BackColor = System.Drawing.Color.White;
+            this.picf107.Location = new System.Drawing.Point(709, 187);
+            this.picf107.Name = "picf107";
+            this.picf107.Size = new System.Drawing.Size(16, 25);
+            this.picf107.TabIndex = 255;
+            this.picf107.TabStop = false;
+            this.picf107.Visible = false;
+            // 
+            // picf111
+            // 
+            this.picf111.BackColor = System.Drawing.Color.White;
+            this.picf111.Location = new System.Drawing.Point(749, 363);
+            this.picf111.Name = "picf111";
+            this.picf111.Size = new System.Drawing.Size(16, 25);
+            this.picf111.TabIndex = 256;
+            this.picf111.TabStop = false;
+            this.picf111.Visible = false;
+            // 
+            // picf112
+            // 
+            this.picf112.BackColor = System.Drawing.Color.White;
+            this.picf112.Location = new System.Drawing.Point(749, 329);
+            this.picf112.Name = "picf112";
+            this.picf112.Size = new System.Drawing.Size(16, 25);
+            this.picf112.TabIndex = 257;
+            this.picf112.TabStop = false;
+            this.picf112.Visible = false;
+            // 
+            // picf113
+            // 
+            this.picf113.BackColor = System.Drawing.Color.White;
+            this.picf113.Location = new System.Drawing.Point(749, 294);
+            this.picf113.Name = "picf113";
+            this.picf113.Size = new System.Drawing.Size(16, 25);
+            this.picf113.TabIndex = 258;
+            this.picf113.TabStop = false;
+            this.picf113.Visible = false;
+            // 
+            // picf114
+            // 
+            this.picf114.BackColor = System.Drawing.Color.White;
+            this.picf114.Location = new System.Drawing.Point(749, 259);
+            this.picf114.Name = "picf114";
+            this.picf114.Size = new System.Drawing.Size(16, 25);
+            this.picf114.TabIndex = 259;
+            this.picf114.TabStop = false;
+            this.picf114.Visible = false;
+            // 
+            // picf115
+            // 
+            this.picf115.BackColor = System.Drawing.Color.White;
+            this.picf115.Location = new System.Drawing.Point(749, 224);
+            this.picf115.Name = "picf115";
+            this.picf115.Size = new System.Drawing.Size(16, 25);
+            this.picf115.TabIndex = 260;
+            this.picf115.TabStop = false;
+            this.picf115.Visible = false;
+            // 
+            // picf121
+            // 
+            this.picf121.BackColor = System.Drawing.Color.White;
+            this.picf121.Location = new System.Drawing.Point(789, 329);
+            this.picf121.Name = "picf121";
+            this.picf121.Size = new System.Drawing.Size(16, 25);
+            this.picf121.TabIndex = 261;
+            this.picf121.TabStop = false;
+            this.picf121.Visible = false;
+            // 
+            // picf122
+            // 
+            this.picf122.BackColor = System.Drawing.Color.White;
+            this.picf122.Location = new System.Drawing.Point(789, 294);
+            this.picf122.Name = "picf122";
+            this.picf122.Size = new System.Drawing.Size(16, 25);
+            this.picf122.TabIndex = 262;
+            this.picf122.TabStop = false;
+            this.picf122.Visible = false;
+            // 
+            // picf123
+            // 
+            this.picf123.BackColor = System.Drawing.Color.White;
+            this.picf123.Location = new System.Drawing.Point(789, 259);
+            this.picf123.Name = "picf123";
+            this.picf123.Size = new System.Drawing.Size(16, 25);
+            this.picf123.TabIndex = 263;
+            this.picf123.TabStop = false;
+            this.picf123.Visible = false;
             // 
             // Tabuleiro
             // 
@@ -1067,7 +2102,93 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(919, 620);
+            this.Controls.Add(this.picf123);
+            this.Controls.Add(this.picf122);
+            this.Controls.Add(this.picf121);
+            this.Controls.Add(this.picf115);
+            this.Controls.Add(this.picf114);
+            this.Controls.Add(this.picf113);
+            this.Controls.Add(this.picf112);
+            this.Controls.Add(this.picf111);
+            this.Controls.Add(this.picf107);
+            this.Controls.Add(this.picf106);
+            this.Controls.Add(this.picf105);
+            this.Controls.Add(this.picf104);
+            this.Controls.Add(this.picf103);
+            this.Controls.Add(this.picf102);
+            this.Controls.Add(this.picf101);
+            this.Controls.Add(this.picf99);
+            this.Controls.Add(this.picf98);
+            this.Controls.Add(this.picf97);
+            this.Controls.Add(this.picf96);
+            this.Controls.Add(this.picf95);
+            this.Controls.Add(this.picf94);
+            this.Controls.Add(this.picf93);
+            this.Controls.Add(this.picf92);
+            this.Controls.Add(this.picf91);
+            this.Controls.Add(this.picf811);
+            this.Controls.Add(this.picf810);
+            this.Controls.Add(this.picf89);
+            this.Controls.Add(this.picf88);
+            this.Controls.Add(this.picf87);
+            this.Controls.Add(this.picf86);
+            this.Controls.Add(this.picf85);
+            this.Controls.Add(this.picf84);
+            this.Controls.Add(this.picf83);
+            this.Controls.Add(this.picf82);
+            this.Controls.Add(this.picf81);
+            this.Controls.Add(this.picf611);
+            this.Controls.Add(this.picf610);
+            this.Controls.Add(this.picf69);
+            this.Controls.Add(this.picf68);
+            this.Controls.Add(this.picf67);
+            this.Controls.Add(this.picf66);
+            this.Controls.Add(this.picf65);
+            this.Controls.Add(this.picf64);
+            this.Controls.Add(this.picf63);
+            this.Controls.Add(this.picf62);
+            this.Controls.Add(this.picf61);
+            this.Controls.Add(this.picf59);
+            this.Controls.Add(this.picf58);
+            this.Controls.Add(this.picf57);
+            this.Controls.Add(this.picf56);
+            this.Controls.Add(this.picf55);
+            this.Controls.Add(this.picf54);
+            this.Controls.Add(this.picf53);
+            this.Controls.Add(this.picf52);
+            this.Controls.Add(this.picf51);
+            this.Controls.Add(this.picf71);
+            this.Controls.Add(this.picf72);
+            this.Controls.Add(this.picf73);
+            this.Controls.Add(this.picf74);
+            this.Controls.Add(this.picf75);
+            this.Controls.Add(this.picf76);
+            this.Controls.Add(this.picf77);
+            this.Controls.Add(this.picf78);
+            this.Controls.Add(this.picf79);
+            this.Controls.Add(this.picf47);
+            this.Controls.Add(this.picf710);
+            this.Controls.Add(this.picf711);
+            this.Controls.Add(this.picf712);
+            this.Controls.Add(this.picf713);
+            this.Controls.Add(this.picf46);
+            this.Controls.Add(this.picf45);
+            this.Controls.Add(this.picf44);
+            this.Controls.Add(this.picf43);
+            this.Controls.Add(this.picf41);
+            this.Controls.Add(this.picf42);
+            this.Controls.Add(this.picf35);
+            this.Controls.Add(this.picf34);
+            this.Controls.Add(this.picf33);
+            this.Controls.Add(this.picf32);
+            this.Controls.Add(this.picf31);
+            this.Controls.Add(this.picf23);
+            this.Controls.Add(this.picf22);
+            this.Controls.Add(this.picf21);
+            this.Controls.Add(this.picVez);
+            this.Controls.Add(this.picMinhaCor);
             this.Controls.Add(this.lblVerVez);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnVerVez);
             this.Controls.Add(this.lblR3);
             this.Controls.Add(this.lblR2);
@@ -1222,6 +2343,91 @@
             ((System.ComponentModel.ISupportInitialize)(this.picVd12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAm12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAlp12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMinhaCor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picVez)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf44)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf45)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf46)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf713)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf712)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf711)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf710)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf78)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf77)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf76)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf75)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf74)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf73)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf53)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf55)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf61)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf63)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf64)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf66)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf68)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf610)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf611)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf81)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf82)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf83)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf84)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf85)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf86)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf87)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf88)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf89)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf810)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf811)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf91)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf92)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf93)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf94)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf95)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf96)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf97)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf98)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf99)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf101)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf102)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf103)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf104)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf105)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf106)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf107)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf111)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf112)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf113)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf114)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf115)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf121)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf122)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picf123)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1314,7 +2520,95 @@
         private System.Windows.Forms.Label lblR2;
         private System.Windows.Forms.Label lblR3;
         private System.Windows.Forms.Button btnVerVez;
+        private System.Windows.Forms.Timer timerVez;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblVerVez;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox picMinhaCor;
+        private System.Windows.Forms.PictureBox picVez;
+        private System.Windows.Forms.Timer timerTab;
+        private System.Windows.Forms.Timer timerNarrar;
+        private System.Windows.Forms.PictureBox picf21;
+        private System.Windows.Forms.PictureBox picf22;
+        private System.Windows.Forms.PictureBox picf23;
+        private System.Windows.Forms.PictureBox picf31;
+        private System.Windows.Forms.PictureBox picf32;
+        private System.Windows.Forms.PictureBox picf33;
+        private System.Windows.Forms.PictureBox picf34;
+        private System.Windows.Forms.PictureBox picf35;
+        private System.Windows.Forms.PictureBox picf42;
+        private System.Windows.Forms.PictureBox picf41;
+        private System.Windows.Forms.PictureBox picf43;
+        private System.Windows.Forms.PictureBox picf44;
+        private System.Windows.Forms.PictureBox picf45;
+        private System.Windows.Forms.PictureBox picf46;
+        private System.Windows.Forms.PictureBox picf713;
+        private System.Windows.Forms.PictureBox picf712;
+        private System.Windows.Forms.PictureBox picf711;
+        private System.Windows.Forms.PictureBox picf710;
+        private System.Windows.Forms.PictureBox picf47;
+        private System.Windows.Forms.PictureBox picf79;
+        private System.Windows.Forms.PictureBox picf78;
+        private System.Windows.Forms.PictureBox picf77;
+        private System.Windows.Forms.PictureBox picf76;
+        private System.Windows.Forms.PictureBox picf75;
+        private System.Windows.Forms.PictureBox picf74;
+        private System.Windows.Forms.PictureBox picf73;
+        private System.Windows.Forms.PictureBox picf72;
+        private System.Windows.Forms.PictureBox picf71;
+        private System.Windows.Forms.PictureBox picf51;
+        private System.Windows.Forms.PictureBox picf52;
+        private System.Windows.Forms.PictureBox picf53;
+        private System.Windows.Forms.PictureBox picf54;
+        private System.Windows.Forms.PictureBox picf55;
+        private System.Windows.Forms.PictureBox picf56;
+        private System.Windows.Forms.PictureBox picf57;
+        private System.Windows.Forms.PictureBox picf58;
+        private System.Windows.Forms.PictureBox picf59;
+        private System.Windows.Forms.PictureBox picf61;
+        private System.Windows.Forms.PictureBox picf62;
+        private System.Windows.Forms.PictureBox picf63;
+        private System.Windows.Forms.PictureBox picf64;
+        private System.Windows.Forms.PictureBox picf65;
+        private System.Windows.Forms.PictureBox picf66;
+        private System.Windows.Forms.PictureBox picf67;
+        private System.Windows.Forms.PictureBox picf68;
+        private System.Windows.Forms.PictureBox picf69;
+        private System.Windows.Forms.PictureBox picf610;
+        private System.Windows.Forms.PictureBox picf611;
+        private System.Windows.Forms.PictureBox picf81;
+        private System.Windows.Forms.PictureBox picf82;
+        private System.Windows.Forms.PictureBox picf83;
+        private System.Windows.Forms.PictureBox picf84;
+        private System.Windows.Forms.PictureBox picf85;
+        private System.Windows.Forms.PictureBox picf86;
+        private System.Windows.Forms.PictureBox picf87;
+        private System.Windows.Forms.PictureBox picf88;
+        private System.Windows.Forms.PictureBox picf89;
+        private System.Windows.Forms.PictureBox picf810;
+        private System.Windows.Forms.PictureBox picf811;
+        private System.Windows.Forms.PictureBox picf91;
+        private System.Windows.Forms.PictureBox picf92;
+        private System.Windows.Forms.PictureBox picf93;
+        private System.Windows.Forms.PictureBox picf94;
+        private System.Windows.Forms.PictureBox picf95;
+        private System.Windows.Forms.PictureBox picf96;
+        private System.Windows.Forms.PictureBox picf97;
+        private System.Windows.Forms.PictureBox picf98;
+        private System.Windows.Forms.PictureBox picf99;
+        private System.Windows.Forms.PictureBox picf101;
+        private System.Windows.Forms.PictureBox picf102;
+        private System.Windows.Forms.PictureBox picf103;
+        private System.Windows.Forms.PictureBox picf104;
+        private System.Windows.Forms.PictureBox picf105;
+        private System.Windows.Forms.PictureBox picf106;
+        private System.Windows.Forms.PictureBox picf107;
+        private System.Windows.Forms.PictureBox picf111;
+        private System.Windows.Forms.PictureBox picf112;
+        private System.Windows.Forms.PictureBox picf113;
+        private System.Windows.Forms.PictureBox picf114;
+        private System.Windows.Forms.PictureBox picf115;
+        private System.Windows.Forms.PictureBox picf121;
+        private System.Windows.Forms.PictureBox picf122;
+        private System.Windows.Forms.PictureBox picf123;
     }
 }
