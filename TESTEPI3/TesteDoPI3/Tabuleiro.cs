@@ -27,7 +27,7 @@ namespace TesteDoPI3
         public int R4;
         public int R5;
         public int R6;
-        public int rodada;
+        public int rodada = 0;
         public int MaxVm = 0;
         public int MaxAz = 0;
         public int MaxVd = 0;
@@ -77,6 +77,7 @@ namespace TesteDoPI3
         public bool cAm11 = false;
         public bool cAm12 = false;
         public bool vitoria = false;
+        public bool parar = false;
         public int Conta(int n1, int n2)
         {
             int res = n1 + n2;
@@ -2305,6 +2306,8 @@ namespace TesteDoPI3
                         string val2 = R2.ToString();
                         string val3 = R3.ToString();
                         string val4 = R4.ToString();
+                        string val5 = R5.ToString();
+                        string val6 = R6.ToString();
                         if (R1 == 10)
                         {
                             val1 = "A";
@@ -2329,6 +2332,54 @@ namespace TesteDoPI3
                         {
                             val2 = "C";
                         }
+                        if (R3 == 10)
+                        {
+                            val3 = "A";
+                        }
+                        else if (R3 == 11)
+                        {
+                            val3 = "B";
+                        }
+                        else if (R3 == 12)
+                        {
+                            val3 = "C";
+                        }
+                        if (R4 == 10)
+                        {
+                            val4 = "A";
+                        }
+                        else if (R4 == 11)
+                        {
+                            val4 = "B";
+                        }
+                        else if (R4 == 12)
+                        {
+                            val4 = "C";
+                        }
+                        if (R5 == 10)
+                        {
+                            val5 = "A";
+                        }
+                        else if (R5 == 11)
+                        {
+                            val5 = "B";
+                        }
+                        else if (R5 == 12)
+                        {
+                            val5 = "C";
+                        }
+                        if (R6 == 10)
+                        {
+                            val6 = "A";
+                        }
+                        else if (R6 == 11)
+                        {
+                            val6 = "B";
+                        }
+                        else if (R6 == 12)
+                        {
+                            val6 = "C";
+                        }
 
                         string ordem = "1234";
                         string trilha = val1 + val2;
@@ -2345,16 +2396,62 @@ namespace TesteDoPI3
                                 lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
                                 if (lblRetornoErro.Text != "")
                                 {
-                                    ordem = "1423";
-                                    trilha = val3 + val4;
+                                    trilha = val3 + "0";
                                     lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                    if (lblRetornoErro.Text != "")
+                                    {
+                                        ordem = "1423";
+                                        trilha = val5 + val6;
+                                        lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                        if (lblRetornoErro.Text != "")
+                                        {
+                                            trilha = val5 + "0";
+                                            lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                        }
+                                    }
                                 }
+                                
                             }
                         }
 
                         if (rodada == 2)
                         {
                             lblRetornoErro.Text = Jogo.Parar(IdJogador, Senha);
+                            if (lblRetornoErro.Text != "")
+                            {
+                                parar = true;
+                                trilha = val1 + "0";
+                                lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                if (lblRetornoErro.Text != "")
+                                {
+                                    ordem = "1324";
+                                    trilha = val3 + val4;
+                                    lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                    if (lblRetornoErro.Text != "")
+                                    {
+                                        trilha = val3 + "0";
+                                        lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                        if (lblRetornoErro.Text != "")
+                                        {
+                                            ordem = "1423";
+                                            trilha = val5 + val6;
+                                            lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                            if (lblRetornoErro.Text != "")
+                                            {
+                                                trilha = val5 + "0";
+                                                lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                            if(parar == true)
+                            {
+                                lblRetornoErro.Text = Jogo.Parar(IdJogador, Senha);
+                                parar = false;
+                            }
+                            
                             rodada = 0;
                         }
 
