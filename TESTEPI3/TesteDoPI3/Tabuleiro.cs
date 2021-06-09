@@ -295,6 +295,7 @@ namespace TesteDoPI3
                         string trilha = val1 + val2;
                         lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
                         rodada++;
+                        
                         if (lblRetornoErro.Text != "")
                         {
                             trilha = val1 + "0";
