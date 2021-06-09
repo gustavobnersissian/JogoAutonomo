@@ -318,6 +318,24 @@ namespace TesteDoPI3
                                         {
                                             trilha = val5 + "0";
                                             lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                            if (lblRetornoErro.Text != "")
+                                            {
+                                                ordem = "2413";
+                                                trilha = val4 + "0";
+                                                lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                                if (lblRetornoErro.Text != "")
+                                                {
+                                                    ordem = "2314";
+                                                    trilha = val6 + "0";
+                                                    lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                                    if (lblRetornoErro.Text != "")
+                                                    {
+                                                        ordem = "3412";
+                                                        trilha = val2 + "0";
+                                                        lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                                    }
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -351,6 +369,24 @@ namespace TesteDoPI3
                                             {
                                                 trilha = val5 + "0";
                                                 lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                                if (lblRetornoErro.Text != "")
+                                                {
+                                                    ordem = "2413";
+                                                    trilha = val4 + "0";
+                                                    lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                                    if (lblRetornoErro.Text != "")
+                                                    {
+                                                        ordem = "2314";
+                                                        trilha = val6 + "0";
+                                                        lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                                        if (lblRetornoErro.Text != "")
+                                                        {
+                                                            ordem = "3412";
+                                                            trilha = val2 + "0";
+                                                            lblRetornoErro.Text = Jogo.Mover(IdJogador, Senha, ordem, trilha);
+                                                        }
+                                                    }
+                                                }
                                             }
                                         }
                                     }
