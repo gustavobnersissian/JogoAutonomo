@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tabuleiro));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnRolarDados = new System.Windows.Forms.Button();
             this.lblRetornoErro = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picD1 = new System.Windows.Forms.PictureBox();
@@ -45,16 +44,7 @@
             this.picImg4 = new System.Windows.Forms.PictureBox();
             this.picImg5 = new System.Windows.Forms.PictureBox();
             this.picImg6 = new System.Windows.Forms.PictureBox();
-            this.btnMover = new System.Windows.Forms.Button();
-            this.btnParar = new System.Windows.Forms.Button();
-            this.txtOrdem = new System.Windows.Forms.TextBox();
-            this.txtTrilha = new System.Windows.Forms.TextBox();
-            this.lblOrdem = new System.Windows.Forms.Label();
-            this.lblTrilha = new System.Windows.Forms.Label();
-            this.btnExbTab = new System.Windows.Forms.Button();
-            this.lblExbTab = new System.Windows.Forms.Label();
             this.txtNarrar = new System.Windows.Forms.TextBox();
-            this.btnNarrar = new System.Windows.Forms.Button();
             this.picVm2 = new System.Windows.Forms.PictureBox();
             this.picAz2 = new System.Windows.Forms.PictureBox();
             this.picVd2 = new System.Windows.Forms.PictureBox();
@@ -114,7 +104,6 @@
             this.lblR1 = new System.Windows.Forms.Label();
             this.lblR2 = new System.Windows.Forms.Label();
             this.lblR3 = new System.Windows.Forms.Label();
-            this.btnVerVez = new System.Windows.Forms.Button();
             this.timerVez = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.lblVerVez = new System.Windows.Forms.Label();
@@ -204,6 +193,7 @@
             this.picf115 = new System.Windows.Forms.PictureBox();
             this.picf121 = new System.Windows.Forms.PictureBox();
             this.picf122 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.picf123 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD1)).BeginInit();
@@ -381,19 +371,6 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Dados!";
             // 
-            // btnRolarDados
-            // 
-            this.btnRolarDados.BackColor = System.Drawing.Color.Green;
-            this.btnRolarDados.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRolarDados.ForeColor = System.Drawing.Color.White;
-            this.btnRolarDados.Location = new System.Drawing.Point(153, 402);
-            this.btnRolarDados.Name = "btnRolarDados";
-            this.btnRolarDados.Size = new System.Drawing.Size(134, 126);
-            this.btnRolarDados.TabIndex = 17;
-            this.btnRolarDados.Text = "Rolar dados";
-            this.btnRolarDados.UseVisualStyleBackColor = false;
-            this.btnRolarDados.Click += new System.EventHandler(this.btnRolarDados_Click);
-            // 
             // lblRetornoErro
             // 
             this.lblRetornoErro.AutoSize = true;
@@ -517,106 +494,13 @@
             this.picImg6.TabStop = false;
             this.picImg6.Visible = false;
             // 
-            // btnMover
-            // 
-            this.btnMover.BackColor = System.Drawing.Color.Green;
-            this.btnMover.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMover.ForeColor = System.Drawing.Color.White;
-            this.btnMover.Location = new System.Drawing.Point(12, 65);
-            this.btnMover.Name = "btnMover";
-            this.btnMover.Size = new System.Drawing.Size(89, 68);
-            this.btnMover.TabIndex = 41;
-            this.btnMover.Text = "Mover";
-            this.btnMover.UseVisualStyleBackColor = false;
-            this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
-            // 
-            // btnParar
-            // 
-            this.btnParar.BackColor = System.Drawing.Color.Green;
-            this.btnParar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnParar.ForeColor = System.Drawing.Color.White;
-            this.btnParar.Location = new System.Drawing.Point(114, 65);
-            this.btnParar.Name = "btnParar";
-            this.btnParar.Size = new System.Drawing.Size(89, 68);
-            this.btnParar.TabIndex = 42;
-            this.btnParar.Text = "Parar";
-            this.btnParar.UseVisualStyleBackColor = false;
-            this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
-            // 
-            // txtOrdem
-            // 
-            this.txtOrdem.Location = new System.Drawing.Point(12, 161);
-            this.txtOrdem.Name = "txtOrdem";
-            this.txtOrdem.Size = new System.Drawing.Size(87, 20);
-            this.txtOrdem.TabIndex = 43;
-            // 
-            // txtTrilha
-            // 
-            this.txtTrilha.Location = new System.Drawing.Point(116, 161);
-            this.txtTrilha.Name = "txtTrilha";
-            this.txtTrilha.Size = new System.Drawing.Size(87, 20);
-            this.txtTrilha.TabIndex = 44;
-            // 
-            // lblOrdem
-            // 
-            this.lblOrdem.AutoSize = true;
-            this.lblOrdem.Location = new System.Drawing.Point(37, 145);
-            this.lblOrdem.Name = "lblOrdem";
-            this.lblOrdem.Size = new System.Drawing.Size(38, 13);
-            this.lblOrdem.TabIndex = 45;
-            this.lblOrdem.Text = "Ordem";
-            // 
-            // lblTrilha
-            // 
-            this.lblTrilha.AutoSize = true;
-            this.lblTrilha.Location = new System.Drawing.Point(138, 145);
-            this.lblTrilha.Name = "lblTrilha";
-            this.lblTrilha.Size = new System.Drawing.Size(33, 13);
-            this.lblTrilha.TabIndex = 46;
-            this.lblTrilha.Text = "Trilha";
-            // 
-            // btnExbTab
-            // 
-            this.btnExbTab.BackColor = System.Drawing.Color.Green;
-            this.btnExbTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExbTab.ForeColor = System.Drawing.Color.White;
-            this.btnExbTab.Location = new System.Drawing.Point(224, 65);
-            this.btnExbTab.Name = "btnExbTab";
-            this.btnExbTab.Size = new System.Drawing.Size(96, 68);
-            this.btnExbTab.TabIndex = 47;
-            this.btnExbTab.Text = "Exibir Tabuleiro";
-            this.btnExbTab.UseVisualStyleBackColor = false;
-            this.btnExbTab.Click += new System.EventHandler(this.btnExbTab_Click);
-            // 
-            // lblExbTab
-            // 
-            this.lblExbTab.AutoSize = true;
-            this.lblExbTab.Location = new System.Drawing.Point(200, 232);
-            this.lblExbTab.Name = "lblExbTab";
-            this.lblExbTab.Size = new System.Drawing.Size(51, 13);
-            this.lblExbTab.TabIndex = 48;
-            this.lblExbTab.Text = "Tabuleiro";
-            // 
             // txtNarrar
             // 
-            this.txtNarrar.Location = new System.Drawing.Point(12, 199);
+            this.txtNarrar.Location = new System.Drawing.Point(30, 135);
             this.txtNarrar.Multiline = true;
             this.txtNarrar.Name = "txtNarrar";
-            this.txtNarrar.Size = new System.Drawing.Size(132, 159);
+            this.txtNarrar.Size = new System.Drawing.Size(250, 202);
             this.txtNarrar.TabIndex = 49;
-            // 
-            // btnNarrar
-            // 
-            this.btnNarrar.BackColor = System.Drawing.Color.Green;
-            this.btnNarrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNarrar.ForeColor = System.Drawing.Color.White;
-            this.btnNarrar.Location = new System.Drawing.Point(224, 139);
-            this.btnNarrar.Name = "btnNarrar";
-            this.btnNarrar.Size = new System.Drawing.Size(96, 68);
-            this.btnNarrar.TabIndex = 50;
-            this.btnNarrar.Text = "Ler Narração";
-            this.btnNarrar.UseVisualStyleBackColor = false;
-            this.btnNarrar.Click += new System.EventHandler(this.btnNarrar_Click);
             // 
             // picVm2
             // 
@@ -1201,19 +1085,6 @@
             this.lblR3.Name = "lblR3";
             this.lblR3.Size = new System.Drawing.Size(0, 13);
             this.lblR3.TabIndex = 164;
-            // 
-            // btnVerVez
-            // 
-            this.btnVerVez.BackColor = System.Drawing.Color.Green;
-            this.btnVerVez.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerVez.ForeColor = System.Drawing.Color.White;
-            this.btnVerVez.Location = new System.Drawing.Point(12, 556);
-            this.btnVerVez.Name = "btnVerVez";
-            this.btnVerVez.Size = new System.Drawing.Size(118, 52);
-            this.btnVerVez.TabIndex = 171;
-            this.btnVerVez.Text = "Verificar Vez";
-            this.btnVerVez.UseVisualStyleBackColor = false;
-            this.btnVerVez.Click += new System.EventHandler(this.btnVerVez_Click);
             // 
             // timerVez
             // 
@@ -2086,13 +1957,24 @@
             this.picf122.TabStop = false;
             this.picf122.Visible = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(74, 82);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(166, 37);
+            this.label4.TabIndex = 263;
+            this.label4.Text = "MOSCOU";
+            // 
             // picf123
             // 
             this.picf123.BackColor = System.Drawing.Color.White;
             this.picf123.Location = new System.Drawing.Point(789, 259);
             this.picf123.Name = "picf123";
             this.picf123.Size = new System.Drawing.Size(16, 25);
-            this.picf123.TabIndex = 263;
+            this.picf123.TabIndex = 264;
             this.picf123.TabStop = false;
             this.picf123.Visible = false;
             // 
@@ -2103,6 +1985,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(919, 620);
             this.Controls.Add(this.picf123);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.picf122);
             this.Controls.Add(this.picf121);
             this.Controls.Add(this.picf115);
@@ -2189,7 +2072,6 @@
             this.Controls.Add(this.picMinhaCor);
             this.Controls.Add(this.lblVerVez);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnVerVez);
             this.Controls.Add(this.lblR3);
             this.Controls.Add(this.lblR2);
             this.Controls.Add(this.lblR1);
@@ -2249,16 +2131,7 @@
             this.Controls.Add(this.picVd2);
             this.Controls.Add(this.picAz2);
             this.Controls.Add(this.picVm2);
-            this.Controls.Add(this.btnNarrar);
             this.Controls.Add(this.txtNarrar);
-            this.Controls.Add(this.lblExbTab);
-            this.Controls.Add(this.btnExbTab);
-            this.Controls.Add(this.lblTrilha);
-            this.Controls.Add(this.lblOrdem);
-            this.Controls.Add(this.txtTrilha);
-            this.Controls.Add(this.txtOrdem);
-            this.Controls.Add(this.btnParar);
-            this.Controls.Add(this.btnMover);
             this.Controls.Add(this.picImg6);
             this.Controls.Add(this.picImg5);
             this.Controls.Add(this.picImg4);
@@ -2270,7 +2143,6 @@
             this.Controls.Add(this.picD2);
             this.Controls.Add(this.picD1);
             this.Controls.Add(this.lblRetornoErro);
-            this.Controls.Add(this.btnRolarDados);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -2438,7 +2310,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnRolarDados;
         private System.Windows.Forms.Label lblRetornoErro;
         private System.Windows.Forms.PictureBox picD1;
         private System.Windows.Forms.PictureBox picD2;
@@ -2450,16 +2321,7 @@
         private System.Windows.Forms.PictureBox picImg4;
         private System.Windows.Forms.PictureBox picImg5;
         private System.Windows.Forms.PictureBox picImg6;
-        private System.Windows.Forms.Button btnMover;
-        private System.Windows.Forms.Button btnParar;
-        private System.Windows.Forms.TextBox txtOrdem;
-        private System.Windows.Forms.TextBox txtTrilha;
-        private System.Windows.Forms.Label lblOrdem;
-        private System.Windows.Forms.Label lblTrilha;
-        private System.Windows.Forms.Button btnExbTab;
-        private System.Windows.Forms.Label lblExbTab;
         private System.Windows.Forms.TextBox txtNarrar;
-        private System.Windows.Forms.Button btnNarrar;
         private System.Windows.Forms.PictureBox picVm2;
         private System.Windows.Forms.PictureBox picAz2;
         private System.Windows.Forms.PictureBox picVd2;
@@ -2519,7 +2381,6 @@
         private System.Windows.Forms.Label lblR1;
         private System.Windows.Forms.Label lblR2;
         private System.Windows.Forms.Label lblR3;
-        private System.Windows.Forms.Button btnVerVez;
         private System.Windows.Forms.Timer timerVez;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblVerVez;
@@ -2609,6 +2470,7 @@
         private System.Windows.Forms.PictureBox picf115;
         private System.Windows.Forms.PictureBox picf121;
         private System.Windows.Forms.PictureBox picf122;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox picf123;
     }
 }
