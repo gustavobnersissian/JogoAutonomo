@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>cantstop.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CantStopServer">
       <HintPath>..\CantStopServer.dll</HintPath>
@@ -122,6 +125,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\d6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teste2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cantstop.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

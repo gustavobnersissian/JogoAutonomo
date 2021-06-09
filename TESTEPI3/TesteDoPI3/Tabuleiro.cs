@@ -13,6 +13,7 @@ namespace TesteDoPI3
 {
     public partial class Tabuleiro : Form
     {
+      
         public string Senha { get; set; }
         public int IdJogador { get; set; }
         public int IdPartida { get; set; }
@@ -86,6 +87,16 @@ namespace TesteDoPI3
         public Tabuleiro(int idJogador, string senhaJogador, int idPartida)
         {
             InitializeComponent();
+            label1.BackColor = System.Drawing.Color.Transparent;
+            label4.BackColor = System.Drawing.Color.Transparent;
+            label2.BackColor = System.Drawing.Color.Transparent;
+            label6.BackColor = System.Drawing.Color.Transparent;
+            label5.BackColor = System.Drawing.Color.Transparent;
+            label4.BackColor = System.Drawing.Color.Transparent;
+            label7.BackColor = System.Drawing.Color.Transparent;
+            label8.BackColor = System.Drawing.Color.Transparent;
+            label3.BackColor = System.Drawing.Color.Transparent;
+            lblVerVez.BackColor = System.Drawing.Color.Transparent;
 
             this.IdPartida = idPartida;
             this.IdJogador = idJogador;
@@ -3275,6 +3286,11 @@ namespace TesteDoPI3
                 }
 
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

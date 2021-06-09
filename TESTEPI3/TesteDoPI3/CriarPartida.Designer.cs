@@ -38,10 +38,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(272, 132);
+            this.label2.Location = new System.Drawing.Point(273, 133);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 18);
             this.label2.TabIndex = 15;
@@ -50,9 +50,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(272, 95);
+            this.label1.Location = new System.Drawing.Point(273, 97);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 18);
             this.label1.TabIndex = 14;
@@ -60,7 +60,8 @@
             // 
             // txtSenha
             // 
-            this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txtSenha.BackColor = System.Drawing.Color.White;
+            this.txtSenha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtSenha.Location = new System.Drawing.Point(333, 132);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
@@ -70,10 +71,11 @@
             // btnCriar
             // 
             this.btnCriar.BackColor = System.Drawing.Color.Green;
+            this.btnCriar.BackgroundImage = global::TesteDoPI3.Properties.Resources.teste;
             this.btnCriar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCriar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCriar.ForeColor = System.Drawing.Color.White;
-            this.btnCriar.Location = new System.Drawing.Point(137, 95);
+            this.btnCriar.Location = new System.Drawing.Point(139, 93);
             this.btnCriar.Name = "btnCriar";
             this.btnCriar.Size = new System.Drawing.Size(127, 61);
             this.btnCriar.TabIndex = 11;
@@ -83,8 +85,9 @@
             // 
             // txtNome
             // 
-            this.txtNome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.txtNome.Location = new System.Drawing.Point(333, 96);
+            this.txtNome.BackColor = System.Drawing.Color.White;
+            this.txtNome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtNome.Location = new System.Drawing.Point(332, 96);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(124, 20);
             this.txtNome.TabIndex = 12;
@@ -93,13 +96,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::TesteDoPI3.Properties.Resources.teste;
             this.ClientSize = new System.Drawing.Size(601, 248);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.btnCriar);
             this.Controls.Add(this.txtNome);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "CriarPartida";
             this.Text = "Form2";

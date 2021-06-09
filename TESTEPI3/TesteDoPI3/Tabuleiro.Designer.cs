@@ -195,6 +195,12 @@
             this.picf122 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.picf123 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picD2)).BeginInit();
@@ -347,16 +353,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.picf121)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picf122)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picf123)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(69, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 37);
+            this.label1.Size = new System.Drawing.Size(202, 43);
             this.label1.TabIndex = 0;
             this.label1.Text = "Can´t Stop!";
             // 
@@ -364,8 +372,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(5, 361);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(108, 393);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 37);
             this.label2.TabIndex = 3;
@@ -384,7 +392,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(349, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(375, 56);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(500, 494);
             this.pictureBox1.TabIndex = 1;
@@ -392,8 +400,9 @@
             // 
             // picD1
             // 
+            this.picD1.BackColor = System.Drawing.Color.White;
             this.picD1.ErrorImage = null;
-            this.picD1.Location = new System.Drawing.Point(12, 401);
+            this.picD1.Location = new System.Drawing.Point(105, 439);
             this.picD1.Name = "picD1";
             this.picD1.Size = new System.Drawing.Size(63, 61);
             this.picD1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -402,8 +411,9 @@
             // 
             // picD2
             // 
+            this.picD2.BackColor = System.Drawing.Color.White;
             this.picD2.ErrorImage = null;
-            this.picD2.Location = new System.Drawing.Point(81, 401);
+            this.picD2.Location = new System.Drawing.Point(174, 439);
             this.picD2.Name = "picD2";
             this.picD2.Size = new System.Drawing.Size(63, 61);
             this.picD2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -412,7 +422,8 @@
             // 
             // picD3
             // 
-            this.picD3.Location = new System.Drawing.Point(12, 468);
+            this.picD3.BackColor = System.Drawing.Color.White;
+            this.picD3.Location = new System.Drawing.Point(105, 506);
             this.picD3.Name = "picD3";
             this.picD3.Size = new System.Drawing.Size(63, 61);
             this.picD3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -421,7 +432,8 @@
             // 
             // picD4
             // 
-            this.picD4.Location = new System.Drawing.Point(81, 468);
+            this.picD4.BackColor = System.Drawing.Color.White;
+            this.picD4.Location = new System.Drawing.Point(174, 506);
             this.picD4.Name = "picD4";
             this.picD4.Size = new System.Drawing.Size(63, 61);
             this.picD4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -431,7 +443,7 @@
             // picImg1
             // 
             this.picImg1.Image = global::TesteDoPI3.Properties.Resources.d1;
-            this.picImg1.Location = new System.Drawing.Point(224, 3);
+            this.picImg1.Location = new System.Drawing.Point(489, 7);
             this.picImg1.Name = "picImg1";
             this.picImg1.Size = new System.Drawing.Size(45, 43);
             this.picImg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -442,7 +454,7 @@
             // picImg2
             // 
             this.picImg2.Image = global::TesteDoPI3.Properties.Resources.d2;
-            this.picImg2.Location = new System.Drawing.Point(275, 3);
+            this.picImg2.Location = new System.Drawing.Point(540, 7);
             this.picImg2.Name = "picImg2";
             this.picImg2.Size = new System.Drawing.Size(45, 43);
             this.picImg2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -453,7 +465,7 @@
             // picImg3
             // 
             this.picImg3.Image = global::TesteDoPI3.Properties.Resources.d3;
-            this.picImg3.Location = new System.Drawing.Point(326, 3);
+            this.picImg3.Location = new System.Drawing.Point(591, 7);
             this.picImg3.Name = "picImg3";
             this.picImg3.Size = new System.Drawing.Size(45, 43);
             this.picImg3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -464,7 +476,7 @@
             // picImg4
             // 
             this.picImg4.Image = global::TesteDoPI3.Properties.Resources.d4;
-            this.picImg4.Location = new System.Drawing.Point(377, 3);
+            this.picImg4.Location = new System.Drawing.Point(642, 7);
             this.picImg4.Name = "picImg4";
             this.picImg4.Size = new System.Drawing.Size(45, 43);
             this.picImg4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -475,7 +487,7 @@
             // picImg5
             // 
             this.picImg5.Image = global::TesteDoPI3.Properties.Resources.d5;
-            this.picImg5.Location = new System.Drawing.Point(428, 3);
+            this.picImg5.Location = new System.Drawing.Point(693, 7);
             this.picImg5.Name = "picImg5";
             this.picImg5.Size = new System.Drawing.Size(45, 43);
             this.picImg5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -486,7 +498,7 @@
             // picImg6
             // 
             this.picImg6.Image = global::TesteDoPI3.Properties.Resources.d6;
-            this.picImg6.Location = new System.Drawing.Point(479, 3);
+            this.picImg6.Location = new System.Drawing.Point(744, 7);
             this.picImg6.Name = "picImg6";
             this.picImg6.Size = new System.Drawing.Size(45, 43);
             this.picImg6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -496,7 +508,7 @@
             // 
             // txtNarrar
             // 
-            this.txtNarrar.Location = new System.Drawing.Point(30, 135);
+            this.txtNarrar.Location = new System.Drawing.Point(42, 146);
             this.txtNarrar.Multiline = true;
             this.txtNarrar.Name = "txtNarrar";
             this.txtNarrar.Size = new System.Drawing.Size(250, 202);
@@ -505,7 +517,7 @@
             // picVm2
             // 
             this.picVm2.BackColor = System.Drawing.Color.Red;
-            this.picVm2.Location = new System.Drawing.Point(386, 327);
+            this.picVm2.Location = new System.Drawing.Point(410, 327);
             this.picVm2.Name = "picVm2";
             this.picVm2.Size = new System.Drawing.Size(10, 10);
             this.picVm2.TabIndex = 67;
@@ -515,7 +527,7 @@
             // picAz2
             // 
             this.picAz2.BackColor = System.Drawing.Color.Blue;
-            this.picAz2.Location = new System.Drawing.Point(408, 327);
+            this.picAz2.Location = new System.Drawing.Point(432, 327);
             this.picAz2.Name = "picAz2";
             this.picAz2.Size = new System.Drawing.Size(10, 10);
             this.picAz2.TabIndex = 77;
@@ -525,7 +537,7 @@
             // picVd2
             // 
             this.picVd2.BackColor = System.Drawing.Color.Green;
-            this.picVd2.Location = new System.Drawing.Point(386, 344);
+            this.picVd2.Location = new System.Drawing.Point(410, 344);
             this.picVd2.Name = "picVd2";
             this.picVd2.Size = new System.Drawing.Size(10, 10);
             this.picVd2.TabIndex = 82;
@@ -535,7 +547,7 @@
             // picAlp2
             // 
             this.picAlp2.BackColor = System.Drawing.Color.White;
-            this.picAlp2.Location = new System.Drawing.Point(394, 329);
+            this.picAlp2.Location = new System.Drawing.Point(418, 329);
             this.picAlp2.Name = "picAlp2";
             this.picAlp2.Size = new System.Drawing.Size(16, 25);
             this.picAlp2.TabIndex = 108;
@@ -545,7 +557,7 @@
             // picAm2
             // 
             this.picAm2.BackColor = System.Drawing.Color.Yellow;
-            this.picAm2.Location = new System.Drawing.Point(408, 344);
+            this.picAm2.Location = new System.Drawing.Point(432, 344);
             this.picAm2.Name = "picAm2";
             this.picAm2.Size = new System.Drawing.Size(10, 10);
             this.picAm2.TabIndex = 109;
@@ -555,7 +567,7 @@
             // picVm3
             // 
             this.picVm3.BackColor = System.Drawing.Color.Red;
-            this.picVm3.Location = new System.Drawing.Point(426, 362);
+            this.picVm3.Location = new System.Drawing.Point(450, 362);
             this.picVm3.Name = "picVm3";
             this.picVm3.Size = new System.Drawing.Size(10, 10);
             this.picVm3.TabIndex = 110;
@@ -565,7 +577,7 @@
             // picAz3
             // 
             this.picAz3.BackColor = System.Drawing.Color.Blue;
-            this.picAz3.Location = new System.Drawing.Point(448, 362);
+            this.picAz3.Location = new System.Drawing.Point(472, 362);
             this.picAz3.Name = "picAz3";
             this.picAz3.Size = new System.Drawing.Size(10, 10);
             this.picAz3.TabIndex = 111;
@@ -575,7 +587,7 @@
             // picAlp3
             // 
             this.picAlp3.BackColor = System.Drawing.Color.White;
-            this.picAlp3.Location = new System.Drawing.Point(434, 362);
+            this.picAlp3.Location = new System.Drawing.Point(458, 362);
             this.picAlp3.Name = "picAlp3";
             this.picAlp3.Size = new System.Drawing.Size(16, 25);
             this.picAlp3.TabIndex = 112;
@@ -585,7 +597,7 @@
             // picAm3
             // 
             this.picAm3.BackColor = System.Drawing.Color.Yellow;
-            this.picAm3.Location = new System.Drawing.Point(448, 378);
+            this.picAm3.Location = new System.Drawing.Point(472, 378);
             this.picAm3.Name = "picAm3";
             this.picAm3.Size = new System.Drawing.Size(10, 10);
             this.picAm3.TabIndex = 113;
@@ -595,7 +607,7 @@
             // picVd3
             // 
             this.picVd3.BackColor = System.Drawing.Color.Green;
-            this.picVd3.Location = new System.Drawing.Point(426, 378);
+            this.picVd3.Location = new System.Drawing.Point(450, 378);
             this.picVd3.Name = "picVd3";
             this.picVd3.Size = new System.Drawing.Size(10, 10);
             this.picVd3.TabIndex = 114;
@@ -605,7 +617,7 @@
             // picVm4
             // 
             this.picVm4.BackColor = System.Drawing.Color.Red;
-            this.picVm4.Location = new System.Drawing.Point(465, 397);
+            this.picVm4.Location = new System.Drawing.Point(489, 397);
             this.picVm4.Name = "picVm4";
             this.picVm4.Size = new System.Drawing.Size(10, 10);
             this.picVm4.TabIndex = 115;
@@ -615,7 +627,7 @@
             // picAz4
             // 
             this.picAz4.BackColor = System.Drawing.Color.Blue;
-            this.picAz4.Location = new System.Drawing.Point(488, 397);
+            this.picAz4.Location = new System.Drawing.Point(512, 397);
             this.picAz4.Name = "picAz4";
             this.picAz4.Size = new System.Drawing.Size(10, 10);
             this.picAz4.TabIndex = 116;
@@ -625,7 +637,7 @@
             // picAlp4
             // 
             this.picAlp4.BackColor = System.Drawing.Color.White;
-            this.picAlp4.Location = new System.Drawing.Point(473, 397);
+            this.picAlp4.Location = new System.Drawing.Point(497, 397);
             this.picAlp4.Name = "picAlp4";
             this.picAlp4.Size = new System.Drawing.Size(16, 25);
             this.picAlp4.TabIndex = 117;
@@ -635,7 +647,7 @@
             // picVd4
             // 
             this.picVd4.BackColor = System.Drawing.Color.Green;
-            this.picVd4.Location = new System.Drawing.Point(465, 413);
+            this.picVd4.Location = new System.Drawing.Point(489, 413);
             this.picVd4.Name = "picVd4";
             this.picVd4.Size = new System.Drawing.Size(10, 10);
             this.picVd4.TabIndex = 118;
@@ -645,7 +657,7 @@
             // picAm4
             // 
             this.picAm4.BackColor = System.Drawing.Color.Yellow;
-            this.picAm4.Location = new System.Drawing.Point(488, 413);
+            this.picAm4.Location = new System.Drawing.Point(512, 413);
             this.picAm4.Name = "picAm4";
             this.picAm4.Size = new System.Drawing.Size(10, 10);
             this.picAm4.TabIndex = 119;
@@ -655,7 +667,7 @@
             // picAlp5
             // 
             this.picAlp5.BackColor = System.Drawing.Color.White;
-            this.picAlp5.Location = new System.Drawing.Point(512, 432);
+            this.picAlp5.Location = new System.Drawing.Point(536, 432);
             this.picAlp5.Name = "picAlp5";
             this.picAlp5.Size = new System.Drawing.Size(16, 25);
             this.picAlp5.TabIndex = 120;
@@ -665,7 +677,7 @@
             // picVm5
             // 
             this.picVm5.BackColor = System.Drawing.Color.Red;
-            this.picVm5.Location = new System.Drawing.Point(504, 432);
+            this.picVm5.Location = new System.Drawing.Point(528, 432);
             this.picVm5.Name = "picVm5";
             this.picVm5.Size = new System.Drawing.Size(10, 10);
             this.picVm5.TabIndex = 121;
@@ -675,7 +687,7 @@
             // picAz5
             // 
             this.picAz5.BackColor = System.Drawing.Color.Blue;
-            this.picAz5.Location = new System.Drawing.Point(528, 432);
+            this.picAz5.Location = new System.Drawing.Point(552, 432);
             this.picAz5.Name = "picAz5";
             this.picAz5.Size = new System.Drawing.Size(10, 10);
             this.picAz5.TabIndex = 122;
@@ -685,7 +697,7 @@
             // picVd5
             // 
             this.picVd5.BackColor = System.Drawing.Color.Green;
-            this.picVd5.Location = new System.Drawing.Point(504, 448);
+            this.picVd5.Location = new System.Drawing.Point(528, 448);
             this.picVd5.Name = "picVd5";
             this.picVd5.Size = new System.Drawing.Size(10, 10);
             this.picVd5.TabIndex = 123;
@@ -695,7 +707,7 @@
             // picAm5
             // 
             this.picAm5.BackColor = System.Drawing.Color.Yellow;
-            this.picAm5.Location = new System.Drawing.Point(528, 448);
+            this.picAm5.Location = new System.Drawing.Point(552, 448);
             this.picAm5.Name = "picAm5";
             this.picAm5.Size = new System.Drawing.Size(10, 10);
             this.picAm5.TabIndex = 124;
@@ -705,7 +717,7 @@
             // picVm6
             // 
             this.picVm6.BackColor = System.Drawing.Color.Red;
-            this.picVm6.Location = new System.Drawing.Point(543, 467);
+            this.picVm6.Location = new System.Drawing.Point(567, 467);
             this.picVm6.Name = "picVm6";
             this.picVm6.Size = new System.Drawing.Size(10, 10);
             this.picVm6.TabIndex = 125;
@@ -715,7 +727,7 @@
             // picAz6
             // 
             this.picAz6.BackColor = System.Drawing.Color.Blue;
-            this.picAz6.Location = new System.Drawing.Point(566, 468);
+            this.picAz6.Location = new System.Drawing.Point(590, 468);
             this.picAz6.Name = "picAz6";
             this.picAz6.Size = new System.Drawing.Size(10, 10);
             this.picAz6.TabIndex = 126;
@@ -725,7 +737,7 @@
             // picVd6
             // 
             this.picVd6.BackColor = System.Drawing.Color.Green;
-            this.picVd6.Location = new System.Drawing.Point(543, 484);
+            this.picVd6.Location = new System.Drawing.Point(567, 484);
             this.picVd6.Name = "picVd6";
             this.picVd6.Size = new System.Drawing.Size(10, 10);
             this.picVd6.TabIndex = 127;
@@ -735,7 +747,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox2.Location = new System.Drawing.Point(528, 448);
+            this.pictureBox2.Location = new System.Drawing.Point(552, 448);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(10, 10);
             this.pictureBox2.TabIndex = 128;
@@ -745,7 +757,7 @@
             // picAm6
             // 
             this.picAm6.BackColor = System.Drawing.Color.Yellow;
-            this.picAm6.Location = new System.Drawing.Point(566, 484);
+            this.picAm6.Location = new System.Drawing.Point(590, 484);
             this.picAm6.Name = "picAm6";
             this.picAm6.Size = new System.Drawing.Size(10, 10);
             this.picAm6.TabIndex = 129;
@@ -755,7 +767,7 @@
             // picAlp6
             // 
             this.picAlp6.BackColor = System.Drawing.Color.White;
-            this.picAlp6.Location = new System.Drawing.Point(551, 469);
+            this.picAlp6.Location = new System.Drawing.Point(575, 469);
             this.picAlp6.Name = "picAlp6";
             this.picAlp6.Size = new System.Drawing.Size(16, 25);
             this.picAlp6.TabIndex = 130;
@@ -765,7 +777,7 @@
             // picVm7
             // 
             this.picVm7.BackColor = System.Drawing.Color.Red;
-            this.picVm7.Location = new System.Drawing.Point(582, 502);
+            this.picVm7.Location = new System.Drawing.Point(606, 502);
             this.picVm7.Name = "picVm7";
             this.picVm7.Size = new System.Drawing.Size(10, 10);
             this.picVm7.TabIndex = 131;
@@ -775,7 +787,7 @@
             // picVd7
             // 
             this.picVd7.BackColor = System.Drawing.Color.Green;
-            this.picVd7.Location = new System.Drawing.Point(582, 518);
+            this.picVd7.Location = new System.Drawing.Point(606, 518);
             this.picVd7.Name = "picVd7";
             this.picVd7.Size = new System.Drawing.Size(10, 10);
             this.picVd7.TabIndex = 132;
@@ -785,7 +797,7 @@
             // picAz7
             // 
             this.picAz7.BackColor = System.Drawing.Color.Blue;
-            this.picAz7.Location = new System.Drawing.Point(604, 502);
+            this.picAz7.Location = new System.Drawing.Point(628, 502);
             this.picAz7.Name = "picAz7";
             this.picAz7.Size = new System.Drawing.Size(10, 10);
             this.picAz7.TabIndex = 133;
@@ -795,7 +807,7 @@
             // picAm7
             // 
             this.picAm7.BackColor = System.Drawing.Color.Yellow;
-            this.picAm7.Location = new System.Drawing.Point(604, 519);
+            this.picAm7.Location = new System.Drawing.Point(628, 519);
             this.picAm7.Name = "picAm7";
             this.picAm7.Size = new System.Drawing.Size(10, 10);
             this.picAm7.TabIndex = 134;
@@ -805,7 +817,7 @@
             // picAlp7
             // 
             this.picAlp7.BackColor = System.Drawing.Color.White;
-            this.picAlp7.Location = new System.Drawing.Point(590, 503);
+            this.picAlp7.Location = new System.Drawing.Point(614, 503);
             this.picAlp7.Name = "picAlp7";
             this.picAlp7.Size = new System.Drawing.Size(16, 25);
             this.picAlp7.TabIndex = 135;
@@ -815,7 +827,7 @@
             // picVm8
             // 
             this.picVm8.BackColor = System.Drawing.Color.Red;
-            this.picVm8.Location = new System.Drawing.Point(621, 467);
+            this.picVm8.Location = new System.Drawing.Point(645, 467);
             this.picVm8.Name = "picVm8";
             this.picVm8.Size = new System.Drawing.Size(10, 10);
             this.picVm8.TabIndex = 136;
@@ -825,7 +837,7 @@
             // picAz8
             // 
             this.picAz8.BackColor = System.Drawing.Color.Blue;
-            this.picAz8.Location = new System.Drawing.Point(646, 467);
+            this.picAz8.Location = new System.Drawing.Point(670, 467);
             this.picAz8.Name = "picAz8";
             this.picAz8.Size = new System.Drawing.Size(10, 10);
             this.picAz8.TabIndex = 137;
@@ -835,7 +847,7 @@
             // picVd8
             // 
             this.picVd8.BackColor = System.Drawing.Color.Green;
-            this.picVd8.Location = new System.Drawing.Point(621, 484);
+            this.picVd8.Location = new System.Drawing.Point(645, 484);
             this.picVd8.Name = "picVd8";
             this.picVd8.Size = new System.Drawing.Size(10, 10);
             this.picVd8.TabIndex = 138;
@@ -845,7 +857,7 @@
             // picAm8
             // 
             this.picAm8.BackColor = System.Drawing.Color.Yellow;
-            this.picAm8.Location = new System.Drawing.Point(646, 484);
+            this.picAm8.Location = new System.Drawing.Point(670, 484);
             this.picAm8.Name = "picAm8";
             this.picAm8.Size = new System.Drawing.Size(10, 10);
             this.picAm8.TabIndex = 139;
@@ -855,7 +867,7 @@
             // picAlp8
             // 
             this.picAlp8.BackColor = System.Drawing.Color.White;
-            this.picAlp8.Location = new System.Drawing.Point(630, 469);
+            this.picAlp8.Location = new System.Drawing.Point(654, 469);
             this.picAlp8.Name = "picAlp8";
             this.picAlp8.Size = new System.Drawing.Size(16, 25);
             this.picAlp8.TabIndex = 140;
@@ -865,7 +877,7 @@
             // picVm9
             // 
             this.picVm9.BackColor = System.Drawing.Color.Red;
-            this.picVm9.Location = new System.Drawing.Point(661, 432);
+            this.picVm9.Location = new System.Drawing.Point(685, 432);
             this.picVm9.Name = "picVm9";
             this.picVm9.Size = new System.Drawing.Size(10, 10);
             this.picVm9.TabIndex = 141;
@@ -875,7 +887,7 @@
             // picVd9
             // 
             this.picVd9.BackColor = System.Drawing.Color.Green;
-            this.picVd9.Location = new System.Drawing.Point(661, 448);
+            this.picVd9.Location = new System.Drawing.Point(685, 448);
             this.picVd9.Name = "picVd9";
             this.picVd9.Size = new System.Drawing.Size(10, 10);
             this.picVd9.TabIndex = 142;
@@ -885,7 +897,7 @@
             // picAz9
             // 
             this.picAz9.BackColor = System.Drawing.Color.Blue;
-            this.picAz9.Location = new System.Drawing.Point(684, 432);
+            this.picAz9.Location = new System.Drawing.Point(708, 432);
             this.picAz9.Name = "picAz9";
             this.picAz9.Size = new System.Drawing.Size(10, 10);
             this.picAz9.TabIndex = 143;
@@ -895,7 +907,7 @@
             // picAm9
             // 
             this.picAm9.BackColor = System.Drawing.Color.Yellow;
-            this.picAm9.Location = new System.Drawing.Point(684, 448);
+            this.picAm9.Location = new System.Drawing.Point(708, 448);
             this.picAm9.Name = "picAm9";
             this.picAm9.Size = new System.Drawing.Size(10, 10);
             this.picAm9.TabIndex = 144;
@@ -905,7 +917,7 @@
             // picAlp9
             // 
             this.picAlp9.BackColor = System.Drawing.Color.White;
-            this.picAlp9.Location = new System.Drawing.Point(669, 433);
+            this.picAlp9.Location = new System.Drawing.Point(693, 433);
             this.picAlp9.Name = "picAlp9";
             this.picAlp9.Size = new System.Drawing.Size(16, 25);
             this.picAlp9.TabIndex = 145;
@@ -915,7 +927,7 @@
             // picVm10
             // 
             this.picVm10.BackColor = System.Drawing.Color.Red;
-            this.picVm10.Location = new System.Drawing.Point(701, 397);
+            this.picVm10.Location = new System.Drawing.Point(725, 397);
             this.picVm10.Name = "picVm10";
             this.picVm10.Size = new System.Drawing.Size(10, 10);
             this.picVm10.TabIndex = 146;
@@ -925,7 +937,7 @@
             // picAz10
             // 
             this.picAz10.BackColor = System.Drawing.Color.Blue;
-            this.picAz10.Location = new System.Drawing.Point(724, 397);
+            this.picAz10.Location = new System.Drawing.Point(748, 397);
             this.picAz10.Name = "picAz10";
             this.picAz10.Size = new System.Drawing.Size(10, 10);
             this.picAz10.TabIndex = 147;
@@ -935,7 +947,7 @@
             // picVd10
             // 
             this.picVd10.BackColor = System.Drawing.Color.Green;
-            this.picVd10.Location = new System.Drawing.Point(701, 413);
+            this.picVd10.Location = new System.Drawing.Point(725, 413);
             this.picVd10.Name = "picVd10";
             this.picVd10.Size = new System.Drawing.Size(10, 10);
             this.picVd10.TabIndex = 148;
@@ -945,7 +957,7 @@
             // picAm10
             // 
             this.picAm10.BackColor = System.Drawing.Color.Yellow;
-            this.picAm10.Location = new System.Drawing.Point(724, 413);
+            this.picAm10.Location = new System.Drawing.Point(748, 413);
             this.picAm10.Name = "picAm10";
             this.picAm10.Size = new System.Drawing.Size(10, 10);
             this.picAm10.TabIndex = 149;
@@ -955,7 +967,7 @@
             // picAlp10
             // 
             this.picAlp10.BackColor = System.Drawing.Color.White;
-            this.picAlp10.Location = new System.Drawing.Point(709, 397);
+            this.picAlp10.Location = new System.Drawing.Point(733, 397);
             this.picAlp10.Name = "picAlp10";
             this.picAlp10.Size = new System.Drawing.Size(16, 25);
             this.picAlp10.TabIndex = 150;
@@ -965,7 +977,7 @@
             // picVm11
             // 
             this.picVm11.BackColor = System.Drawing.Color.Red;
-            this.picVm11.Location = new System.Drawing.Point(740, 362);
+            this.picVm11.Location = new System.Drawing.Point(764, 362);
             this.picVm11.Name = "picVm11";
             this.picVm11.Size = new System.Drawing.Size(10, 10);
             this.picVm11.TabIndex = 151;
@@ -975,7 +987,7 @@
             // picAz11
             // 
             this.picAz11.BackColor = System.Drawing.Color.Blue;
-            this.picAz11.Location = new System.Drawing.Point(764, 362);
+            this.picAz11.Location = new System.Drawing.Point(788, 362);
             this.picAz11.Name = "picAz11";
             this.picAz11.Size = new System.Drawing.Size(10, 10);
             this.picAz11.TabIndex = 152;
@@ -985,7 +997,7 @@
             // picVd11
             // 
             this.picVd11.BackColor = System.Drawing.Color.Green;
-            this.picVd11.Location = new System.Drawing.Point(740, 378);
+            this.picVd11.Location = new System.Drawing.Point(764, 378);
             this.picVd11.Name = "picVd11";
             this.picVd11.Size = new System.Drawing.Size(10, 10);
             this.picVd11.TabIndex = 153;
@@ -995,7 +1007,7 @@
             // picAm11
             // 
             this.picAm11.BackColor = System.Drawing.Color.Yellow;
-            this.picAm11.Location = new System.Drawing.Point(764, 378);
+            this.picAm11.Location = new System.Drawing.Point(788, 378);
             this.picAm11.Name = "picAm11";
             this.picAm11.Size = new System.Drawing.Size(10, 10);
             this.picAm11.TabIndex = 154;
@@ -1005,7 +1017,7 @@
             // picAlp11
             // 
             this.picAlp11.BackColor = System.Drawing.Color.White;
-            this.picAlp11.Location = new System.Drawing.Point(749, 363);
+            this.picAlp11.Location = new System.Drawing.Point(773, 363);
             this.picAlp11.Name = "picAlp11";
             this.picAlp11.Size = new System.Drawing.Size(16, 25);
             this.picAlp11.TabIndex = 155;
@@ -1015,7 +1027,7 @@
             // picVm12
             // 
             this.picVm12.BackColor = System.Drawing.Color.Red;
-            this.picVm12.Location = new System.Drawing.Point(779, 328);
+            this.picVm12.Location = new System.Drawing.Point(803, 328);
             this.picVm12.Name = "picVm12";
             this.picVm12.Size = new System.Drawing.Size(10, 10);
             this.picVm12.TabIndex = 156;
@@ -1025,7 +1037,7 @@
             // picAz12
             // 
             this.picAz12.BackColor = System.Drawing.Color.Blue;
-            this.picAz12.Location = new System.Drawing.Point(804, 327);
+            this.picAz12.Location = new System.Drawing.Point(828, 327);
             this.picAz12.Name = "picAz12";
             this.picAz12.Size = new System.Drawing.Size(10, 10);
             this.picAz12.TabIndex = 157;
@@ -1035,7 +1047,7 @@
             // picVd12
             // 
             this.picVd12.BackColor = System.Drawing.Color.Green;
-            this.picVd12.Location = new System.Drawing.Point(779, 344);
+            this.picVd12.Location = new System.Drawing.Point(803, 344);
             this.picVd12.Name = "picVd12";
             this.picVd12.Size = new System.Drawing.Size(10, 10);
             this.picVd12.TabIndex = 158;
@@ -1045,7 +1057,7 @@
             // picAm12
             // 
             this.picAm12.BackColor = System.Drawing.Color.Yellow;
-            this.picAm12.Location = new System.Drawing.Point(804, 344);
+            this.picAm12.Location = new System.Drawing.Point(828, 344);
             this.picAm12.Name = "picAm12";
             this.picAm12.Size = new System.Drawing.Size(10, 10);
             this.picAm12.TabIndex = 159;
@@ -1055,7 +1067,7 @@
             // picAlp12
             // 
             this.picAlp12.BackColor = System.Drawing.Color.White;
-            this.picAlp12.Location = new System.Drawing.Point(789, 329);
+            this.picAlp12.Location = new System.Drawing.Point(813, 329);
             this.picAlp12.Name = "picAlp12";
             this.picAlp12.Size = new System.Drawing.Size(16, 25);
             this.picAlp12.TabIndex = 160;
@@ -1094,26 +1106,29 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(365, 580);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(22, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.Size = new System.Drawing.Size(127, 25);
             this.label3.TabIndex = 177;
             this.label3.Text = "Minha Cor:";
             // 
             // lblVerVez
             // 
             this.lblVerVez.AutoSize = true;
-            this.lblVerVez.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVerVez.Location = new System.Drawing.Point(583, 580);
+            this.lblVerVez.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVerVez.ForeColor = System.Drawing.Color.White;
+            this.lblVerVez.Location = new System.Drawing.Point(280, 17);
             this.lblVerVez.Name = "lblVerVez";
-            this.lblVerVez.Size = new System.Drawing.Size(63, 20);
+            this.lblVerVez.Size = new System.Drawing.Size(92, 25);
             this.lblVerVez.TabIndex = 178;
             this.lblVerVez.Text = "Vez de:";
             // 
             // picMinhaCor
             // 
-            this.picMinhaCor.Location = new System.Drawing.Point(448, 568);
+            this.picMinhaCor.BackColor = System.Drawing.Color.White;
+            this.picMinhaCor.Location = new System.Drawing.Point(149, 10);
             this.picMinhaCor.Name = "picMinhaCor";
             this.picMinhaCor.Size = new System.Drawing.Size(40, 40);
             this.picMinhaCor.TabIndex = 179;
@@ -1121,7 +1136,8 @@
             // 
             // picVez
             // 
-            this.picVez.Location = new System.Drawing.Point(645, 568);
+            this.picVez.BackColor = System.Drawing.Color.White;
+            this.picVez.Location = new System.Drawing.Point(370, 10);
             this.picVez.Name = "picVez";
             this.picVez.Size = new System.Drawing.Size(40, 40);
             this.picVez.TabIndex = 180;
@@ -1140,7 +1156,7 @@
             // picf21
             // 
             this.picf21.BackColor = System.Drawing.Color.White;
-            this.picf21.Location = new System.Drawing.Point(394, 329);
+            this.picf21.Location = new System.Drawing.Point(418, 329);
             this.picf21.Name = "picf21";
             this.picf21.Size = new System.Drawing.Size(16, 25);
             this.picf21.TabIndex = 181;
@@ -1150,7 +1166,7 @@
             // picf22
             // 
             this.picf22.BackColor = System.Drawing.Color.White;
-            this.picf22.Location = new System.Drawing.Point(394, 294);
+            this.picf22.Location = new System.Drawing.Point(418, 294);
             this.picf22.Name = "picf22";
             this.picf22.Size = new System.Drawing.Size(16, 25);
             this.picf22.TabIndex = 182;
@@ -1160,7 +1176,7 @@
             // picf23
             // 
             this.picf23.BackColor = System.Drawing.Color.White;
-            this.picf23.Location = new System.Drawing.Point(394, 259);
+            this.picf23.Location = new System.Drawing.Point(418, 259);
             this.picf23.Name = "picf23";
             this.picf23.Size = new System.Drawing.Size(16, 25);
             this.picf23.TabIndex = 183;
@@ -1170,7 +1186,7 @@
             // picf31
             // 
             this.picf31.BackColor = System.Drawing.Color.White;
-            this.picf31.Location = new System.Drawing.Point(434, 362);
+            this.picf31.Location = new System.Drawing.Point(458, 362);
             this.picf31.Name = "picf31";
             this.picf31.Size = new System.Drawing.Size(16, 25);
             this.picf31.TabIndex = 184;
@@ -1180,7 +1196,7 @@
             // picf32
             // 
             this.picf32.BackColor = System.Drawing.Color.White;
-            this.picf32.Location = new System.Drawing.Point(434, 329);
+            this.picf32.Location = new System.Drawing.Point(458, 329);
             this.picf32.Name = "picf32";
             this.picf32.Size = new System.Drawing.Size(16, 25);
             this.picf32.TabIndex = 185;
@@ -1190,7 +1206,7 @@
             // picf33
             // 
             this.picf33.BackColor = System.Drawing.Color.White;
-            this.picf33.Location = new System.Drawing.Point(434, 294);
+            this.picf33.Location = new System.Drawing.Point(458, 294);
             this.picf33.Name = "picf33";
             this.picf33.Size = new System.Drawing.Size(16, 25);
             this.picf33.TabIndex = 186;
@@ -1200,7 +1216,7 @@
             // picf34
             // 
             this.picf34.BackColor = System.Drawing.Color.White;
-            this.picf34.Location = new System.Drawing.Point(434, 259);
+            this.picf34.Location = new System.Drawing.Point(458, 259);
             this.picf34.Name = "picf34";
             this.picf34.Size = new System.Drawing.Size(16, 25);
             this.picf34.TabIndex = 187;
@@ -1210,7 +1226,7 @@
             // picf35
             // 
             this.picf35.BackColor = System.Drawing.Color.White;
-            this.picf35.Location = new System.Drawing.Point(434, 224);
+            this.picf35.Location = new System.Drawing.Point(458, 224);
             this.picf35.Name = "picf35";
             this.picf35.Size = new System.Drawing.Size(16, 25);
             this.picf35.TabIndex = 188;
@@ -1220,7 +1236,7 @@
             // picf42
             // 
             this.picf42.BackColor = System.Drawing.Color.White;
-            this.picf42.Location = new System.Drawing.Point(473, 362);
+            this.picf42.Location = new System.Drawing.Point(497, 362);
             this.picf42.Name = "picf42";
             this.picf42.Size = new System.Drawing.Size(16, 25);
             this.picf42.TabIndex = 189;
@@ -1230,7 +1246,7 @@
             // picf41
             // 
             this.picf41.BackColor = System.Drawing.Color.White;
-            this.picf41.Location = new System.Drawing.Point(473, 397);
+            this.picf41.Location = new System.Drawing.Point(497, 397);
             this.picf41.Name = "picf41";
             this.picf41.Size = new System.Drawing.Size(16, 25);
             this.picf41.TabIndex = 190;
@@ -1240,7 +1256,7 @@
             // picf43
             // 
             this.picf43.BackColor = System.Drawing.Color.White;
-            this.picf43.Location = new System.Drawing.Point(473, 329);
+            this.picf43.Location = new System.Drawing.Point(497, 329);
             this.picf43.Name = "picf43";
             this.picf43.Size = new System.Drawing.Size(16, 25);
             this.picf43.TabIndex = 191;
@@ -1250,7 +1266,7 @@
             // picf44
             // 
             this.picf44.BackColor = System.Drawing.Color.White;
-            this.picf44.Location = new System.Drawing.Point(473, 294);
+            this.picf44.Location = new System.Drawing.Point(497, 294);
             this.picf44.Name = "picf44";
             this.picf44.Size = new System.Drawing.Size(16, 25);
             this.picf44.TabIndex = 192;
@@ -1260,7 +1276,7 @@
             // picf45
             // 
             this.picf45.BackColor = System.Drawing.Color.White;
-            this.picf45.Location = new System.Drawing.Point(473, 259);
+            this.picf45.Location = new System.Drawing.Point(497, 259);
             this.picf45.Name = "picf45";
             this.picf45.Size = new System.Drawing.Size(16, 25);
             this.picf45.TabIndex = 193;
@@ -1270,7 +1286,7 @@
             // picf46
             // 
             this.picf46.BackColor = System.Drawing.Color.White;
-            this.picf46.Location = new System.Drawing.Point(473, 224);
+            this.picf46.Location = new System.Drawing.Point(497, 224);
             this.picf46.Name = "picf46";
             this.picf46.Size = new System.Drawing.Size(16, 25);
             this.picf46.TabIndex = 194;
@@ -1280,7 +1296,7 @@
             // picf713
             // 
             this.picf713.BackColor = System.Drawing.Color.White;
-            this.picf713.Location = new System.Drawing.Point(590, 82);
+            this.picf713.Location = new System.Drawing.Point(614, 82);
             this.picf713.Name = "picf713";
             this.picf713.Size = new System.Drawing.Size(16, 25);
             this.picf713.TabIndex = 195;
@@ -1290,7 +1306,7 @@
             // picf712
             // 
             this.picf712.BackColor = System.Drawing.Color.White;
-            this.picf712.Location = new System.Drawing.Point(590, 117);
+            this.picf712.Location = new System.Drawing.Point(614, 117);
             this.picf712.Name = "picf712";
             this.picf712.Size = new System.Drawing.Size(16, 25);
             this.picf712.TabIndex = 196;
@@ -1300,7 +1316,7 @@
             // picf711
             // 
             this.picf711.BackColor = System.Drawing.Color.White;
-            this.picf711.Location = new System.Drawing.Point(590, 152);
+            this.picf711.Location = new System.Drawing.Point(614, 152);
             this.picf711.Name = "picf711";
             this.picf711.Size = new System.Drawing.Size(16, 25);
             this.picf711.TabIndex = 197;
@@ -1310,7 +1326,7 @@
             // picf710
             // 
             this.picf710.BackColor = System.Drawing.Color.White;
-            this.picf710.Location = new System.Drawing.Point(590, 187);
+            this.picf710.Location = new System.Drawing.Point(614, 187);
             this.picf710.Name = "picf710";
             this.picf710.Size = new System.Drawing.Size(16, 25);
             this.picf710.TabIndex = 198;
@@ -1320,7 +1336,7 @@
             // picf47
             // 
             this.picf47.BackColor = System.Drawing.Color.White;
-            this.picf47.Location = new System.Drawing.Point(473, 187);
+            this.picf47.Location = new System.Drawing.Point(497, 187);
             this.picf47.Name = "picf47";
             this.picf47.Size = new System.Drawing.Size(16, 25);
             this.picf47.TabIndex = 199;
@@ -1330,7 +1346,7 @@
             // picf79
             // 
             this.picf79.BackColor = System.Drawing.Color.White;
-            this.picf79.Location = new System.Drawing.Point(590, 224);
+            this.picf79.Location = new System.Drawing.Point(614, 224);
             this.picf79.Name = "picf79";
             this.picf79.Size = new System.Drawing.Size(16, 25);
             this.picf79.TabIndex = 200;
@@ -1340,7 +1356,7 @@
             // picf78
             // 
             this.picf78.BackColor = System.Drawing.Color.White;
-            this.picf78.Location = new System.Drawing.Point(590, 259);
+            this.picf78.Location = new System.Drawing.Point(614, 259);
             this.picf78.Name = "picf78";
             this.picf78.Size = new System.Drawing.Size(16, 25);
             this.picf78.TabIndex = 201;
@@ -1350,7 +1366,7 @@
             // picf77
             // 
             this.picf77.BackColor = System.Drawing.Color.White;
-            this.picf77.Location = new System.Drawing.Point(590, 294);
+            this.picf77.Location = new System.Drawing.Point(614, 294);
             this.picf77.Name = "picf77";
             this.picf77.Size = new System.Drawing.Size(16, 25);
             this.picf77.TabIndex = 202;
@@ -1360,7 +1376,7 @@
             // picf76
             // 
             this.picf76.BackColor = System.Drawing.Color.White;
-            this.picf76.Location = new System.Drawing.Point(590, 329);
+            this.picf76.Location = new System.Drawing.Point(614, 329);
             this.picf76.Name = "picf76";
             this.picf76.Size = new System.Drawing.Size(16, 25);
             this.picf76.TabIndex = 203;
@@ -1370,7 +1386,7 @@
             // picf75
             // 
             this.picf75.BackColor = System.Drawing.Color.White;
-            this.picf75.Location = new System.Drawing.Point(590, 362);
+            this.picf75.Location = new System.Drawing.Point(614, 362);
             this.picf75.Name = "picf75";
             this.picf75.Size = new System.Drawing.Size(16, 25);
             this.picf75.TabIndex = 204;
@@ -1380,7 +1396,7 @@
             // picf74
             // 
             this.picf74.BackColor = System.Drawing.Color.White;
-            this.picf74.Location = new System.Drawing.Point(590, 397);
+            this.picf74.Location = new System.Drawing.Point(614, 397);
             this.picf74.Name = "picf74";
             this.picf74.Size = new System.Drawing.Size(16, 25);
             this.picf74.TabIndex = 205;
@@ -1390,7 +1406,7 @@
             // picf73
             // 
             this.picf73.BackColor = System.Drawing.Color.White;
-            this.picf73.Location = new System.Drawing.Point(590, 432);
+            this.picf73.Location = new System.Drawing.Point(614, 432);
             this.picf73.Name = "picf73";
             this.picf73.Size = new System.Drawing.Size(16, 25);
             this.picf73.TabIndex = 206;
@@ -1400,7 +1416,7 @@
             // picf72
             // 
             this.picf72.BackColor = System.Drawing.Color.White;
-            this.picf72.Location = new System.Drawing.Point(590, 469);
+            this.picf72.Location = new System.Drawing.Point(614, 469);
             this.picf72.Name = "picf72";
             this.picf72.Size = new System.Drawing.Size(16, 25);
             this.picf72.TabIndex = 207;
@@ -1410,7 +1426,7 @@
             // picf71
             // 
             this.picf71.BackColor = System.Drawing.Color.White;
-            this.picf71.Location = new System.Drawing.Point(590, 503);
+            this.picf71.Location = new System.Drawing.Point(614, 503);
             this.picf71.Name = "picf71";
             this.picf71.Size = new System.Drawing.Size(16, 25);
             this.picf71.TabIndex = 208;
@@ -1420,7 +1436,7 @@
             // picf51
             // 
             this.picf51.BackColor = System.Drawing.Color.White;
-            this.picf51.Location = new System.Drawing.Point(512, 432);
+            this.picf51.Location = new System.Drawing.Point(536, 432);
             this.picf51.Name = "picf51";
             this.picf51.Size = new System.Drawing.Size(16, 25);
             this.picf51.TabIndex = 209;
@@ -1430,7 +1446,7 @@
             // picf52
             // 
             this.picf52.BackColor = System.Drawing.Color.White;
-            this.picf52.Location = new System.Drawing.Point(512, 397);
+            this.picf52.Location = new System.Drawing.Point(536, 397);
             this.picf52.Name = "picf52";
             this.picf52.Size = new System.Drawing.Size(16, 25);
             this.picf52.TabIndex = 210;
@@ -1440,7 +1456,7 @@
             // picf53
             // 
             this.picf53.BackColor = System.Drawing.Color.White;
-            this.picf53.Location = new System.Drawing.Point(512, 362);
+            this.picf53.Location = new System.Drawing.Point(536, 362);
             this.picf53.Name = "picf53";
             this.picf53.Size = new System.Drawing.Size(16, 25);
             this.picf53.TabIndex = 211;
@@ -1450,7 +1466,7 @@
             // picf54
             // 
             this.picf54.BackColor = System.Drawing.Color.White;
-            this.picf54.Location = new System.Drawing.Point(512, 329);
+            this.picf54.Location = new System.Drawing.Point(536, 329);
             this.picf54.Name = "picf54";
             this.picf54.Size = new System.Drawing.Size(16, 25);
             this.picf54.TabIndex = 212;
@@ -1460,7 +1476,7 @@
             // picf55
             // 
             this.picf55.BackColor = System.Drawing.Color.White;
-            this.picf55.Location = new System.Drawing.Point(512, 294);
+            this.picf55.Location = new System.Drawing.Point(536, 294);
             this.picf55.Name = "picf55";
             this.picf55.Size = new System.Drawing.Size(16, 25);
             this.picf55.TabIndex = 213;
@@ -1470,7 +1486,7 @@
             // picf56
             // 
             this.picf56.BackColor = System.Drawing.Color.White;
-            this.picf56.Location = new System.Drawing.Point(512, 259);
+            this.picf56.Location = new System.Drawing.Point(536, 259);
             this.picf56.Name = "picf56";
             this.picf56.Size = new System.Drawing.Size(16, 25);
             this.picf56.TabIndex = 214;
@@ -1480,7 +1496,7 @@
             // picf57
             // 
             this.picf57.BackColor = System.Drawing.Color.White;
-            this.picf57.Location = new System.Drawing.Point(512, 224);
+            this.picf57.Location = new System.Drawing.Point(536, 224);
             this.picf57.Name = "picf57";
             this.picf57.Size = new System.Drawing.Size(16, 25);
             this.picf57.TabIndex = 215;
@@ -1490,7 +1506,7 @@
             // picf58
             // 
             this.picf58.BackColor = System.Drawing.Color.White;
-            this.picf58.Location = new System.Drawing.Point(512, 187);
+            this.picf58.Location = new System.Drawing.Point(536, 187);
             this.picf58.Name = "picf58";
             this.picf58.Size = new System.Drawing.Size(16, 25);
             this.picf58.TabIndex = 216;
@@ -1500,7 +1516,7 @@
             // picf59
             // 
             this.picf59.BackColor = System.Drawing.Color.White;
-            this.picf59.Location = new System.Drawing.Point(512, 152);
+            this.picf59.Location = new System.Drawing.Point(536, 152);
             this.picf59.Name = "picf59";
             this.picf59.Size = new System.Drawing.Size(16, 25);
             this.picf59.TabIndex = 217;
@@ -1510,7 +1526,7 @@
             // picf61
             // 
             this.picf61.BackColor = System.Drawing.Color.White;
-            this.picf61.Location = new System.Drawing.Point(551, 469);
+            this.picf61.Location = new System.Drawing.Point(575, 469);
             this.picf61.Name = "picf61";
             this.picf61.Size = new System.Drawing.Size(16, 25);
             this.picf61.TabIndex = 218;
@@ -1520,7 +1536,7 @@
             // picf62
             // 
             this.picf62.BackColor = System.Drawing.Color.White;
-            this.picf62.Location = new System.Drawing.Point(551, 432);
+            this.picf62.Location = new System.Drawing.Point(575, 432);
             this.picf62.Name = "picf62";
             this.picf62.Size = new System.Drawing.Size(16, 25);
             this.picf62.TabIndex = 219;
@@ -1530,7 +1546,7 @@
             // picf63
             // 
             this.picf63.BackColor = System.Drawing.Color.White;
-            this.picf63.Location = new System.Drawing.Point(551, 397);
+            this.picf63.Location = new System.Drawing.Point(575, 397);
             this.picf63.Name = "picf63";
             this.picf63.Size = new System.Drawing.Size(16, 25);
             this.picf63.TabIndex = 220;
@@ -1540,7 +1556,7 @@
             // picf64
             // 
             this.picf64.BackColor = System.Drawing.Color.White;
-            this.picf64.Location = new System.Drawing.Point(551, 362);
+            this.picf64.Location = new System.Drawing.Point(575, 362);
             this.picf64.Name = "picf64";
             this.picf64.Size = new System.Drawing.Size(16, 25);
             this.picf64.TabIndex = 221;
@@ -1550,7 +1566,7 @@
             // picf65
             // 
             this.picf65.BackColor = System.Drawing.Color.White;
-            this.picf65.Location = new System.Drawing.Point(551, 329);
+            this.picf65.Location = new System.Drawing.Point(575, 329);
             this.picf65.Name = "picf65";
             this.picf65.Size = new System.Drawing.Size(16, 25);
             this.picf65.TabIndex = 222;
@@ -1560,7 +1576,7 @@
             // picf66
             // 
             this.picf66.BackColor = System.Drawing.Color.White;
-            this.picf66.Location = new System.Drawing.Point(551, 294);
+            this.picf66.Location = new System.Drawing.Point(575, 294);
             this.picf66.Name = "picf66";
             this.picf66.Size = new System.Drawing.Size(16, 25);
             this.picf66.TabIndex = 223;
@@ -1570,7 +1586,7 @@
             // picf67
             // 
             this.picf67.BackColor = System.Drawing.Color.White;
-            this.picf67.Location = new System.Drawing.Point(551, 259);
+            this.picf67.Location = new System.Drawing.Point(575, 259);
             this.picf67.Name = "picf67";
             this.picf67.Size = new System.Drawing.Size(16, 25);
             this.picf67.TabIndex = 224;
@@ -1580,7 +1596,7 @@
             // picf68
             // 
             this.picf68.BackColor = System.Drawing.Color.White;
-            this.picf68.Location = new System.Drawing.Point(551, 224);
+            this.picf68.Location = new System.Drawing.Point(575, 224);
             this.picf68.Name = "picf68";
             this.picf68.Size = new System.Drawing.Size(16, 25);
             this.picf68.TabIndex = 225;
@@ -1590,7 +1606,7 @@
             // picf69
             // 
             this.picf69.BackColor = System.Drawing.Color.White;
-            this.picf69.Location = new System.Drawing.Point(551, 187);
+            this.picf69.Location = new System.Drawing.Point(575, 187);
             this.picf69.Name = "picf69";
             this.picf69.Size = new System.Drawing.Size(16, 25);
             this.picf69.TabIndex = 226;
@@ -1600,7 +1616,7 @@
             // picf610
             // 
             this.picf610.BackColor = System.Drawing.Color.White;
-            this.picf610.Location = new System.Drawing.Point(551, 152);
+            this.picf610.Location = new System.Drawing.Point(575, 152);
             this.picf610.Name = "picf610";
             this.picf610.Size = new System.Drawing.Size(16, 25);
             this.picf610.TabIndex = 227;
@@ -1610,7 +1626,7 @@
             // picf611
             // 
             this.picf611.BackColor = System.Drawing.Color.White;
-            this.picf611.Location = new System.Drawing.Point(551, 117);
+            this.picf611.Location = new System.Drawing.Point(575, 117);
             this.picf611.Name = "picf611";
             this.picf611.Size = new System.Drawing.Size(16, 25);
             this.picf611.TabIndex = 228;
@@ -1620,7 +1636,7 @@
             // picf81
             // 
             this.picf81.BackColor = System.Drawing.Color.White;
-            this.picf81.Location = new System.Drawing.Point(630, 469);
+            this.picf81.Location = new System.Drawing.Point(654, 469);
             this.picf81.Name = "picf81";
             this.picf81.Size = new System.Drawing.Size(16, 25);
             this.picf81.TabIndex = 229;
@@ -1630,7 +1646,7 @@
             // picf82
             // 
             this.picf82.BackColor = System.Drawing.Color.White;
-            this.picf82.Location = new System.Drawing.Point(630, 432);
+            this.picf82.Location = new System.Drawing.Point(654, 432);
             this.picf82.Name = "picf82";
             this.picf82.Size = new System.Drawing.Size(16, 25);
             this.picf82.TabIndex = 230;
@@ -1640,7 +1656,7 @@
             // picf83
             // 
             this.picf83.BackColor = System.Drawing.Color.White;
-            this.picf83.Location = new System.Drawing.Point(630, 397);
+            this.picf83.Location = new System.Drawing.Point(654, 397);
             this.picf83.Name = "picf83";
             this.picf83.Size = new System.Drawing.Size(16, 25);
             this.picf83.TabIndex = 231;
@@ -1650,7 +1666,7 @@
             // picf84
             // 
             this.picf84.BackColor = System.Drawing.Color.White;
-            this.picf84.Location = new System.Drawing.Point(630, 362);
+            this.picf84.Location = new System.Drawing.Point(654, 362);
             this.picf84.Name = "picf84";
             this.picf84.Size = new System.Drawing.Size(16, 25);
             this.picf84.TabIndex = 232;
@@ -1660,7 +1676,7 @@
             // picf85
             // 
             this.picf85.BackColor = System.Drawing.Color.White;
-            this.picf85.Location = new System.Drawing.Point(630, 329);
+            this.picf85.Location = new System.Drawing.Point(654, 329);
             this.picf85.Name = "picf85";
             this.picf85.Size = new System.Drawing.Size(16, 25);
             this.picf85.TabIndex = 233;
@@ -1670,7 +1686,7 @@
             // picf86
             // 
             this.picf86.BackColor = System.Drawing.Color.White;
-            this.picf86.Location = new System.Drawing.Point(630, 294);
+            this.picf86.Location = new System.Drawing.Point(654, 294);
             this.picf86.Name = "picf86";
             this.picf86.Size = new System.Drawing.Size(16, 25);
             this.picf86.TabIndex = 234;
@@ -1680,7 +1696,7 @@
             // picf87
             // 
             this.picf87.BackColor = System.Drawing.Color.White;
-            this.picf87.Location = new System.Drawing.Point(630, 259);
+            this.picf87.Location = new System.Drawing.Point(654, 259);
             this.picf87.Name = "picf87";
             this.picf87.Size = new System.Drawing.Size(16, 25);
             this.picf87.TabIndex = 235;
@@ -1690,7 +1706,7 @@
             // picf88
             // 
             this.picf88.BackColor = System.Drawing.Color.White;
-            this.picf88.Location = new System.Drawing.Point(630, 224);
+            this.picf88.Location = new System.Drawing.Point(654, 224);
             this.picf88.Name = "picf88";
             this.picf88.Size = new System.Drawing.Size(16, 25);
             this.picf88.TabIndex = 236;
@@ -1700,7 +1716,7 @@
             // picf89
             // 
             this.picf89.BackColor = System.Drawing.Color.White;
-            this.picf89.Location = new System.Drawing.Point(630, 187);
+            this.picf89.Location = new System.Drawing.Point(654, 187);
             this.picf89.Name = "picf89";
             this.picf89.Size = new System.Drawing.Size(16, 25);
             this.picf89.TabIndex = 237;
@@ -1710,7 +1726,7 @@
             // picf810
             // 
             this.picf810.BackColor = System.Drawing.Color.White;
-            this.picf810.Location = new System.Drawing.Point(630, 152);
+            this.picf810.Location = new System.Drawing.Point(654, 152);
             this.picf810.Name = "picf810";
             this.picf810.Size = new System.Drawing.Size(16, 25);
             this.picf810.TabIndex = 238;
@@ -1720,7 +1736,7 @@
             // picf811
             // 
             this.picf811.BackColor = System.Drawing.Color.White;
-            this.picf811.Location = new System.Drawing.Point(630, 117);
+            this.picf811.Location = new System.Drawing.Point(654, 117);
             this.picf811.Name = "picf811";
             this.picf811.Size = new System.Drawing.Size(16, 25);
             this.picf811.TabIndex = 239;
@@ -1730,7 +1746,7 @@
             // picf91
             // 
             this.picf91.BackColor = System.Drawing.Color.White;
-            this.picf91.Location = new System.Drawing.Point(669, 433);
+            this.picf91.Location = new System.Drawing.Point(693, 433);
             this.picf91.Name = "picf91";
             this.picf91.Size = new System.Drawing.Size(16, 25);
             this.picf91.TabIndex = 240;
@@ -1740,7 +1756,7 @@
             // picf92
             // 
             this.picf92.BackColor = System.Drawing.Color.White;
-            this.picf92.Location = new System.Drawing.Point(669, 397);
+            this.picf92.Location = new System.Drawing.Point(693, 397);
             this.picf92.Name = "picf92";
             this.picf92.Size = new System.Drawing.Size(16, 25);
             this.picf92.TabIndex = 241;
@@ -1750,7 +1766,7 @@
             // picf93
             // 
             this.picf93.BackColor = System.Drawing.Color.White;
-            this.picf93.Location = new System.Drawing.Point(669, 362);
+            this.picf93.Location = new System.Drawing.Point(693, 362);
             this.picf93.Name = "picf93";
             this.picf93.Size = new System.Drawing.Size(16, 25);
             this.picf93.TabIndex = 242;
@@ -1760,7 +1776,7 @@
             // picf94
             // 
             this.picf94.BackColor = System.Drawing.Color.White;
-            this.picf94.Location = new System.Drawing.Point(669, 329);
+            this.picf94.Location = new System.Drawing.Point(693, 329);
             this.picf94.Name = "picf94";
             this.picf94.Size = new System.Drawing.Size(16, 25);
             this.picf94.TabIndex = 243;
@@ -1770,7 +1786,7 @@
             // picf95
             // 
             this.picf95.BackColor = System.Drawing.Color.White;
-            this.picf95.Location = new System.Drawing.Point(669, 294);
+            this.picf95.Location = new System.Drawing.Point(693, 294);
             this.picf95.Name = "picf95";
             this.picf95.Size = new System.Drawing.Size(16, 25);
             this.picf95.TabIndex = 244;
@@ -1780,7 +1796,7 @@
             // picf96
             // 
             this.picf96.BackColor = System.Drawing.Color.White;
-            this.picf96.Location = new System.Drawing.Point(669, 259);
+            this.picf96.Location = new System.Drawing.Point(693, 259);
             this.picf96.Name = "picf96";
             this.picf96.Size = new System.Drawing.Size(16, 25);
             this.picf96.TabIndex = 245;
@@ -1790,7 +1806,7 @@
             // picf97
             // 
             this.picf97.BackColor = System.Drawing.Color.White;
-            this.picf97.Location = new System.Drawing.Point(669, 224);
+            this.picf97.Location = new System.Drawing.Point(693, 224);
             this.picf97.Name = "picf97";
             this.picf97.Size = new System.Drawing.Size(16, 25);
             this.picf97.TabIndex = 246;
@@ -1800,7 +1816,7 @@
             // picf98
             // 
             this.picf98.BackColor = System.Drawing.Color.White;
-            this.picf98.Location = new System.Drawing.Point(669, 187);
+            this.picf98.Location = new System.Drawing.Point(693, 187);
             this.picf98.Name = "picf98";
             this.picf98.Size = new System.Drawing.Size(16, 25);
             this.picf98.TabIndex = 247;
@@ -1810,7 +1826,7 @@
             // picf99
             // 
             this.picf99.BackColor = System.Drawing.Color.White;
-            this.picf99.Location = new System.Drawing.Point(669, 152);
+            this.picf99.Location = new System.Drawing.Point(693, 152);
             this.picf99.Name = "picf99";
             this.picf99.Size = new System.Drawing.Size(16, 25);
             this.picf99.TabIndex = 248;
@@ -1820,7 +1836,7 @@
             // picf101
             // 
             this.picf101.BackColor = System.Drawing.Color.White;
-            this.picf101.Location = new System.Drawing.Point(709, 397);
+            this.picf101.Location = new System.Drawing.Point(733, 397);
             this.picf101.Name = "picf101";
             this.picf101.Size = new System.Drawing.Size(16, 25);
             this.picf101.TabIndex = 249;
@@ -1830,7 +1846,7 @@
             // picf102
             // 
             this.picf102.BackColor = System.Drawing.Color.White;
-            this.picf102.Location = new System.Drawing.Point(709, 362);
+            this.picf102.Location = new System.Drawing.Point(733, 362);
             this.picf102.Name = "picf102";
             this.picf102.Size = new System.Drawing.Size(16, 25);
             this.picf102.TabIndex = 250;
@@ -1840,7 +1856,7 @@
             // picf103
             // 
             this.picf103.BackColor = System.Drawing.Color.White;
-            this.picf103.Location = new System.Drawing.Point(709, 329);
+            this.picf103.Location = new System.Drawing.Point(733, 329);
             this.picf103.Name = "picf103";
             this.picf103.Size = new System.Drawing.Size(16, 25);
             this.picf103.TabIndex = 251;
@@ -1850,7 +1866,7 @@
             // picf104
             // 
             this.picf104.BackColor = System.Drawing.Color.White;
-            this.picf104.Location = new System.Drawing.Point(709, 294);
+            this.picf104.Location = new System.Drawing.Point(733, 294);
             this.picf104.Name = "picf104";
             this.picf104.Size = new System.Drawing.Size(16, 25);
             this.picf104.TabIndex = 252;
@@ -1860,7 +1876,7 @@
             // picf105
             // 
             this.picf105.BackColor = System.Drawing.Color.White;
-            this.picf105.Location = new System.Drawing.Point(709, 259);
+            this.picf105.Location = new System.Drawing.Point(733, 259);
             this.picf105.Name = "picf105";
             this.picf105.Size = new System.Drawing.Size(16, 25);
             this.picf105.TabIndex = 253;
@@ -1870,7 +1886,7 @@
             // picf106
             // 
             this.picf106.BackColor = System.Drawing.Color.White;
-            this.picf106.Location = new System.Drawing.Point(709, 224);
+            this.picf106.Location = new System.Drawing.Point(733, 224);
             this.picf106.Name = "picf106";
             this.picf106.Size = new System.Drawing.Size(16, 25);
             this.picf106.TabIndex = 254;
@@ -1880,7 +1896,7 @@
             // picf107
             // 
             this.picf107.BackColor = System.Drawing.Color.White;
-            this.picf107.Location = new System.Drawing.Point(709, 187);
+            this.picf107.Location = new System.Drawing.Point(733, 187);
             this.picf107.Name = "picf107";
             this.picf107.Size = new System.Drawing.Size(16, 25);
             this.picf107.TabIndex = 255;
@@ -1890,7 +1906,7 @@
             // picf111
             // 
             this.picf111.BackColor = System.Drawing.Color.White;
-            this.picf111.Location = new System.Drawing.Point(749, 363);
+            this.picf111.Location = new System.Drawing.Point(773, 363);
             this.picf111.Name = "picf111";
             this.picf111.Size = new System.Drawing.Size(16, 25);
             this.picf111.TabIndex = 256;
@@ -1900,7 +1916,7 @@
             // picf112
             // 
             this.picf112.BackColor = System.Drawing.Color.White;
-            this.picf112.Location = new System.Drawing.Point(749, 329);
+            this.picf112.Location = new System.Drawing.Point(773, 329);
             this.picf112.Name = "picf112";
             this.picf112.Size = new System.Drawing.Size(16, 25);
             this.picf112.TabIndex = 257;
@@ -1910,7 +1926,7 @@
             // picf113
             // 
             this.picf113.BackColor = System.Drawing.Color.White;
-            this.picf113.Location = new System.Drawing.Point(749, 294);
+            this.picf113.Location = new System.Drawing.Point(773, 294);
             this.picf113.Name = "picf113";
             this.picf113.Size = new System.Drawing.Size(16, 25);
             this.picf113.TabIndex = 258;
@@ -1920,7 +1936,7 @@
             // picf114
             // 
             this.picf114.BackColor = System.Drawing.Color.White;
-            this.picf114.Location = new System.Drawing.Point(749, 259);
+            this.picf114.Location = new System.Drawing.Point(773, 259);
             this.picf114.Name = "picf114";
             this.picf114.Size = new System.Drawing.Size(16, 25);
             this.picf114.TabIndex = 259;
@@ -1930,7 +1946,7 @@
             // picf115
             // 
             this.picf115.BackColor = System.Drawing.Color.White;
-            this.picf115.Location = new System.Drawing.Point(749, 224);
+            this.picf115.Location = new System.Drawing.Point(773, 224);
             this.picf115.Name = "picf115";
             this.picf115.Size = new System.Drawing.Size(16, 25);
             this.picf115.TabIndex = 260;
@@ -1940,7 +1956,7 @@
             // picf121
             // 
             this.picf121.BackColor = System.Drawing.Color.White;
-            this.picf121.Location = new System.Drawing.Point(789, 329);
+            this.picf121.Location = new System.Drawing.Point(813, 329);
             this.picf121.Name = "picf121";
             this.picf121.Size = new System.Drawing.Size(16, 25);
             this.picf121.TabIndex = 261;
@@ -1950,7 +1966,7 @@
             // picf122
             // 
             this.picf122.BackColor = System.Drawing.Color.White;
-            this.picf122.Location = new System.Drawing.Point(789, 294);
+            this.picf122.Location = new System.Drawing.Point(813, 294);
             this.picf122.Name = "picf122";
             this.picf122.Size = new System.Drawing.Size(16, 25);
             this.picf122.TabIndex = 262;
@@ -1961,31 +1977,112 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(74, 82);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(79, 104);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 37);
+            this.label4.Size = new System.Drawing.Size(70, 37);
             this.label4.TabIndex = 263;
-            this.label4.Text = "MOSCOU";
+            this.label4.Text = "MO";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // picf123
             // 
             this.picf123.BackColor = System.Drawing.Color.White;
-            this.picf123.Location = new System.Drawing.Point(789, 259);
+            this.picf123.Location = new System.Drawing.Point(813, 259);
             this.picf123.Name = "picf123";
             this.picf123.Size = new System.Drawing.Size(16, 25);
             this.picf123.TabIndex = 264;
             this.picf123.TabStop = false;
             this.picf123.Visible = false;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackgroundImage = global::TesteDoPI3.Properties.Resources.teste2;
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.txtNarrar);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.picD4);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.picD1);
+            this.groupBox1.Controls.Add(this.picD2);
+            this.groupBox1.Controls.Add(this.picD3);
+            this.groupBox1.Location = new System.Drawing.Point(5, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(338, 610);
+            this.groupBox1.TabIndex = 265;
+            this.groupBox1.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(189, 104);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(67, 37);
+            this.label8.TabIndex = 267;
+            this.label8.Text = "OU";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label7.Location = new System.Drawing.Point(137, 104);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(63, 37);
+            this.label7.TabIndex = 266;
+            this.label7.Text = "SC";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(8, 54);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(319, 13);
+            this.label6.TabIndex = 265;
+            this.label6.Text = "____________________________________________________";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(9, 360);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(319, 13);
+            this.label5.TabIndex = 264;
+            this.label5.Text = "____________________________________________________";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackgroundImage = global::TesteDoPI3.Properties.Resources.teste2;
+            this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupBox2.Controls.Add(this.picVez);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.lblVerVez);
+            this.groupBox2.Controls.Add(this.picMinhaCor);
+            this.groupBox2.Location = new System.Drawing.Point(350, 557);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(557, 56);
+            this.groupBox2.TabIndex = 266;
+            this.groupBox2.TabStop = false;
+            // 
             // Tabuleiro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackgroundImage = global::TesteDoPI3.Properties.Resources.teste;
             this.ClientSize = new System.Drawing.Size(919, 620);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.picf123);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.picf122);
             this.Controls.Add(this.picf121);
             this.Controls.Add(this.picf115);
@@ -2068,10 +2165,6 @@
             this.Controls.Add(this.picf23);
             this.Controls.Add(this.picf22);
             this.Controls.Add(this.picf21);
-            this.Controls.Add(this.picVez);
-            this.Controls.Add(this.picMinhaCor);
-            this.Controls.Add(this.lblVerVez);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblR3);
             this.Controls.Add(this.lblR2);
             this.Controls.Add(this.lblR1);
@@ -2131,21 +2224,14 @@
             this.Controls.Add(this.picVd2);
             this.Controls.Add(this.picAz2);
             this.Controls.Add(this.picVm2);
-            this.Controls.Add(this.txtNarrar);
             this.Controls.Add(this.picImg6);
             this.Controls.Add(this.picImg5);
             this.Controls.Add(this.picImg4);
             this.Controls.Add(this.picImg3);
             this.Controls.Add(this.picImg2);
             this.Controls.Add(this.picImg1);
-            this.Controls.Add(this.picD4);
-            this.Controls.Add(this.picD3);
-            this.Controls.Add(this.picD2);
-            this.Controls.Add(this.picD1);
             this.Controls.Add(this.lblRetornoErro);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.Name = "Tabuleiro";
             this.Text = "Mover";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -2300,6 +2386,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.picf121)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picf122)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picf123)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2472,5 +2562,11 @@
         private System.Windows.Forms.PictureBox picf122;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox picf123;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
     }
 }

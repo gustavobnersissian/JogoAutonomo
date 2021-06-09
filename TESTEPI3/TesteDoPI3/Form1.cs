@@ -16,8 +16,11 @@ namespace TesteDoPI3
         bool jogadorEntrou = false;
         public Form1()
         {
+            
             InitializeComponent();
-
+            
+            label1.BackColor = System.Drawing.Color.Transparent;
+            lblRetorno.BackColor = System.Drawing.Color.Transparent;
             lblVersao.Text = "Versão " + Jogo.Versao;   
 
         }
@@ -65,7 +68,7 @@ namespace TesteDoPI3
             string senha = txtSenhaPt.Text;
             int id = Convert.ToInt32(txtId.Text);
             string jogador = Jogo.EntrarPartida(id, nome, senha);
-            lblRetornoJogador.Text = jogador;
+            lblRetorno.Text = jogador;
 
             if (jogador.Substring(0, 4) != "ERRO")
             {
@@ -108,14 +111,14 @@ namespace TesteDoPI3
         {
             if(jogadorEntrou == false)
             {
-                lblRetornoJogador.Text = "Precisa estar em uma partida";
+                lblRetorno.Text = "Precisa estar em uma partida";
             }
             if(jogadorEntrou)
             {
                 int id = Convert.ToInt32(txtId.Text);
                 int idJogador = Convert.ToInt32(txtIdJog.Text);
                 string senhaJogador = txtSenhaJog.Text;
-                lblRetornoJogador.Text = Jogo.IniciarPartida(idJogador, senhaJogador);
+                lblRetorno.Text = Jogo.IniciarPartida(idJogador, senhaJogador);
                 MessageBox.Show("Você iniciou uma partida!");
 
                 Tabuleiro tabuleiro = new Tabuleiro(idJogador, senhaJogador, id);
@@ -133,5 +136,7 @@ namespace TesteDoPI3
             Tabuleiro tabuleiro = new Tabuleiro(idJogador, senhaJogador, id);
             tabuleiro.ShowDialog();
         }
+
+       
     }
 }
